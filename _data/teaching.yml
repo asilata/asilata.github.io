@@ -4,7 +4,7 @@
   display-date: "2018 Semester 2"
 
 - description: Introduction to the theory of Computation (reading course)
-  location: &anu Australian National University
+  location: *anu
   date: "2018-12-01"
   display-date: "2018–2019 Summer Session"
   

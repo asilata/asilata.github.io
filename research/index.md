@@ -11,7 +11,7 @@ navigation_weight: 2
 {% assign papers = site.data.papers | sort: 'date' | reverse %}
 {% for paper in papers %}
 <div class="papers">
-**{{ paper.title }}**{% if paper.with %} (with {{ paper.with }}){% endif %}{% if paper.comment %}<br/> {{ paper.comment }}.{% endif %}
+**{{ paper.title }}**{% if paper.with %} (with {{ paper.with | join: ", "}}){% endif %}{% if paper.comment %}<br/> {{ paper.comment }}.{% endif %}
 
 {% for link in paper.links %} [\[{{ link[0] }}\]]({{ link[1] }}) {% endfor %}
 </div>

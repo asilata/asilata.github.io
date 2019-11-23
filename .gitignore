@@ -6,3 +6,4 @@ stylesheet.css
 _drafts/
 *.woff
 
+*.jekyll-cache/

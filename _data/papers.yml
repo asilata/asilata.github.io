@@ -1,13 +1,22 @@
 - title: The strong topological monodromy conjecture for Coxeter hyperplane arrangements
-  with: &robin "[Robin Walters](http://mathserver.neu.edu/~robin/)"
+  with:
+    - &robin "[Robin Walters](http://mathserver.neu.edu/~robin/)"
   comment: Mathematical Research Letters 24 (2017), no. 4, 947--954
   date: 2017
   links:
     pdf: papers/bapat-walters-2015.pdf
     journal: http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1
 
+- title: "The Thurston compactification of the space of stability conditions: the $$A_2$$ case"
+  with:
+    - &anand "[Anand Deopurkar](https://deopurkar.github.io)"
+    - &tony "[Anthony Licata](https://maths-people.anu.edu.au/~licatat/Home.html)"
+  comment: Preprint (available on request)
+  date: 2019
+  
 - title: The Bernstein-Sato $$b$$-function of the Vandermonde determinant
-  with: *robin
+  with:
+    - *robin
   comment: Preprint
   date: 2015
   links:
@@ -22,7 +31,8 @@
     journal: http://dx.doi.org/10.2140/pjm.2015.276.19
 
 - title: Lower central series of free algebras in symmetric tensor categories
-  with: &david "[David Jordan](http://www.maths.ed.ac.uk/~djordan/)"
+  with:
+    - &david "[David Jordan](http://www.maths.ed.ac.uk/~djordan/)"
   comment: Journal of Algebra 373:299--311, 2013
   date: 2013
   links:
