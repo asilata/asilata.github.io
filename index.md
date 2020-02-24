@@ -33,9 +33,6 @@ My papers and preprints are on my [research page](/research), and my CV is avail
 ### Teaching
 In 2020 semester 1, I am teaching a special topics course (the module on perverse sheaves from Perverse Sheaves and Deligne--Lusztig theory.  
 
-**[Interested students should fill out this poll by the end of Monday 24 February!](http://whenisgood.net/pcija44)**  
-Please write your full name, and put your email address in the comments box.
-
 Older teaching is listed on my [teaching page](teaching/).
 
 ### Current and upcoming activities
