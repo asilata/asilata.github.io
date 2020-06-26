@@ -7,7 +7,7 @@
     pdf: papers/bapat-walters-2015.pdf
     journal: http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1
 
-- title: "A Thurston compactification of the space of stability conditions: the $$A_2$$ case"
+- title: "A Thurston compactification of the space of stability conditions: rank two cases"
   with:
     - &anand "[Anand Deopurkar](https://deopurkar.github.io)"
     - &tony "[Anthony Licata](https://maths-people.anu.edu.au/~licatat/Home.html)"
