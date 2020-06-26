@@ -18,6 +18,7 @@ navigation_weight: 4
 <strong>{{ activitime | date: "%b %Y" }}{% if activitime > currenttime %} (upcoming){% endif %}:</strong>
 {{ activity.content | markdownify | strip | remove: '<p>' | remove: '</p>'}}{% if activity.location %}, {{ activity.location | remove: '<p>' | remove: '</p>'}}{% endif %}
 {% if activity.comment %}({{ activity.comment | remove: '<p>' | remove: '</p>' }}){% endif %}
+{% if activity.slides %}[<a href="{{ activity.slides }}">slides</a>]{% endif %}
 </li>
 {% endfor %}
 </ul>
