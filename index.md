@@ -50,5 +50,7 @@ Older teaching is listed on my [teaching page](teaching/).
 {% endfor %}
 </ul>
 
+I am in the process of rewriting the MSI LaTeX templates for exams using [org-babel](https://orgmode.org/worg/org-contrib/babel/). It is very much a work in progress, but you can view the source code (at your own risk) in [the GitHub repository](https://github.com/asilata/msi-exam-template/).
+
 Older activities are listed on my [activities page](activities/).
 
