@@ -31,7 +31,7 @@ Specific topics of interest include perverse sheaves, quiver varieties, equivari
 My papers and preprints are on my [research page](/research), and my CV is available [here](assets/bapat-cv.pdf).
 
 ### Teaching
-In 2020 semester 1, I am teaching a special topics course (the module on perverse sheaves from Perverse Sheaves and Deligne--Lusztig theory).  
+In 2020 semester 2, I am teaching Games, Graphs, and Machines ([MATH2301](https://programsandcourses.anu.edu.au/course/MATH2301)).
 
 Older teaching is listed on my [teaching page](teaching/).
 

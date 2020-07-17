@@ -3,17 +3,27 @@
   date: "2018-07-23"
   display-date: "2018 Semester 2"
 
+- description: Perverse Sheaves (half of a special topics course on Perverse Sheaves and Deligne--Lusztig theory)
+  location: *anu
+  date: "2020-02-24"
+  display-date: "2020 Semester 1"
+
+- description: Games, Graphs, and Machines ([MATH2301](https://programsandcourses.anu.edu.au/course/MATH2301))
+  location: *anu
+  date: "2020-02-24"
+  display-date: "2020 Semester 1"    
+
 - description: Introduction to the theory of Computation (reading course)
   location: *anu
   date: "2018-12-01"
   display-date: "2018–2019 Summer Session"
   
-- description: Advanced Studies Extension for Analysis I (MATH 2320).
+- description: Advanced Studies Extension for Analysis I (MATH2320).
   location: *anu
   date: "2018-02-20"
   display-date: "2018 Semester 1"
 
-- description: Advanced Studies Extension for Analysis I (MATH 2320).
+- description: Advanced Studies Extension for Analysis I (MATH2320).
   location: *anu
   date: "2019-02-25"
   display-date: "2019 Semester 1"
