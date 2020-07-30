@@ -32,6 +32,7 @@ My papers and preprints are on my [research page](/research), and my CV is avail
 
 ### Teaching
 In 2020 semester 2, I am teaching Games, Graphs, and Machines ([MATH2301](https://programsandcourses.anu.edu.au/course/MATH2301)).
+Some course notes are available at the [public course webpage](https://asilata.github.io/ggm).
 
 Older teaching is listed on my [teaching page](teaching/).
 
