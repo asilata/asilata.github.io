@@ -17,6 +17,17 @@ navigation_weight: 2
 </div>
 {% endfor %}
 
+### Not for publication
+
+{% assign papers = site.data.nfp | sort: 'date' | reverse %}
+{% for paper in papers %}
+<div class="papers">
+**{{ paper.title }}**{% if paper.with %} (with {{ paper.with | join: ", "}}){% endif %}{% if paper.comment %}<br/> {{ paper.comment }}.{% endif %}
+
+{% for link in paper.links %} [\[{{ link[0] }}\]]({{ link[1] }}) {% endfor %}
+</div>
+{% endfor %}
+
 ### Code
 
 <div class="papers">

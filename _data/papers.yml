@@ -16,14 +16,6 @@
   links:
     pdf: papers/a2-compactification.pdf
   
-- title: The Bernstein-Sato $$b$$-function of the Vandermonde determinant
-  with:
-    - *robin
-  comment: Preprint
-  date: 2015
-  links:
-    arXiv: http://arxiv.org/abs/1503.01055
-
 - title: Torus actions and tensor products of intersection cohomology
   comment: Pacific Journal of Mathematics 276 (1):19--34, 2015
   date: 2015
@@ -42,14 +34,8 @@
     arXiv: http://arxiv.org/abs/1001.1375
     journal: http://dx.doi.org/10.1016/j.jalgebra.2012.10.001
 
-- title: Equivariant cohomology and the localization theorem
-  comment: Topic proposal (expository)
-  date: 2011
-  links:
-    pdf: papers/topic-proposal.pdf
-
 - title: Recollement for perverse sheaves on real hyperplane arrangements
-  comment: Submitted
+  comment: To appear in Journal of Algebra
   date: 2018
   links:
     pdf: papers/recollements-2018.pdf
