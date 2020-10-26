@@ -17,7 +17,7 @@
     pdf: papers/a2-compactification.pdf
   
 - title: Torus actions and tensor products of intersection cohomology
-  comment: Pacific Journal of Mathematics 276 (1):19--34, 2015
+  comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
   date: 2015
   links:
     pdf: papers/bapat-2015.pdf
@@ -27,7 +27,7 @@
 - title: Lower central series of free algebras in symmetric tensor categories
   with:
     - &david "[David Jordan](http://www.maths.ed.ac.uk/~djordan/)"
-  comment: Journal of Algebra 373:299--311, 2013
+  comment: Journal of Algebra, 373 (2013), pp. 299--311
   date: 2013
   links:
     pdf: papers/bapat-jordan-2013.pdf
@@ -35,9 +35,10 @@
     journal: http://dx.doi.org/10.1016/j.jalgebra.2012.10.001
 
 - title: Recollement for perverse sheaves on real hyperplane arrangements
-  comment: To appear in Journal of Algebra
+  comment: To appear in Journal of Algebra, 568 (2021), pp. 61--90
   date: 2018
   links:
     pdf: papers/recollements-2018.pdf
     arXiv: https://arxiv.org/abs/1810.13126
+    journal: https://dx.doi.org/10.1016/j.jalgebra.2020.09.044
 
