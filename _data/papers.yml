@@ -7,7 +7,7 @@
     pdf: papers/bapat-walters-2015.pdf
     journal: http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1
 
-- title: "A Thurston compactification of the space of stability conditions: rank two cases"
+- title: "A Thurston compactification of the space of stability conditions"
   with:
     - &anand "[Anand Deopurkar](https://deopurkar.github.io)"
     - &tony "[Anthony Licata](https://maths-people.anu.edu.au/~licatat/Home.html)"
@@ -15,6 +15,15 @@
   date: 2019
   links:
     pdf: papers/a2-compactification.pdf
+
+- title: "Spherical objects and stability conditions on CY2 quiver categories"
+  with:
+    - *anand
+    - *tony
+  comment: Preprint
+  date: 2019
+  links:
+    pdf: papers/stability-algorithm.pdf      
   
 - title: Torus actions and tensor products of intersection cohomology
   comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
