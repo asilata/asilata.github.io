@@ -12,7 +12,7 @@
     - &anand "[Anand Deopurkar](https://deopurkar.github.io)"
     - &tony "[Anthony Licata](https://maths-people.anu.edu.au/~licatat/Home.html)"
   comment: Preprint
-  date: 2019
+  date: 2020
   links:
     pdf: papers/a2-compactification.pdf
 
@@ -21,7 +21,7 @@
     - *anand
     - *tony
   comment: Preprint
-  date: 2019
+  date: 2020
   links:
     pdf: papers/stability-algorithm.pdf      
   
