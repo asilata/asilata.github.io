@@ -109,6 +109,11 @@
 
 - content: Algebra Seminar
   location: *uga
+  date: "2020-11-30"
+  category: *presentation
+    
+- content: Algebra Seminar
+  location: *uga
   date: "2016-09-12"
   category: *presentation
     
