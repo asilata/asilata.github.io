@@ -11,7 +11,12 @@
 - description: Games, Graphs, and Machines ([MATH2301](https://programsandcourses.anu.edu.au/course/MATH2301))
   location: *anu
   date: "2020-02-24"
-  display-date: "2020 Semester 2"    
+  display-date: "2020 Semester 2"
+
+- description: Mathematics and Applications 2 ([MATH1014](https://programsandcourses.anu.edu.au/course/MATH1014))
+  location: *anu
+  date: "2020-11-23"
+  display-date: "2020 Spring Semester"      
 
 - description: Introduction to the theory of Computation (reading course)
   location: *anu
