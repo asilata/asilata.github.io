@@ -52,3 +52,14 @@
     arXiv: https://arxiv.org/abs/1810.13126
     journal: https://dx.doi.org/10.1016/j.jalgebra.2020.09.044
 
+- title: Morse-based fibering of the persistence rank invariant
+  with:
+    - &robyn "[Robyn Brooks](https://sites.google.com/view/robynkayebrooks/home)"
+    - &claudia "[Claudia Landi](http://personale.unimore.it/Rubrica/Dettaglio/clandi)"
+    - &celia "[Celia Hacker](https://people.epfl.ch/celia.hacker/?lang=en)"
+    - &barbara "[Barbara I. Mahler](https://www.maths.ox.ac.uk/people/barbara.mahler)"
+  comment: Preprint
+  date: 2020
+  links:
+    arXiv: https://arxiv.org/abs/2011.14967
+
