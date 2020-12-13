@@ -11,3 +11,6 @@ The videos are available on [Echo 360](https://echo360.org.au/). Enter your ANU 
 
 ### Worksheets (Calculus)
 The worksheets for Monday 14 December and Tuesday 15 December will be posted here shortly.
+
+### WebAssign
+Quizzes can be accessed directly on [WebAssign](http://www.webassign.net/). There are no changes to the deadlines.
