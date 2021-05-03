@@ -181,3 +181,12 @@
   category: *presentation
   comment: expository
 
+- content: RepNet Virtual seminar
+  location: &online online
+  date: "2021-01-27"
+  category: *presentation
+  
+- content: AMS special session on geometric and categorical methods in representation theory
+  location: *online
+  date: "2021-05-01"
+  category: *presentation
