@@ -190,3 +190,8 @@
   location: *online
   date: "2021-05-01"
   category: *presentation
+
+- content: Dynamical Systems in Triangulated Categories and Surfaces (DiTS)
+  location: *online
+  date: "2021-06-21"
+  category: *presentation
