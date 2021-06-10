@@ -26,9 +26,9 @@ Canberra, ACT, 2601, Australia
 ### Research interests and background
 
 My research focuses on problems in representation theory and algebraic geometry. 
-I am most interested in the topology and geometry of algebraic varieties arising from representation theory.
-Recently I have also been working with group actions on triangulated categories, and connections to Bridgeland stability conditions.
-Particular topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
+I am particularly interested in the topology, geometry, and combinatorics of spaces naturally arising from representation theory.
+Recently I have been thinking about Bridgeland stability conditions on triangulated categories, and associated braid group actions.
+Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
 My papers and preprints are on my [research page](/research), and my CV is available [here](assets/bapat-cv.pdf).
 
 ### Teaching
