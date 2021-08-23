@@ -17,14 +17,15 @@
     pdf: papers/a2-compactification.pdf
     arXiv: https://arxiv.org/abs/2011.07908
 
-- title: "Spherical objects and stability conditions on CY2 quiver categories"
+- title: "Spherical objects and stability conditions on 2-Calabi--Yau quiver categories"
   with:
     - *anand
     - *tony
   comment: Preprint
   date: 2020
   links:
-    pdf: papers/stability-algorithm.pdf      
+    pdf: papers/stability-algorithm.pdf
+    arXiv: https://arxiv.org/abs/2108.09155
   
 - title: Torus actions and tensor products of intersection cohomology
   comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
@@ -45,7 +46,7 @@
     journal: http://dx.doi.org/10.1016/j.jalgebra.2012.10.001
 
 - title: Recollement for perverse sheaves on real hyperplane arrangements
-  comment: To appear in Journal of Algebra, 568 (2021), pp. 61--90
+  comment: Journal of Algebra, 568 (2021), pp. 61--90
   date: 2018
   links:
     pdf: papers/recollements-2018.pdf
