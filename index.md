@@ -32,7 +32,7 @@ Specific topics of interest include Bridgeland stability conditions, perverse sh
 My papers and preprints are on my [research page](/research), and my CV is available [here](assets/bapat-cv.pdf).
 
 ### Teaching
-I am not teaching in 2021 semester 1.
+In 2021 Semester 2, I am teaching [MATH2301](https://programsandcourses.anu.edu.au/course/MATH2301) (Games, graphs, and machines). Course notes are available [here](https://asilata.github.io/ggm/2021).
 
 Older teaching is listed on my [teaching page](teaching/).
 
