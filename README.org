@@ -1,0 +1,93 @@
+#+title: README
+#+author: Asilata Bapat
+#+property: header-args :results silent
+
+This repository contains code that generates my personal website, [[https://asilata.github.io/]].
+
+* The content
+The content for the website goes in the ~content/~ directory.
+It is written as a collection of inter-linked org files.
+An internal directory structure is supported.
+
+* Building locally
+We begin by creating an elisp file to build the webpage, as explained in [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][this post]].
+I will tangle the following snippets of elisp code to a file called ~build.el~.
+
+Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the website.
+#+begin_src emacs-lisp :tangle "build.el"
+  (require 'ox-publish)
+#+end_src
+Next set the options for ~org-publish-project-alist~, as documented [[https://orgmode.org/manual/Configuration.html][here]].
+Currently I just have a single project, which I am calling ~website~.
+#+begin_src emacs-lisp :tangle "build.el"
+  (setq org-publish-project-alist
+              '(("website"
+                 :base-directory "./content"
+                 :publishing-directory "./public"
+                 :recursive t
+                 :publishing-function org-html-publish-to-html
+                 :with-creator t
+                 :with-title nil
+                 :with-toc nil
+                 :section-numbers nil
+                 )))
+#+end_src
+Now set some publishing options, as documented [[https://orgmode.org/manual/Publishing-options.html][here]].
+I am making the options buffer-local so that they don't interfere with any of my own configuration options.
+#+begin_src emacs-lisp :tangle "build.el"
+    (setq org-html-head-include-default-style nil)
+    (setq org-html-head-include-scripts nil)
+    (setq org-html-head "<link rel=\"stylesheet\" href=\"https://asilata.github.io/css/stylesheet.css\">")
+    (setq org-html-head-extra
+          "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\">")
+    (setq org-html-preamble-format
+     '(("en" "<header><h1><a href=\"/\">%a</a></h1></header>")))
+    (setq org-html-postamble t)
+    (setq org-html-postamble-format
+                '(("en" "<footer>
+    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C.
+    </footer>")))
+#+end_src
+Now publish!  
+#+begin_src emacs-lisp :tangle "build.el"
+  (org-publish-all t)
+  (message "Build complete!")
+#+end_src
+
+We also create a shell script to run the above lisp file.
+#+begin_src shell :tangle "build.sh" :shebang "#!/bin/bash"
+  emacs -q --script build.el
+#+end_src
+
+* Building on Github
+Once we have set up the tools to build the website locally, we can now use them to build the site automatically on Github.
+Put the following code in ~.github/workflow/build.yml~.
+Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][this post]].
+#+begin_src yaml :tangle ".github/workflow/build.yml" :mkdirp yes
+  name: Build and publish to pages
+  on:
+    push:
+      branches:
+      - master
+  
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: build
+        uses: docker://iquiw/alpine-emacs
+        if: github.event.deleted == false
+        with:
+          args: ./build.sh
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v1.1.0
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
+#+end_src
+

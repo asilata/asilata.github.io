@@ -1,0 +1,44 @@
+#+title: Asilata Bapat
+#+author: Asilata Bapat
+
+#+begin_intro
+[[file:assets/asilata-bapat.jpg][Asilata Bapat]]
+
+[[http://maths.anu.edu.au/][Mathematical Sciences Institute]]\\
+The Australian National University\\
+Canberra, ACT, 2601, Australia
+#+end_intro
+
+- Email :: ~asilata.bapat~ at ~anu~ dot ~edu~ dot ~au~
+- Office :: 4.84 [[http://www.anu.edu.au/maps#show=102872][Hanna Neumann Building #145]]
+- Phone :: +61 2 6125 7320
+
+** Research interests and background
+My research focuses on problems in representation theory and algebraic geometry. 
+I am particularly interested in the topology, geometry, and combinatorics of spaces naturally arising from representation theory.
+Recently I have been thinking about Bridgeland stability conditions on triangulated categories, and associated braid group actions.
+Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
+My papers and preprints are on my [[file:research.org][research page]], and my CV is available [here](assets/bapat-cv.pdf).
+
+** Teaching
+In 2021 Semester 2, I am teaching [[https://programsandcourses.anu.edu.au/course/MATH2301][MATH2301]] (Games, graphs, and machines). Course notes are available [[https://asilata.github.io/ggm/2021][here]].
+
+Older teaching is listed on my [[file:teaching.org][teaching page]].
+
+** Current and upcoming activities
+# {% capture currenttime %}{{ site.time }}{% endcapture %}
+# {% assign activities = site.data.activities | where_exp: "activity", "activity.date > currenttime" | sort: 'date' %}
+# <ul>
+# {% for activity in activities %}
+# <li>
+# {% unless activity.current == true %}
+# <strong>{% if activity.display-date %}{{ activity.display-date | markdownify | strip | remove: '<p>' | remove: '</p>' }}{% else %}{{ activity.date | date: "%b %Y" }}{% endif %}:</strong>
+# {% endunless %}
+# {{ activity.content | markdownify | strip | remove: '<p>' | remove: '</p>'}}{% if activity.location %}, {{ activity.location | remove: '<p>' | remove: '</p>'}}{% endif %}
+# </li>
+# {% endfor %}
+# </ul>
+
+I am in the process of rewriting the MSI LaTeX templates for exams using [[https://orgmode.org/worg/org-contrib/babel/][org-babel]]. It is very much a work in progress, but you can view the source code (at your own risk) in [[https://github.com/asilata/msi-exam-template/][the Github repository]].
+
+# Older activities are listed on my [[activities/][activities page]].
