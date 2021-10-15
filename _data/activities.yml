@@ -195,3 +195,10 @@
   location: *online
   date: "2021-06-21"
   category: *presentation
+
+- content: EmacsConf 2021
+  location: *online
+  date: "2021-11-27"
+  category: *presentation
+
+  
