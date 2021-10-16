@@ -33,20 +33,23 @@ Currently I just have a single project, which I am calling ~website~.
                  )))
 #+end_src
 Now set some publishing options, as documented [[https://orgmode.org/manual/Publishing-options.html][here]].
-I am making the options buffer-local so that they don't interfere with any of my own configuration options.
+Begin with options for ~org-html-head~.
 #+begin_src emacs-lisp :tangle "build.el"
     (setq org-html-head-include-default-style nil)
     (setq org-html-head-include-scripts nil)
     (setq org-html-head "<link rel=\"stylesheet\" href=\"https://asilata.github.io/css/stylesheet.css\">")
     (setq org-html-head-extra
           "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\">")
-    (setq org-html-preamble-format
-     '(("en" "<header><h1><a href=\"/\">%a</a></h1></header>")))
-    (setq org-html-postamble t)
-    (setq org-html-postamble-format
-                '(("en" "<footer>
-    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C.
-    </footer>")))
+#+end_src
+Now set the preamble and the postamble.    
+#+begin_src emacs-lisp :tangle "build.el"
+  (setq org-html-preamble-format
+   '(("en" "<header><h1><a href=\"/\">%a</a></h1></header>")))
+  (setq org-html-postamble t)
+  (setq org-html-postamble-format
+              '(("en" "<footer>
+  Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C.
+  </footer>")))
 #+end_src
 Now publish!  
 #+begin_src emacs-lisp :tangle "build.el"
