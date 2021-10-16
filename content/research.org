@@ -1,6 +1,5 @@
 #+title: Research
 #+author: Asilata Bapat
 
-* {{ title }}
+* {{{title}}}
 
-aouaou

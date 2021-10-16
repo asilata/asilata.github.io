@@ -1,7 +1,7 @@
 #+title: Teaching
 #+author: Asilata Bapat
 
-* Teaching
+* {{{title}}}
 
 ** Australian National University
 {% assign anu = site.data.teaching | where: "location", "Australian National University" | sort: 'date' | reverse %}
