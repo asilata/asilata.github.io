@@ -1,0 +1,98 @@
+#+title: Data
+#+author: Asilata Bapat
+#+startup: noptag
+
+* Papers                                                              :paper:
+** Morse-based fibering of the persistence rank invariant
+:properties:
+:with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]
+:comment: Preprint.
+:year: 2020
+:link: [[https://arxiv.org/abs/2011.14967][arXiv:2011.14967]]
+:end:
+
+** A Thurston compactification of the space of stability conditions
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Preprint.
+:year: 2020
+:link: [[file:papers/a2-compactification.pdf][pdf]]
+:link+: [[https://arxiv.org/abs/2011.07908][arXiv:2011.07908]]
+:end:
+
+** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Preprint.
+:year: 2020
+:link: [[file:papers/stability-algorithm.pdf][pdf]]
+:link+: [[https://arxiv.org/abs/2108.09155][arXiv:2108.09155]]
+:end:
+
+** Recollement for perverse sheaves on real hyperplane arrangements
+:properties:
+:comment: Journal of Algebra, 568 (2021), pp. 61--90
+:year: 2018
+:link: [[file:papers/recollements-2018.pdf][pdf]]
+:link+: [[https://arxiv.org/abs/1810.13126][arXiv:1810.13126]]
+:journal: https://dx.doi.org/10.1016/j.jalgebra.2020.09.044
+:end:
+
+** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
+:properties:
+:with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
+:comment: Mathematical Research Letters 24 (2017), no. 4, 947--954
+:year: 2017
+:link: [[file:papers/bapat-walters-2015.pdf][pdf]]
+:link+: [[http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1][journal]]
+:end:    
+
+** Torus actions and tensor products of intersection cohomology
+:properties:
+:comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
+:year: 2015
+:link: [[file:papers/bapat-2015.pdf][pdf]]
+:link+: [[http://arxiv.org/abs/1309.0859][arXiv:1309.0859]]
+:journal: http://dx.doi.org/10.2140/pjm.2015.276.19
+:end:
+
+** Lower central series of free algebras in symmetric tensor categories
+:properties:
+:with: [[http://www.maths.ed.ac.uk/~djordan/][David Jordan]]
+:comment: Journal of Algebra, 373 (2013), pp. 299--311
+:year: 2013
+:link: [[file:papers/bapat-jordan-2013.pdf][pdf]]
+:link+: [[http://arxiv.org/abs/1001.1375][arXiv:1001.1375]]
+:journal: http://dx.doi.org/10.1016/j.jalgebra.2012.10.001
+:end:
+
+
+* Not for publication                                                   :nfp:
+** Equivariant cohomology and the localization theorem
+:properties:
+:comment: Topic proposal (expository).
+:year: 2011
+:link: [[file:papers/topic-proposal.pdf][pdf]]
+:end:
+
+** The Bernstein-Sato \(b\)-function of the Vandermonde determinant
+:properties:
+:with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
+:comment: Preprint (not for publication).
+:year: 2015
+:link: [[http://arxiv.org/abs/1503.01055][arXiv:1503.01055]]
+:end:
+
+
+
+* Code                                                                 :code:
+** Categorical braid group actions
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]]
+:comment: This sage code computes the braid group action on the triangulated category of complexes of projective modules over the zig-zag algebra of a quiver.
+:link: [[https://github.com/asilata/cobracat][github]]
+:end:
+
+* Activities                                                       :activity:
+
+* Teaching                                                         :teaching:
