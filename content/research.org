@@ -1,5 +1,55 @@
 #+title: Research
 #+author: Asilata Bapat
+#+startup: noptag
 
 * {{{title}}}
+** Papers
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-paper
+    "paper+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
 
+** Not for publication
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-paper
+    "nfp+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Code
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-paper
+    "code+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Setup                                                           :noexport:
+#+begin_src emacs-lisp :results silent :exports none :session
+  (defun pp-research-output ()
+    ;; Pretty-print the current "research output" item
+    ;; (e.g. paper, preprint, or code).
+    ;; This function is called when mapping over entries in the "data.org" file.
+    (let ((title (org-entry-get nil "ITEM"))
+          (with (org-entry-get nil "with"))
+          (comment (org-entry-get nil "comment"))
+          (links (org-entry-get-multivalued-property nil "link"))
+          )
+      (format "#+begin_papers\n**%s**%s\\\\\n%s\n\n%s\n#+end_papers"
+              title
+              (if (or (not with) (string-equal with ""))
+                  ""
+                (format " (with %s)" with))
+              comment
+              (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
+      ))
+#+end_src

@@ -25,6 +25,7 @@ Currently I just have a single project, which I am calling ~website~.
                  :base-directory "./content"
                  :publishing-directory "./public"
                  :recursive t
+                 :exclude "data.org"
                  :publishing-function org-html-publish-to-html
                  :with-creator t
                  :with-title nil
