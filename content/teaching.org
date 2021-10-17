@@ -4,46 +4,60 @@
 * {{{title}}}
 
 ** Australian National University
-{% assign anu = site.data.teaching | where: "location", "Australian National University" | sort: 'date' | reverse %}
-<ul>
-{% for class in anu %}
-<li>
-<strong>{{ class.display-date }}:</strong>
-{{ class.description | markdownify | strip | remove: '<p>' | remove: '</p>'}}
-</li>
-{% endfor %}
-</ul>
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-course
+    "teaching+LEVEL=2+location=\"Australian National University\""
+    '("data.org"))
+   "\n")
+#+end_src
 
 ** University of Georgia
-{% assign uga = site.data.teaching | where: "location", "University of Georgia" | sort: 'date' | reverse %}
-<ul>
-{% for class in uga %}
-<li>
-<strong>{{ class.display-date }}:</strong>
-{{ class.description | markdownify | strip | remove: '<p>' | remove: '</p>'}}
-</li>
-{% endfor %}
-</ul>
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-course
+    "teaching+LEVEL=2+location=\"University of Georgia\""
+    '("data.org"))
+   "\n")
+#+end_src
 
 ** University of Chicago
-{% assign uchicago = site.data.teaching | where: "location", "University of Chicago" | sort: 'date' | reverse %}
-<ul>
-{% for class in uchicago %}
-<li>
-<strong>{{ class.display-date | markdownify | strip | remove: '<p>' | remove: '</p>' }}:</strong>
-{{ class.description | markdownify | strip | remove: '<p>' | remove: '</p>' }}
-</li>
-{% endfor %}
-</ul>
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-course
+    "teaching+LEVEL=2+location=\"University of Chicago\""
+    '("data.org"))
+   "\n")
+#+end_src
 
 ** Canada/USA Mathcamp
-{% assign mathcamp = site.data.teaching | where: "location", "Canada/USA Mathcamp" | sort: 'date' | reverse %}
-<ul>
-{% for class in mathcamp %}
-<li>
-<strong>{{ class.display-date | markdownify | strip | remove: '<p>' | remove: '</p>' }}:</strong>
-{{ class.description | markdownify | strip | remove: '<p>' | remove: '</p>' }}
-{{ class.comment | markdownify | strip | remove: '<p>' | remove: '</p>' }}
-</li>
-{% endfor %}
-</ul>
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-course
+    "teaching+LEVEL=2+location=\"Canada/USA Mathcamp\""
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Setup                                                           :noexport:
+#+begin_src emacs-lisp :results silent :exports none :session
+  (defun pp-course ()
+    ;; Pretty-print the current course item
+    ;; This function is called when mapping over entries in the "data.org" file.
+    (let ((title (org-entry-get nil "ITEM"))
+          (display-date (org-entry-get nil "display-date"))
+          (comment (org-entry-get nil "comment"))
+          )
+      (format "- **%s**: %s %s"
+              display-date
+              title
+              (if (or (not comment) (string-equal comment ""))
+                  ""
+                comment))
+      ))
+#+end_src
+

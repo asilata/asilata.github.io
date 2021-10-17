@@ -96,3 +96,173 @@
 * Activities                                                       :activity:
 
 * Teaching                                                         :teaching:
+** Representation theory (IBL reading course)
+SCHEDULED: <2021-01-04 Mon>
+:properties:
+:location: Australian National University
+:date: "2021-01-04"
+:display-date: 2021 Summer Session
+:end:
+
+** Mathematics and Applications 2 ([[https://programsandcourses.anu.edu.au/course/MATH1014][MATH1014]])
+SCHEDULED: <2020-11-23 Mon>
+:properties:
+:location: Australian National University
+:date: "2020-11-23"
+:display-date: 2020 Spring Semester     
+:end:
+
+** Perverse Sheaves (half of a special topics course on Perverse Sheaves and Deligne--Lusztig theory)
+SCHEDULED: <2020-02-24 Mon>
+:properties:
+:location: Australian National University
+:date: "2020-02-24"
+:display-date: 2020 Semester 1
+:end:
+
+** Games, Graphs, and Machines ([[https://asilata.github.io/ggm/][MATH2301]])
+SCHEDULED: <2020-02-24 Mon>
+:properties:
+:location: Australian National University
+:date: "2020-02-24"
+:display-date: 2020 Semester 2
+:end:
+
+** Advanced Studies Extension for Analysis I (MATH2320).
+SCHEDULED: <2019-02-25 Mon>
+:properties:
+:location: Australian National University
+:date: "2019-02-25"
+:display-date: 2019 Semester 1
+:end:
+
+** Introduction to the theory of Computation (reading course)
+SCHEDULED: <2018-12-01 Sat>
+:properties:
+:location: Australian National University
+:date: "2018-12-01"
+:display-date: 2018–2019 Summer Session
+:end:
+
+** Mathematical Foundations for Actuarial Studies (MATH 1113), Linear Algebra.
+SCHEDULED: <2018-07-23 Mon>
+:properties:
+:location: Australian National University
+:date: "2018-07-23"
+:display-date: 2018 Semester 2
+:end:
+
+** Advanced Studies Extension for Analysis I (MATH2320).
+SCHEDULED: <2018-02-20 Tue>
+:properties:
+:location: Australian National University
+:date: "2018-02-20"
+:display-date: 2018 Semester 1
+:end:
+
+** Precalculus (Math 1113).
+SCHEDULED: <2017-08-14 Mon>
+:properties:
+:location: University of Georgia
+:date: "2017-08-14"
+:display-date: Fall 2017
+:end:
+
+** Graduate Algebra (Math 8000).
+SCHEDULED: <2017-08-14 Mon>
+:properties:
+:location: University of Georgia
+:date: "2017-08-14"
+:display-date: Fall 2017
+:end:
+
+** Calculus II for Science and Engineering (Math 2260).
+SCHEDULED: <2017-01-05 Thu>
+:properties:
+:location: University of Georgia
+:date: "2017-01-05"
+:display-date: Spring 2017
+:end:
+
+** Calculus I for Science and Engineering (Math 2250).
+SCHEDULED: <2016-09-05 Mon>
+:properties:
+:location: University of Georgia
+:date: "2016-09-05"
+:display-date: Fall 2016
+:end:
+
+** IBL Honors Calculus I and II (Math [[http://www.math.uchicago.edu/~mcreek/fall_2015/math_16100/index.html][161]] and [[file:teaching/162win16/][162]]).
+SCHEDULED: <2015-09-01 Tue>
+:properties:
+:location: University of Chicago
+:date: "2015-09-01"
+:display-date: 2015--2016
+:end:
+
+** Academic coordinator and mentor.
+SCHEDULED: <2015-07-05 Sun>
+:properties:
+:location: Canada/USA Mathcamp
+:date: "2015-07-05"
+:display-date: Summer 2015
+:comment: Coordinated the academic schedule, invited visiting speakers, and taught several undergraduate-level courses.
+:end:
+
+** Studies in Mathematics I and II (Math [[file:112aut14/][112]] and [[file:113win15/][113]]).
+SCHEDULED: <2014-09-01 Mon>
+:properties:
+:location: University of Chicago
+:date: "2014-09-01"
+:display-date: 2014--2015
+:end:
+
+** Linear Algebra (Math 196).
+SCHEDULED: <2014-06-01 Sun>
+:properties:
+:location: University of Chicago
+:date: "2014-06-01"
+:display-date: Summer 2014
+:end:
+
+** Calculus I, II, and III (Math [[file:][151]], [[file:][152]], and [[file:][153]]).
+SCHEDULED: <2013-09-01 Sun>
+:properties:
+:location: University of Chicago
+:date: "2013-09-01"
+:display-date: 2013--2014
+:end:
+
+** Mentor.
+SCHEDULED: <2013-07-01 Mon>
+:properties:
+:location: Canada/USA Mathcamp
+:date: "2013-07-01"
+:display-date: Summer 2013
+:comment: Taught several undergraduate-level courses.
+:end:
+
+** Calculus I, II, and III (Math 151, 152, and [[file:][153]]).
+SCHEDULED: <2012-09-01 Sat>
+:properties:
+:location: University of Chicago
+:date: "2012-09-01"
+:display-date: 2012--2013
+:end:
+
+** Mentor.
+SCHEDULED: <2012-07-01 Sun>
+:properties:
+:location: Canada/USA Mathcamp
+:date: "2012-07-01"
+:display-date: Summer 2012
+:comment: Taught several undergraduate-level courses.
+:end:
+** College fellow for Honors Algebra I, II, and III (Math 257, 258, and 259).
+SCHEDULED: <2011-09-01 Thu>
+:properties:
+:location: University of Chicago
+:date: "2011-09-01"
+:display-date: 2011--2012
+:end:
+
