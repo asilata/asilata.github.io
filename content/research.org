@@ -7,7 +7,7 @@
 #+begin_src emacs-lisp :results value raw :exports results :session
   (string-join
    (org-map-entries
-    'pp-paper
+    'pp-research-output
     "paper+LEVEL=2"
     '("data.org"))
    "\n")
@@ -17,7 +17,7 @@
 #+begin_src emacs-lisp :results value raw :exports results :session
   (string-join
    (org-map-entries
-    'pp-paper
+    'pp-research-output
     "nfp+LEVEL=2"
     '("data.org"))
    "\n")
@@ -27,7 +27,7 @@
 #+begin_src emacs-lisp :results value raw :exports results :session
   (string-join
    (org-map-entries
-    'pp-paper
+    'pp-research-output
     "code+LEVEL=2"
     '("data.org"))
    "\n")
@@ -53,3 +53,4 @@
               (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
       ))
 #+end_src
+
