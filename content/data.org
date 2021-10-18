@@ -94,6 +94,332 @@
 :end:
 
 * Activities                                                       :activity:
+** EmacsConf 2021
+SCHEDULED: <2021-11-27 Sat>
+:properties:
+:location: online
+:date: "2021-11-27"
+:category: presentation
+:end:
+
+** Dynamical Systems in Triangulated Categories and Surfaces (DiTS)
+SCHEDULED: <2021-06-21 Mon>
+:properties:
+:location: online
+:date: "2021-06-21"
+:category: presentation
+:end:
+
+** AMS special session on geometric and categorical methods in representation theory
+SCHEDULED: <2021-05-01 Sat>
+:properties:
+:location: online
+:date: "2021-05-01"
+:category: presentation
+:end:
+
+** RepNet Virtual seminar
+SCHEDULED: <2021-01-27 Wed>
+:properties:
+:location: online
+:date: "2021-01-27"
+:category: presentation
+:end:
+
+** Algebra Seminar
+SCHEDULED: <2020-11-30 Mon>
+:properties:
+:location: University of Georgia
+:date: "2020-11-30"
+:category: presentation
+:end:
+
+** New Connections in Representation Theory
+SCHEDULED: <2020-02-10 Mon>
+:properties:
+:location: Mooloolaba, Queensland
+:date: "2020-02-10"
+:category: presentation
+:link: [[file:slides/bapat-mooloolaba-2020.pdf][slides]]
+:end:
+
+** Triangulated Categories in Geometry and Representation Theory
+SCHEDULED: <2019-06-24 Mon>
+:properties:
+:location: University of Sydney
+:date: "2019-06-24"
+:category: presentation
+:end:
+
+** Women of Mathematics: a one-day meeting at the ANU
+SCHEDULED: <2019-02-27 Wed>
+:properties:
+:location: Australian National University
+:date: "2019-02-27"
+:category: presentation
+:end:
+
+** Pure Mathematics Seminar
+SCHEDULED: <2019-02-01 Fri>
+:properties:
+:location: University of Queensland
+:date: "2019-02-01"
+:category: presentation
+:end:
+
+** Special session in Representation Theory, AustMS 2018
+SCHEDULED: <2018-12-07 Fri>
+:properties:
+:location: University of Adelaide
+:date: "2018-12-07"
+:category: presentation
+:end:
+
+** [[https://ssgrt2018.ist.ac.at/][Summer School on Geometric Representation Theory]]
+SCHEDULED: <2018-07-09 Mon>
+:properties:
+:date: "2018-07-09"
+:display-date: Jul 2018
+:current: false
+:category: other
+:location: IST Austria
+:with: Iordan Ganev, Maitreyee Kulkarni, Jacob Matherne
+:end:
+
+** Mathematics seminar
+SCHEDULED: <2018-07-03 Tue>
+:properties:
+:location: Indian Institute of Science
+:date: "2018-07-03"
+:category: *presentatio:end:
+
+** Pure mathematics seminar
+SCHEDULED: <2018-05-25 Fri>
+:properties:
+:location: University of Melbourne
+:date: "2018-05-25"
+:category: presentation
+:end:
+
+** Future Directions in Representation Theory
+SCHEDULED: <2017-12-04 Mon>
+:properties:
+:location: University of Sydney
+:date: "2017-12-04"
+:category: presentation
+:comment: poster
+:end:
+
+** Algebra Seminar
+SCHEDULED: <2017-12-01 Fri>
+:properties:
+:current: false
+:date: "2017-12-01"
+:display-date: 2016-2017
+:with: Chun-Ju Lai, Paul Sobaje
+:location: University of Georgia
+:category: other
+:end:
+
+** Workshop on Topics in Algebraic Geometry
+SCHEDULED: <2017-11-03 Fri>
+:properties:
+:location: University of North Carolina at Chapel Hill
+:date: "2017-11-03"
+:category: presentation
+:end:
+
+** Canada/USA Mathcamp 2017
+SCHEDULED: <2017-07-31 Mon>
+:properties:
+:location: University of Puget Sound
+:date: "2017-07-31"
+:category: presentation
+:end:
+
+** Geometric representation theory seminar
+SCHEDULED: <2017-03-30 Thu>
+:properties:
+:location: University of Toronto
+:date: "2017-03-30"
+:category: presentation
+:end:
+
+** Algebraic Geometry, Arithmetic Geometry, and Commutative Algebra Seminar
+SCHEDULED: <2017-03-24 Fri>
+:properties:
+:location: University of South Carolina
+:date: "2017-03-24"
+:category: presentation
+:end:
+
+** Special session on Geometric Methods in Representation Theory, AMS Southeastern Spring Sectional Meeting
+SCHEDULED: <2017-03-10 Fri>
+:properties:
+:location: Charleston
+:date: "2017-03-10"
+:category: presentation
+:end:
+
+** Special session on New Developments in Noncommutative Algebra and Representation Theory, AMS Joint Mathematical Meeting
+SCHEDULED: <2017-01-07 Sat>
+:properties:
+:location: Atlanta
+:date: "2017-01-07"
+:category: presentation
+:end:
+
+** Mathematics Seminar
+SCHEDULED: <2016-12-20 Tue>
+:properties:
+:location: Indian Institute of Science Education and Research, Pune
+:date: "2016-12-20"
+:category: presentation
+:end:
+
+** Algebra Seminar
+SCHEDULED: <2016-11-14 Mon>
+:properties:
+:location: University of Georgia
+:date: "2016-11-14"
+:category: presentation
+:end:
+
+** Algebra Seminar
+SCHEDULED: <2016-09-12 Mon>
+:properties:
+:location: University of Georgia
+:date: "2016-09-12"
+:category: presentation
+:end:
+
+** Young Women in Representation Theory
+SCHEDULED: <2016-06-25 Sat>
+:properties:
+:location: University of Bonn
+:date: "2016-06-25"
+:category: presentation
+:end:
+
+** Algebraic Geometry Seminar
+SCHEDULED: <2016-02-09 Tue>
+:properties:
+:location: Ohio State University
+:date: "2016-02-09"
+:category: presentation
+:end:
+
+** Algebra Seminar
+SCHEDULED: <2016-01-25 Mon>
+:properties:
+:location: University of Alberta
+:date: "2016-01-25"
+:category: presentation
+:end:
+
+** AlGeCom 12
+SCHEDULED: <2015-10-24 Sat>
+:properties:
+:location: University of Michigan
+:date: "2015-10-24"
+:category: presentation
+:comment: poster
+:end:
+
+** AMS Central Fall Sectional Meeting
+SCHEDULED: <2015-10-03 Sat>
+:properties:
+:location: Loyola University
+:date: "2015-10-03"
+:category: presentation
+:comment: poster
+:end:
+
+** Algebraic Geometry/Commutative Algebra Seminar
+SCHEDULED: <2015-09-30 Wed>
+:properties:
+:location: University of Notre Dame
+:date: "2015-09-30"
+:category: presentation
+:end:
+
+** Academic coordinator of [[http://mathcamp.org/2015][Canada/USA Mathcamp 2015]]
+SCHEDULED: <2015-07-05 Sun>
+:properties:
+:date: "2015-07-05"
+:display-date: Summer 2015
+:category: other
+:with: Ruthi Hortsch
+:end:
+
+** Oberseminar Representation Theory
+SCHEDULED: <2015-05-11 Mon>
+:properties:
+:location: University of Bonn
+:date: "2015-05-11"
+:category: presentation
+:end:
+
+** Number Theory and Algebraic Geometry Seminar
+SCHEDULED: <2015-05-07 Thu>
+:properties:
+:location: Katholieke Universiteit Leuven
+:date: "2015-05-07"
+:category: presentation
+:end:
+
+** Oberseminar Algebra, Mathematisches Institut
+SCHEDULED: <2015-05-05 Tue>
+:properties:
+:location: University of Cologne
+:date: "2015-05-05"
+:category: presentation
+:end:
+
+** Mathematics Seminar
+SCHEDULED: <2014-07-23 Wed>
+:properties:
+:location: Indian Institute of Science Education and Research, Pune
+:date: "2014-07-23"
+:category: presentation
+:end:
+
+** Summer school on quiver Hecke algebras
+SCHEDULED: <2014-06-19 Thu>
+:properties:
+:location: IESC Cargèse
+:date: "2014-06-19"
+:category: presentation
+:comment: expository
+:end:
+
+** Workshop on Yangians and quantum loop algebras
+SCHEDULED: <2014-05-05 Mon>
+:properties:
+:location: Austin
+:date: "2014-05-05"
+:category: presentation
+:comment: expository
+:end:
+
+** [[file:/seminars/studentreptheory][Student Representation Theory Seminar]]
+SCHEDULED: <2012-09-01 Sat>
+:properties:
+:date: "2012-09-01"
+:display-date: 2012--2014
+:category: other
+:location: University of Chicago
+:end:
+
+** [[https://math.uchicago.edu/~pizzaseminar/][Pizza Seminar]]
+SCHEDULED: <2011-09-01 Thu>
+:properties:
+:date: "2011-09-01"
+:display-date: 2011--2012
+:with: Simion Filip
+:location: University of Chicago
+:category: other
+:end:
 
 * Teaching                                                         :teaching:
 ** Representation theory (IBL reading course)
