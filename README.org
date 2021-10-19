@@ -31,11 +31,31 @@ Currently I just have a single project, which I am calling ~website~.
                  :with-title nil
                  :with-toc nil
                  :html-preamble make-header
+                 :html-head-include-default-style nil
+                 :html-head-include-scripts nil
                  :section-numbers nil
                  )))
 #+end_src
 Note that the html preamble is set via a function, called ~make-header~.
 It is defined as follows.
+#+begin_src emacs-lisp :tangle "build.el"
+  (defun make-header (options)
+    (concat "<header>"
+            "<h1><a href=\"/\">Asilata Bapat</a></h1>"
+            "<nav>"
+            (make-navbar)
+            "</nav></header>"))  
+#+end_src
+The above function calls ~make-navbar~, which we define as follows.
+#+begin_src emacs-lisp :tangle "build.el"
+  (defun make-navbar ()
+    (let ((lst '("Home" "Teaching" "Research" "Activities"))
+          (title (cadar (org-collect-keywords '("TITLE")))))
+      (concat "<ul>\n"
+              (string-join (mapcar (lambda (x) (make-nav-item x title)) lst) "\n")
+              "\n</ul>")))
+#+end_src
+In turn, the above function calls ~make-nav-item~.
 #+begin_src emacs-lisp :tangle "build.el"
   (defun make-nav-item (str title)
     (let ((slug (if (string-equal str "Home") "index" (downcase str))))
@@ -43,18 +63,6 @@ It is defined as follows.
               slug
               (if (string-equal str title) " class=\"active\"" "")
               str)))
-  (defun make-navbar ()
-    (let ((lst '("Home" "Teaching" "Research" "Activities"))
-          (title (cadar (org-collect-keywords '("TITLE")))))
-      (concat "<ul>\n"
-              (string-join (mapcar (lambda (x) (make-nav-item x title)) lst) "\n")
-              "\n</ul>")))
-  (defun make-header (options)
-    (concat "<header>"
-            "<h1><a href=\"/\">Asilata Bapat</a></h1>"
-            "<nav>"
-            (make-navbar)
-            "</nav></header>"))  
 #+end_src
 Also set the postamble.    
 #+begin_src emacs-lisp :tangle "build.el"
@@ -67,8 +75,6 @@ Also set the postamble.
 Now set some publishing options, as documented [[https://orgmode.org/manual/Publishing-options.html][here]].
 Begin with options for ~org-html-head~.
 #+begin_src emacs-lisp :tangle "build.el"
-    (setq org-html-head-include-default-style nil)
-    (setq org-html-head-include-scripts nil)
     (setq org-html-head "<link rel=\"stylesheet\" href=\"https://asilata.github.io/css/stylesheet.css\">")
     (setq org-html-head-extra
           "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\">")
