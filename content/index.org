@@ -1,5 +1,6 @@
-#+title: Asilata Bapat
+#+title: Home
 #+author: Asilata Bapat
+#+setupfile: setup.org
 
 #+begin_intro
 [[file:assets/asilata-bapat.jpg][Asilata Bapat]]
@@ -26,19 +27,15 @@ In 2021 Semester 2, I am teaching [[https://programsandcourses.anu.edu.au/course
 Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
-# {% capture currenttime %}{{ site.time }}{% endcapture %}
-# {% assign activities = site.data.activities | where_exp: "activity", "activity.date > currenttime" | sort: 'date' %}
-# <ul>
-# {% for activity in activities %}
-# <li>
-# {% unless activity.current == true %}
-# <strong>{% if activity.display-date %}{{ activity.display-date | markdownify | strip | remove: '<p>' | remove: '</p>' }}{% else %}{{ activity.date | date: "%b %Y" }}{% endif %}:</strong>
-# {% endunless %}
-# {{ activity.content | markdownify | strip | remove: '<p>' | remove: '</p>'}}{% if activity.location %}, {{ activity.location | remove: '<p>' | remove: '</p>'}}{% endif %}
-# </li>
-# {% endfor %}
-# </ul>
+#+begin_src emacs-lisp :results value raw :exports results :session
+  (string-join
+   (org-map-entries
+    'pp-activity
+    "activity+LEVEL=2+SCHEDULED>=\"<now>\""
+    '("data.org"))
+   "\n")
+#+end_src
 
 I am in the process of rewriting the MSI LaTeX templates for exams using [[https://orgmode.org/worg/org-contrib/babel/][org-babel]]. It is very much a work in progress, but you can view the source code (at your own risk) in [[https://github.com/asilata/msi-exam-template/][the Github repository]].
 
-# Older activities are listed on my [[activities/][activities page]].
+Older activities are listed on my [[file:activities.org][activities page]].
