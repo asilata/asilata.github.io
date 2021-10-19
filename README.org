@@ -18,23 +18,31 @@ Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the we
   (require 'ox-publish)
 #+end_src
 Next set the options for ~org-publish-project-alist~, as documented [[https://orgmode.org/manual/Configuration.html][here]].
-Currently I just have a single project, which I am calling ~website~.
+Currently I have two projects.
+The first one, which is called ~website~, contains all the content generated from org-mode files.
+The second one, called ~assets~, copies over all the files in the [[file:content/assets/][assets]] directory.
 #+begin_src emacs-lisp :tangle "build.el"
   (setq org-publish-project-alist
-              '(("website"
-                 :base-directory "./content"
-                 :publishing-directory "./public"
-                 :recursive t
-                 :exclude "data.org"
-                 :publishing-function org-html-publish-to-html
-                 :with-creator t
-                 :with-title nil
-                 :with-toc nil
-                 :html-preamble make-header
-                 :html-head-include-default-style nil
-                 :html-head-include-scripts nil
-                 :section-numbers nil
-                 )))
+        '(("website"
+           :base-directory "./content"
+           :publishing-directory "./public"
+           :recursive t
+           :exclude "data.org"
+           :publishing-function org-html-publish-to-html
+           :with-creator t
+           :with-title nil
+           :with-toc nil
+           :html-preamble make-header
+           :html-head-include-default-style nil
+           :html-head-include-scripts nil
+           :section-numbers nil
+           )
+          ("assets"
+           :base-directory "./content/assets"
+           :include ".*"
+           :publishing-directory "./public/assets"
+           :recursive t
+           :publishing-function org-publish-attachment)))
 #+end_src
 Note that the html preamble is set via a function, called ~make-header~.
 It is defined as follows.

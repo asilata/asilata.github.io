@@ -3,16 +3,18 @@
 #+setupfile: setup.org
 
 #+begin_intro
-[[file:assets/asilata-bapat.jpg][Asilata Bapat]]
+[[file:assets/asilata-bapat.jpg]]
 
+#+begin_nil
 [[http://maths.anu.edu.au/][Mathematical Sciences Institute]]\\
 The Australian National University\\
 Canberra, ACT, 2601, Australia
-#+end_intro
 
-- Email :: ~asilata.bapat~ at ~anu~ dot ~edu~ dot ~au~
-- Office :: 4.84 [[http://www.anu.edu.au/maps#show=102872][Hanna Neumann Building #145]]
-- Phone :: +61 2 6125 7320
+**Email:** ~asilata.bapat~ at ~anu~ dot ~edu~ dot ~au~\\
+**Office:** 4.84 [[http://www.anu.edu.au/maps#show=102872][Hanna Neumann Building #145]]\\
+**Phone:** +61 2 6125 7320
+#+end_nil
+#+end_intro
 
 ** Research interests and background
 My research focuses on problems in representation theory and algebraic geometry. 
