@@ -94,7 +94,7 @@
 :end:
 
 * Activities                                                       :activity:
-** EmacsConf 2021
+** [[https://emacsconf.org/2021/][EmacsConf 2021]]
 SCHEDULED: <2021-11-27 Sat>
 :properties:
 :location: online
