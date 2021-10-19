@@ -25,6 +25,7 @@
 #+end_src
 
 ** Setup                                                           :noexport:
+#+name: pp-activity
 #+begin_src emacs-lisp :results silent :exports none :session
   (defun pp-activity ()
     ;; Pretty-print the current activity item.
@@ -44,6 +45,9 @@
               (if location
                   (concat ", " location)
                 "")
+              (if with
+                  (concat ", with " with)
+              "")
               (if comment
                   (format " (%s)" comment)
                 "")
@@ -55,4 +59,3 @@
               )
       ))
 #+end_src
-
