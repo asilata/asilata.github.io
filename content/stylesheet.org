@@ -1,0 +1,343 @@
+#+title: Stylesheet
+#+author: Asilata Bapat
+#+property: header-args:scss :tangle "css/stylesheet.scss"
+
+* Colours
+First we define some auxiliary [[https://sass-lang.com/documentation/at-rules/mixin][mixins]] to use later, such as for alternately coloured table rows.
+#+begin_src scss
+  @mixin alternate-rows($color) {
+      table {
+          tbody > tr:nth-child(odd){
+              background: $color;
+          }
+      }
+  }
+#+end_src
+Next we define the colour options for all components of the page.
+We do this via a [[https://sass-lang.com/documentation/at-rules/mixin][mixin]] called ~theme~, which uses the following variables:
+- ~bg~, ~bg-faded~ :: background colour and faded version,
+- ~fg~, ~fg-faded~ :: foreground text colour and faded version,
+- ~link~, ~link-faded~ :: link colour and faded version,
+- ~titles~ :: colour for titles,
+- ~code~ :: colour for verbatim text/code snippets
+- ~fg-select~, ~bg-select~ :: foreground and background colour for selected text
+#+begin_src scss
+  @mixin theme($bg, $bg-faded, $fg, $fg-faded, $link, $link-faded, $titles, $code, $bg-select: $titles, $fg-select: $bg-faded) {
+      ,* { color: $fg; }
+      body {
+          background-color: $bg;
+          ::-moz-selection {
+              background-color: $bg-select;
+              color: $fg-select;
+          }
+          ::-selection {
+              background-color: $bg-select;
+              color: $fg-select;
+          }
+      }
+      a, a:active, a:visited { color: $link; }
+      code { color: $code; }
+      h1, h2, h3, h4, h5, h6 {
+          color: $titles;
+          a, a:active, a:visited {
+              color: $titles;
+          }
+          a:hover {
+              background-color: $bg-faded;
+              text-decoration: none; 
+          }
+      }
+      header {
+          a, a:active, a:visited {
+              color: $fg;
+          }
+          a.active {
+              color: $titles;
+          }
+          a:hover {
+              color: $titles;
+              background-color: $bg;
+              text-decoration: none;
+          }
+      }
+      footer {
+          color: $fg-faded;
+          border-color: $fg-faded;
+          a, a:active, a:visited { color: $link-faded; }
+      }
+      .papers {
+          ul {
+              background: $bg-faded;
+          }
+      }
+      .bibliography, .classplan {
+          @include alternate-rows($bg-faded);
+      }
+      .infotable {
+          table {
+              background: $bg-faded;
+          }
+      }
+      #mypicture {
+          border-color: $fg-faded;
+      }
+  }
+#+end_src
+Now we set some predefined palettes.
+Later on we can just include the one we want.
+#+begin_src scss
+  // Palette based on Solarized theme (just as an example)
+  // $base03:    #002b36;
+  // $base02:    #073642;
+  // $base01:    #586e75;
+  // $base00:    #657b83;
+  // $base0:     #839496;
+  // $base1:     #93a1a1;
+  // $base2:     #eee8d5;
+  // $base3:     #fdf6e3;
+  // $yellow:    #b58900;
+  // $orange:    #cb4b16;
+  // $red:       #dc322f;
+  // $magenta:   #d33682;
+  // $violet:    #6c71c4;
+  // $blue:      #268bd2;
+  // $cyan:      #2aa198;
+  // $green:     #859900;
+  
+  @mixin solarized-light {
+      @include theme(#fdf6e3, #eee8d5, #657b83, #93a1a1, #268bd2, #2aa198, #cb4b16, #d33682);
+  }
+  
+  @mixin solarized-dark {
+      @include theme(#002b36, #073642, #839496, #586e75, #268bd2, #2aa198, #cb4b16, #859900);
+  }
+  
+  @mixin zenburn {
+      @include theme(#3F3F3F, #4F4F4F, #DCDCCC, #656555, #8CD0D3, #7CB8BB, #CC9393, #7F9F7F);
+  }
+  
+  @mixin print {
+      @include theme(#fff, #fff, #000, #000, #000, #000, #000, #000);
+  }
+#+end_src
+
+* Main CSS
+We come to the main part of the CSS code, namely the positioning and layout options, as well as the font options.
+First we define the variables for the title font and the body font.
+#+begin_src scss
+  // Fonts
+  $title-font: Neuton;
+  $body-font: Neuton;
+#+end_src
+Next we use media queries to set breakpoints for various screen sizes, which then influence the layout of the page.
+The layout changes are mainly made via [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][CSS flexbox]].
+#+begin_src scss
+  @media screen and (max-width: 480px) {
+      body {
+          max-width:95%;
+          font-size:100%;
+      }
+  }
+  @media screen and (min-width: 480px) {
+      body {
+          max-width:80%;
+      }
+  }
+  @media screen and (min-width: 550px) {
+      body {
+          .intro {
+              flex-direction: row-reverse;
+          }
+          font-size:110%;
+      }
+  }
+  @media screen and (min-width: 1000px) {
+      body {
+          max-width:1000px;
+  
+          header {
+              flex-direction: row;
+          }
+          .papers {
+              flex-direction: row;
+          }
+      }
+  }
+  body {
+      font-family: $body-font, serif;
+      margin-top: 0em;
+      margin-left:auto;
+      margin-right:auto;
+  }
+#+end_src
+Style links. Remember that the colours have already been styled via a theme mixin.
+#+begin_src scss
+  ,* a {
+      text-decoration: none;
+      &:hover {
+          text-decoration: underline;
+      }
+      &:focus {
+          outline: none;
+      }
+  }
+#+end_src
+Style headings and lists.
+#+begin_src scss
+  h1, h2, h3, h4 {
+      font-family: $title-font, serif;
+      font-weight:lighter;
+  }
+  ul {
+      padding-left: 1em;
+  }
+  ol {
+      padding-left: 1em;
+      li {
+          padding-left: 0.5em;
+          ol li {
+              list-style-type: lower-alpha;
+          }
+      }
+  }
+#+end_src
+Now style individual divs.
+#+begin_src scss
+  .classplan {
+      table {
+          text-align: left;
+          border-collapse: collapse;
+          th, td {
+              padding: 0.5em;
+              border-top: 0.1em solid;
+              border-bottom: 0.1em solid;
+          }
+      }
+  }
+  .papers {
+      padding: 0em;
+      margin: 0em;
+      border-top: dotted 0.1em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p {
+          padding: 0em;
+          margin: 0.5em 0em;
+      }
+  }
+  .bibliography {
+      table {
+          text-align: left;
+          border-collapse: collapse;
+          th, td {
+              padding: 0.5em;
+          }
+          td:last-child {
+              @extend %small;
+          }
+      }
+  }
+  .infotable {
+      table {
+          padding-top: 0.5em;
+          border-collapse:collapse;
+          th, td {
+              padding:0.1em 0.5em;
+          }
+          td:first-child {
+              font-weight: bold;
+              text-align: right;
+          }
+      }
+  }
+#+end_src
+We come to the main layout styling for the header and body.
+We begin with a [[https://sass-lang.com/documentation/style-rules/placeholder-selectors][placeholder selector]] to decrease font size.
+#+begin_src scss
+  %small {
+      font-size: 80%;
+  }
+#+end_src
+Now style the header, intro, and navigation.
+#+begin_src scss
+  header {
+      font-family: $title-font;
+      font-size: 110%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  
+      margin-top:0em;
+      margin-bottom: 2em;
+      padding-top: 0.5em;
+      padding-bottom: 0.2em;
+      //border-bottom: solid 0.15em;
+  
+      h1 {
+          text-align: center;
+          margin: 0em;
+      }
+  }
+  .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+  nav {
+      ul {
+          padding-left: 0em;
+          margin: 0.5em 0em;
+      }
+      li {
+          display: inline;
+          list-style-type:none;
+          margin:0em;
+          padding-left:0.5em;
+          padding-right:0.5em;
+          text-align:left;
+      }
+  }
+#+end_src
+Footer style and other miscellany.
+#+begin_src scss
+  footer {
+      @extend %small;
+      border-top: 0.1em dotted;
+      margin-top:2em;
+      padding-top:0.3em;
+  }
+  #mypicture {
+      width:15em;
+      @media screen and (min-width: 960px) {
+          width: 20em;
+      }
+      @media screen and (max-width: 480px) {
+          margin-left: 0;
+      }
+  }
+  .clearfix{
+      float: none;
+      clear: both;
+  }
+#+end_src
+
+Include the colour themes previously defined.  
+#+begin_src scss
+  @include solarized-light;
+
+  // Print stylesheet
+  @media print {
+      footer, nav {display:none;}
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      a:after {
+          content: " '(' attr(href) ') '";
+      }
+      @include print;
+  }
+#+end_src
+
