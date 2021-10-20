@@ -37,7 +37,8 @@
           (location (org-entry-get nil "location"))
           (links (org-entry-get-multivalued-property nil "link"))
           (comment (org-entry-get nil "comment")))
-      (format "- **%s**: %s%s%s%s"
+      (if links (message (car links)))
+      (format "- **%s**: %s%s%s%s%s"
               (if display-date
                   display-date
                 (org-format-time-string "%b %Y" scheduled))
@@ -52,10 +53,8 @@
                   (format " (%s)" comment)
                 "")
               (if links
-                  (concat
-                   " "
-                   (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
-                "")
-              )
+                  (concat " "
+                          (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
+                ""))
       ))
 #+end_src
