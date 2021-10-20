@@ -118,12 +118,13 @@ SCHEDULED: <2021-05-01 Sat>
 :category: presentation
 :end:
 
-** RepNet Virtual seminar
+** [[https://sites.google.com/view/repnetvirtualseminar/home][RepNet Virtual seminar]]
 SCHEDULED: <2021-01-27 Wed>
 :properties:
 :location: online
 :date: "2021-01-27"
 :category: presentation
+:link: [[https://media.ed.ac.uk/playlist/dedicated/51612401/1_ekm4jzrk/1_k02igrw4][video]]
 :end:
 
 ** Algebra Seminar
@@ -134,7 +135,7 @@ SCHEDULED: <2020-11-30 Mon>
 :category: presentation
 :end:
 
-** New Connections in Representation Theory
+** [[https://sites.google.com/view/mooloolaba2020/home][New Connections in Representation Theory]]
 SCHEDULED: <2020-02-10 Mon>
 :properties:
 :location: Mooloolaba, Queensland
@@ -151,7 +152,7 @@ SCHEDULED: <2019-06-24 Mon>
 :category: presentation
 :end:
 
-** Women of Mathematics: a one-day meeting at the ANU
+** [[https://genderinstitute.anu.edu.au/women-mathematics-one-day-meeting-anu][Women of Mathematics: a one-day meeting at the ANU]]
 SCHEDULED: <2019-02-27 Wed>
 :properties:
 :location: Australian National University
