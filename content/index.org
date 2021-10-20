@@ -3,6 +3,7 @@
 #+setupfile: setup.org
 
 #+begin_intro
+#+attr_html: :id mypicture :alt Asilata Bapat
 [[file:assets/asilata-bapat.jpg]]
 
 #+begin_nil

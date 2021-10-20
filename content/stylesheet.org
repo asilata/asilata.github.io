@@ -182,7 +182,7 @@ Style links. Remember that the colours have already been styled via a theme mixi
       }
   }
 #+end_src
-Style headings and lists.
+Style headings, lists, and figures.
 #+begin_src scss
   h1, h2, h3, h4 {
       font-family: $title-font, serif;
@@ -199,6 +199,10 @@ Style headings and lists.
               list-style-type: lower-alpha;
           }
       }
+  }
+  figure {
+      padding: 0em;
+      margin: 0em;
   }
 #+end_src
 Now style individual divs.
