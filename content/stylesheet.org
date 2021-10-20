@@ -1,4 +1,4 @@
-#+title: Stylesheet
+ #+title: Stylesheet
 #+author: Asilata Bapat
 #+property: header-args:scss :tangle "css/stylesheet.scss"
 
@@ -341,3 +341,12 @@ Include the colour themes previously defined.
   }
 #+end_src
 
+
+
+* Tangling etc
+Tangle the sass code from this file and then compile it to css.
+#+name: tangle-and-compile
+#+begin_src emacs-lisp :results silent :tangle no
+  (org-babel-tangle)
+  (shell-command "cd css; sass stylesheet.scss stylesheet.css")
+#+end_src
