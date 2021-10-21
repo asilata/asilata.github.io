@@ -1,5 +1,7 @@
 (message (emacs-version))
+(require 'org)
 (require 'ox-publish)
+(org-reload)
 (require 'subr-x)
 
 (setq org-publish-project-alist

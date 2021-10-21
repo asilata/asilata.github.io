@@ -14,10 +14,12 @@ An internal directory structure is supported.
 We begin by creating an elisp file to build the webpage, as explained in [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][this post]].
 I will tangle the following snippets of elisp code to a file called ~build.el~.
 
-Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the website.
+Initialise some libraries. Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the website.
 #+begin_src emacs-lisp :tangle "build.el"
   (message (emacs-version))
+  (require 'org)
   (require 'ox-publish)
+  (org-reload)
   (require 'subr-x)
 #+end_src
 Next set the options for ~org-publish-project-alist~, as documented [[https://orgmode.org/manual/Configuration.html][here]].
