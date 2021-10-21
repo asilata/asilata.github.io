@@ -202,9 +202,10 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
       - name: Check out repository
         uses: actions/checkout@v2
   
+      - name: Add emacs ppa
+        run: sudo add-apt-repository ppa:kelleyk/emacs --yes && sudo apt update --yes
+  
       - name: Install emacs
-        run: sudo add-apt-repository ppa:kelleyk/emacs --yes
-        run: sudo apt update --yes
         run: sudo apt install emacs-nox --yes
   
       - name: Build website
