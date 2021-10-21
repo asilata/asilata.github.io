@@ -1,10 +1,11 @@
 #+title: Teaching
 #+author: Asilata Bapat
+#+startup: noptag content
 
 * {{{title}}}
 
 ** Australian National University
-#+begin_src emacs-lisp :results value raw :exports results :session
+#+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-course
@@ -14,7 +15,7 @@
 #+end_src
 
 ** University of Georgia
-#+begin_src emacs-lisp :results value raw :exports results :session
+#+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-course
@@ -24,7 +25,7 @@
 #+end_src
 
 ** University of Chicago
-#+begin_src emacs-lisp :results value raw :exports results :session
+#+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-course
@@ -34,30 +35,12 @@
 #+end_src
 
 ** Canada/USA Mathcamp
-#+begin_src emacs-lisp :results value raw :exports results :session
+#+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-course
     "teaching+LEVEL=2+location=\"Canada/USA Mathcamp\""
     '("data.org"))
    "\n")
-#+end_src
-
-** Setup                                                           :noexport:
-#+begin_src emacs-lisp :results silent :exports none :session
-  (defun pp-course ()
-    ;; Pretty-print the current course item
-    ;; This function is called when mapping over entries in the "data.org" file.
-    (let ((title (org-entry-get nil "ITEM"))
-          (display-date (org-entry-get nil "display-date"))
-          (comment (org-entry-get nil "comment"))
-          )
-      (format "- **%s**: %s %s"
-              display-date
-              title
-              (if (or (not comment) (string-equal comment ""))
-                  ""
-                comment))
-      ))
 #+end_src
 

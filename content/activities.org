@@ -1,11 +1,11 @@
 #+title: Activities
 #+author: Asilata Bapat
-#+startup: noptag
+#+startup: noptag content
 
 * {{{title}}}
 
 ** Talks and presentations
-#+begin_src emacs-lisp :results value raw :exports results :session
+#+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-activity
@@ -15,7 +15,7 @@
 #+end_src
 
 ** Organization
-#+begin_src emacs-lisp :results value raw :exports results :session
+#+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-activity
@@ -24,37 +24,3 @@
    "\n")
 #+end_src
 
-** Setup                                                           :noexport:
-#+name: pp-activity
-#+begin_src emacs-lisp :results silent :exports none :session
-  (defun pp-activity ()
-    ;; Pretty-print the current activity item.
-    ;; This function is called when mapping over entries in the "data.org" file.
-    (let ((title (org-entry-get nil "ITEM"))
-          (scheduled (encode-time (org-parse-time-string (org-entry-get nil "SCHEDULED"))))
-          (display-date (org-entry-get nil "display-date"))
-          (with (org-entry-get nil "with"))
-          (location (org-entry-get nil "location"))
-          (links (org-entry-get-multivalued-property nil "link"))
-          (comment (org-entry-get nil "comment")))
-      (if links (message (car links)))
-      (format "- **%s**: %s%s%s%s%s"
-              (if display-date
-                  display-date
-                (org-format-time-string "%b %Y" scheduled))
-              title
-              (if location
-                  (concat ", " location)
-                "")
-              (if with
-                  (concat ", with " with)
-              "")
-              (if comment
-                  (format " (%s)" comment)
-                "")
-              (if links
-                  (concat " "
-                          (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
-                ""))
-      ))
-#+end_src

@@ -1,6 +1,6 @@
 #+title: Data
 #+author: Asilata Bapat
-#+startup: noptag
+#+startup: noptag overview
 
 * Papers                                                              :paper:
 ** Morse-based fibering of the persistence rank invariant
@@ -423,6 +423,13 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Teaching                                                         :teaching:
+** Games, Graphs, and Machines ([[https://asilata.github.io/ggm/][MATH2301]])
+SCHEDULED: <2021-07-26 Mon>
+:properties:
+:location: Australian National University
+:display-date: 2021 Semester 2
+:end:
+
 ** Representation theory (IBL reading course)
 SCHEDULED: <2021-01-04 Mon>
 :properties:
