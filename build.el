@@ -11,9 +11,6 @@
            :with-title nil
            :with-toc nil
            :html-preamble make-header
-           :html-postamble '(("en" "<footer>
-    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
-    </footer>"))
            :html-head-include-default-style nil
            :html-head-include-scripts nil
            :html-head "<link rel=\"stylesheet\" href=\"css/stylesheet.css\">"
@@ -40,6 +37,11 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
            :recursive t
            :publishing-function org-publish-attachment)
           ))
+
+(setq org-html-postamble t
+      org-html-postamble-format '(("en" "<footer>
+Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
+</footer>")))
 
 (defun make-header (options)
   (concat "<header>"

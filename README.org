@@ -35,9 +35,6 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
              :with-title nil
              :with-toc nil
              :html-preamble make-header
-             :html-postamble '(("en" "<footer>
-      Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
-      </footer>"))
              :html-head-include-default-style nil
              :html-head-include-scripts nil
              :html-head "<link rel=\"stylesheet\" href=\"css/stylesheet.css\">"
@@ -64,6 +61,13 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
              :recursive t
              :publishing-function org-publish-attachment)
             ))
+#+end_src
+Setting postamble stuff by hand for now.
+#+begin_src emacs-lisp :tangle "build.el"
+    (setq org-html-postamble t
+          org-html-postamble-format '(("en" "<footer>
+    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
+    </footer>")))    
 #+end_src
 Note that the html preamble is set via a function, called ~make-header~.
 It is defined as follows.
