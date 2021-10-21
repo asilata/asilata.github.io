@@ -172,7 +172,8 @@ We also create a shell script to run the above lisp file.
   emacs -Q --script build.el
 #+end_src
 
-* Building on Github
+* TODO Building on Github
+/This is not working yet./
 Once we have set up the tools to build the website locally, we can now use them to build the site automatically on Github.
 Put the following code in ~.github/workflow/build.yml~.
 Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][this post]] and [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][this post]].

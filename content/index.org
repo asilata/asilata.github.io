@@ -22,7 +22,7 @@ My research focuses on problems in representation theory and algebraic geometry.
 I am particularly interested in the topology, geometry, and combinatorics of spaces naturally arising from representation theory.
 Recently I have been thinking about Bridgeland stability conditions on triangulated categories, and associated braid group actions.
 Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
-My papers and preprints are on my [[file:research.org][research page]], and my CV is available [here](assets/bapat-cv.pdf).
+My papers and preprints are on my [[file:research.org][research page]].
 
 ** Teaching
 In 2021 Semester 2, I am teaching [[https://programsandcourses.anu.edu.au/course/MATH2301][MATH2301]] (Games, graphs, and machines). Course notes are available [[https://asilata.github.io/ggm/2021][here]].
