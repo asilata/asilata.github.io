@@ -9,6 +9,7 @@
            :recursive t
            :exclude "data\\|stylesheet"
            :publishing-function org-html-publish-to-html
+           :with-broken-links t
            :with-creator t
            :with-title nil
            :with-toc nil
