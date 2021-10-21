@@ -1,7 +1,0 @@
----
-layout: default
-title: "script 6"
-date: "2016-01-19 14:48:29 -0600"
----
-
-Script #6 has been posted.

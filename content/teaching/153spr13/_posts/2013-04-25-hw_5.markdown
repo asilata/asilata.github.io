@@ -1,7 +1,0 @@
----
-layout: default
-categories: ['153spr13']
-date: "2013-04-25 13:14:23 -0500"
----
-
-Homework 5 is posted. It is due on May 02.

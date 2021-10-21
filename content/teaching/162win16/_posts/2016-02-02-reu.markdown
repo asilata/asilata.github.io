@@ -1,7 +1,0 @@
----
-layout: default
-title: "REU"
-date: "2016-02-02 13:20:06 -0600"
----
-
-_**Apply for the UChicago summer REU! Details are on their website [here](http://www.math.uchicago.edu/~may/REU2016/).**_

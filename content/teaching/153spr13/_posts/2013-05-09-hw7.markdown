@@ -1,6 +1,0 @@
----
-layout: default
-categories: ['153spr13']
----
-
-Homework 7 is posted. It is due on May 16.

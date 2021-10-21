@@ -1,7 +1,0 @@
----
-layout: default
-categories: ['153spr13']
-date: "2013-04-24 14:10:00 -0500"
----
-
-Reminder: homework 4 is due tomorrow.

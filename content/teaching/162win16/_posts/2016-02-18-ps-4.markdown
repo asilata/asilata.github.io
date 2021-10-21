@@ -1,7 +1,0 @@
----
-layout: default
-title: "PS 4"
-date: "2016-02-18 16:57:02 -0600"
----
-
-Problem Set #4 is posted, and it is due on Thursday, February 25. Script #9 is also posted, and we will distribute copies next Tuesday.

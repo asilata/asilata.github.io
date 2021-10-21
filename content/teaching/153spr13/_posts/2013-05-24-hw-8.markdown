@@ -1,6 +1,0 @@
----
-layout: default
-categories: ['153spr13']
----
-
-HW 8 is posted. It is due on May 30. This one is slightly long, so start early!

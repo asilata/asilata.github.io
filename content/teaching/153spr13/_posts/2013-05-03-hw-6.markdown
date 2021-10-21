@@ -1,6 +1,0 @@
----
-layout: default
-categories: ['153spr13']
----
-
-Homework 6 is posted. It is due on May 09. The class calendar has been updated.
