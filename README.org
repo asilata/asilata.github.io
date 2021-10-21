@@ -16,7 +16,9 @@ I will tangle the following snippets of elisp code to a file called ~build.el~.
 
 Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the website.
 #+begin_src emacs-lisp :tangle "build.el"
+  (message (emacs-version))
   (require 'ox-publish)
+  (require 'subr-x)
 #+end_src
 Next set the options for ~org-publish-project-alist~, as documented [[https://orgmode.org/manual/Configuration.html][here]].
 Currently I have the following projects.

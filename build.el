@@ -1,4 +1,6 @@
+(message (emacs-version))
 (require 'ox-publish)
+(require 'subr-x)
 
 (setq org-publish-project-alist
         '(("website"
