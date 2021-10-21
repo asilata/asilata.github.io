@@ -1,7 +1,6 @@
 _site/
 deploy
 .sass-cache/
-stylesheet.css
 stylesheet.scss
 *.css.map
 .hyde.el
