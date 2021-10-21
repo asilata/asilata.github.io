@@ -15,7 +15,7 @@ jobs:
       run: sudo add-apt-repository ppa:kelleyk/emacs --yes && sudo apt update --yes
 
     - name: Install emacs
-      run: sudo apt install emacs-nox --yes
+      run: sudo apt install emacs27-nox --yes
 
     - name: Build website
       run: ./build.sh
