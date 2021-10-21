@@ -1,7 +1,14 @@
 (message (emacs-version))
+(require 'package)
+(package-initialize)
+(unless package-archive-contents
+  (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
+  (package-refresh-contents))
+(dolist (pkg '(org))
+  (unless (package-installed-p pkg)
+    (package-install pkg)))
 (require 'org)
 (require 'ox-publish)
-(org-reload)
 (require 'subr-x)
 
 (setq org-publish-project-alist

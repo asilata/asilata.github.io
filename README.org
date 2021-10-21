@@ -15,11 +15,20 @@ We begin by creating an elisp file to build the webpage, as explained in [[https
 I will tangle the following snippets of elisp code to a file called ~build.el~.
 
 Initialise some libraries. Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the website.
+Since the github container's org version is **old**, we have to go overkill and reinstall org.
+This will (understandably) take forever, so I will eventually run this in a docker emacs container as described [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][here]].
 #+begin_src emacs-lisp :tangle "build.el"
   (message (emacs-version))
+  (require 'package)
+  (package-initialize)
+  (unless package-archive-contents
+    (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
+    (package-refresh-contents))
+  (dolist (pkg '(org))
+    (unless (package-installed-p pkg)
+      (package-install pkg)))
   (require 'org)
   (require 'ox-publish)
-  (org-reload)
   (require 'subr-x)
 #+end_src
 Next set the options for ~org-publish-project-alist~, as documented [[https://orgmode.org/manual/Configuration.html][here]].
