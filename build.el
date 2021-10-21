@@ -93,17 +93,15 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
    (let ((title (org-entry-get nil "ITEM"))
          (with (org-entry-get nil "with"))
          (comment (org-entry-get nil "comment"))
-         (links (org-entry-get-multivalued-property nil "link")))
+         (links (org-entry-get "link")))
      (format "#+begin_papers\n**%s**%s\\\\\n%s\n\n%s\n#+end_papers"
              title
              (if (or (not with) (string-equal with ""))
                  ""
                (format " (with %s)" with))
              comment
-             (string-join
-              ;; (mapcar (lambda (l) (format "[%s]" l)) links)
-              links
-              " "))
+             links
+             ))
      ))
 
 (defun pp-activity ()
@@ -113,7 +111,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
         (display-date (org-entry-get nil "display-date"))
         (with (org-entry-get nil "with"))
         (location (org-entry-get nil "location"))
-        (links (org-entry-get-multivalued-property nil "link"))
+        (links (org-entry-get nil "link"))
         (comment (org-entry-get nil "comment")))
     (if links (message (car links)))
     (format "- **%s**: %s%s%s%s%s"
@@ -124,11 +122,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
             (if with (concat ", with " with) "")
             (if comment (format " (%s)" comment) "")
             (if links
-                (concat " "
-                        (string-join
-                         ;; (mapcar (lambda (l) (format "[%s]" l)) links)
-                         links
-                         " "))
+                (concat " " links)
               ""))))
 
 (setq org-confirm-babel-evaluate nil)
