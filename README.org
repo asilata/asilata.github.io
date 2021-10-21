@@ -27,7 +27,7 @@ The second one, called ~assets~, copies over all the files in the [[file:content
            :base-directory "./content"
            :publishing-directory "./public"
            :recursive t
-           :exclude "data.org"
+           :exclude "data\\|stylesheet"
            :publishing-function org-html-publish-to-html
            :with-creator t
            :with-title nil
