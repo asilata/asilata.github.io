@@ -1,14 +1,4 @@
 (message (emacs-version))
-(require 'package)
-(package-initialize)
-(unless package-archive-contents
-  (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
-  (package-refresh-contents))
-(dolist (pkg '(org))
-  (if (package-installed-p pkg)
-      (package-reinstall pkg)
-    (package-install pkg)))
-(require 'org)
 (require 'ox-publish)
 (require 'subr-x)
 
@@ -64,12 +54,18 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
 
 (defun make-navbar ()
   (let ((lst '("Home" "Teaching" "Research" "Activities"))
-        (title (cadar (org-collect-keywords '("TITLE")))))
+        ;;(title (cadar (org-collect-keywords '("TITLE"))))
+        )
     (concat "<ul>\n"
-            (string-join (mapcar (lambda (x) (make-nav-item x title)) lst) "\n")
+            (string-join (mapcar (lambda (x) (make-nav-item x)) lst) "\n")
             "\n</ul>")))
 
-(defun make-nav-item (str title)
+(defun make-nav-item (str)
+  (let ((slug (if (string-equal str "Home") "index" (downcase str))))
+    (format "<li><a href=\"%s.html\">%s</a></li>"
+            slug
+            str)))
+(defun make-nav-item-fancy (str title)
   (let ((slug (if (string-equal str "Home") "index" (downcase str))))
     (format "<li><a href=\"%s.html\"%s>%s</a></li>"
             slug
