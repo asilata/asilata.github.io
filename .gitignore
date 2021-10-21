@@ -1,5 +1,6 @@
 _site/
 deploy
+public
 .sass-cache/
 stylesheet.scss
 *.css.map

@@ -93,7 +93,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
    (let ((title (org-entry-get nil "ITEM"))
          (with (org-entry-get nil "with"))
          (comment (org-entry-get nil "comment"))
-         (links (org-entry-get "link")))
+         (links (org-entry-get nil "link")))
      (format "#+begin_papers\n**%s**%s\\\\\n%s\n\n%s\n#+end_papers"
              title
              (if (or (not with) (string-equal with ""))
@@ -102,7 +102,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
              comment
              links
              ))
-     ))
+     )
 
 (defun pp-activity ()
   "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
@@ -113,7 +113,6 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
         (location (org-entry-get nil "location"))
         (links (org-entry-get nil "link"))
         (comment (org-entry-get nil "comment")))
-    (if links (message (car links)))
     (format "- **%s**: %s%s%s%s%s"
             (if display-date display-date
               (org-format-time-string "%b %Y" scheduled))
@@ -121,9 +120,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
             (if location (concat ", " location) "")
             (if with (concat ", with " with) "")
             (if comment (format " (%s)" comment) "")
-            (if links
-                (concat " " links)
-              ""))))
+            (if links (concat " " links) ""))))
 
 (setq org-confirm-babel-evaluate nil)
 (setq make-backup-files nil)
