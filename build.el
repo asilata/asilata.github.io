@@ -1,38 +1,45 @@
 (require 'ox-publish)
 
 (setq org-publish-project-alist
-      '(("website"
-         :base-directory "./content"
-         :publishing-directory "./public"
-         :recursive t
-         :exclude "data\\|stylesheet"
-         :publishing-function org-html-publish-to-html
-         :with-creator t
-         :with-title nil
-         :with-toc nil
-         :html-preamble make-header
-         :html-postamble '(("en" "<footer>
-  Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
-  </footer>"))
-         :html-head-include-default-style nil
-         :html-head-include-scripts nil
-         :html-head "<link rel=\"stylesheet\" href=\"css/stylesheet.css\">"
-         :html-head-extra "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\">"
-         :section-numbers nil
-         )
-        ("assets"
-         :base-directory "./content/assets"
-         :base-extension "jpg"
-         :publishing-directory "./public/assets"
-         :recursive t
-         :publishing-function org-publish-attachment)
-        ("css"
-         :base-directory "./content/css"
-         :base-extension "css"
-         :publishing-directory "./public/css"
-         :recursive t
-         :publishing-function org-publish-attachment)
-        ))
+        '(("website"
+           :base-directory "./content"
+           :publishing-directory "./public"
+           :recursive t
+           :exclude "data\\|stylesheet"
+           :publishing-function org-html-publish-to-html
+           :with-creator t
+           :with-title nil
+           :with-toc nil
+           :html-preamble make-header
+           :html-postamble '(("en" "<footer>
+    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
+    </footer>"))
+           :html-head-include-default-style nil
+           :html-head-include-scripts nil
+           :html-head "<link rel=\"stylesheet\" href=\"css/stylesheet.css\">"
+           :html-head-extra "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\"><script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   ga('create', '{{ site.analytics_id}}', 'auto');
+   ga('send', 'pageview');
+  </script>"
+           :section-numbers nil
+           )
+          ("assets"
+           :base-directory "./content/assets"
+           :base-extension "jpg"
+           :publishing-directory "./public/assets"
+           :recursive t
+           :publishing-function org-publish-attachment)
+          ("css"
+           :base-directory "./content/css"
+           :base-extension "css"
+           :publishing-directory "./public/css"
+           :recursive t
+           :publishing-function org-publish-attachment)
+          ))
 
 (defun make-header (options)
   (concat "<header>"
