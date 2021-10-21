@@ -15,8 +15,8 @@ We begin by creating an elisp file to build the webpage, as explained in [[https
 I will tangle the following snippets of elisp code to a file called ~build.el~.
 
 Initialise some libraries. Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the website.
-The github container's org version is **old**, so we have had to make some changes.
-I will eventually run this in a docker emacs container with a newer version of org, as described [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][here]].
+The github container's emacs (and therefore org) version is *old*, so I am installing a newer one from a ppa.
+I will probably eventually run this in a docker emacs container, as described [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][here]].
 #+begin_src emacs-lisp :tangle "build.el"
   (message (emacs-version))
   (require 'ox-publish)
@@ -85,24 +85,18 @@ It is defined as follows.
             "</nav></header>"))  
 #+end_src
 The above function calls ~make-navbar~, which we define as follows.
-For the moment we are not using ~org-collect-keywords~, until I can run a newish version of org on the github builder.
 #+begin_src emacs-lisp :tangle "build.el"
-  (defun make-navbar ()
-    (let ((lst '("Home" "Teaching" "Research" "Activities"))
-          ;;(title (cadar (org-collect-keywords '("TITLE"))))
-          )
-      (concat "<ul>\n"
-              (string-join (mapcar (lambda (x) (make-nav-item x)) lst) "\n")
-              "\n</ul>")))
+    (defun make-navbar ()
+      (let ((lst '("Home" "Teaching" "Research" "Activities"))
+            (title (cadar (org-collect-keywords '("TITLE")))))
+        (concat "<ul>\n"
+                (string-join
+                 (mapcar (lambda (x) (make-nav-item x title)) lst) "\n")
+                "\n</ul>")))
 #+end_src
 In turn, the above function calls ~make-nav-item~.
 #+begin_src emacs-lisp :tangle "build.el"
-  (defun make-nav-item (str)
-    (let ((slug (if (string-equal str "Home") "index" (downcase str))))
-      (format "<li><a href=\"%s.html\">%s</a></li>"
-              slug
-              str)))
-  (defun make-nav-item-fancy (str title)
+  (defun make-nav-item (str title)
     (let ((slug (if (string-equal str "Home") "index" (downcase str))))
       (format "<li><a href=\"%s.html\"%s>%s</a></li>"
               slug
@@ -141,7 +135,10 @@ Next, for research outputs (papers, code, etc).
                    ""
                  (format " (with %s)" with))
                comment
-               (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
+               (string-join
+                ;; (mapcar (lambda (l) (format "[%s]" l)) links)
+                links
+                " "))
        ))
 #+end_src
 Finally, for activities (talks and organisation).
@@ -166,7 +163,9 @@ Finally, for activities (talks and organisation).
               (if links
                   (concat " "
                           (string-join
-                           (mapcar (lambda (l) (format "[%s]" l)) links) " "))
+                           ;; (mapcar (lambda (l) (format "[%s]" l)) links)
+                           links
+                           " "))
                 ""))))
 #+end_src
 

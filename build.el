@@ -55,18 +55,13 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
 
 (defun make-navbar ()
   (let ((lst '("Home" "Teaching" "Research" "Activities"))
-        ;;(title (cadar (org-collect-keywords '("TITLE"))))
-        )
+        (title (cadar (org-collect-keywords '("TITLE")))))
     (concat "<ul>\n"
-            (string-join (mapcar (lambda (x) (make-nav-item x)) lst) "\n")
+            (string-join
+             (mapcar (lambda (x) (make-nav-item x title)) lst) "\n")
             "\n</ul>")))
 
-(defun make-nav-item (str)
-  (let ((slug (if (string-equal str "Home") "index" (downcase str))))
-    (format "<li><a href=\"%s.html\">%s</a></li>"
-            slug
-            str)))
-(defun make-nav-item-fancy (str title)
+(defun make-nav-item (str title)
   (let ((slug (if (string-equal str "Home") "index" (downcase str))))
     (format "<li><a href=\"%s.html\"%s>%s</a></li>"
             slug
@@ -99,7 +94,10 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
                  ""
                (format " (with %s)" with))
              comment
-             (string-join (mapcar (lambda (l) (format "[%s]" l)) links) " "))
+             (string-join
+              ;; (mapcar (lambda (l) (format "[%s]" l)) links)
+              links
+              " "))
      ))
 
 (defun pp-activity ()
@@ -122,7 +120,9 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
             (if links
                 (concat " "
                         (string-join
-                         (mapcar (lambda (l) (format "[%s]" l)) links) " "))
+                         ;; (mapcar (lambda (l) (format "[%s]" l)) links)
+                         links
+                         " "))
               ""))))
 
 (setq org-confirm-babel-evaluate nil)
