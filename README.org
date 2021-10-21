@@ -18,9 +18,10 @@ Use [[https://orgmode.org/manual/Publishing.html][ox-publish]] to publish the we
   (require 'ox-publish)
 #+end_src
 Next set the options for ~org-publish-project-alist~, as documented [[https://orgmode.org/manual/Configuration.html][here]].
-Currently I have two projects.
-The first one, which is called ~website~, contains all the content generated from org-mode files.
-The second one, called ~assets~, copies over all the files in the [[file:content/assets/][assets]] directory.
+Currently I have the following projects.
+- The first one, called ~website~, contains all the content generated from org-mode files.
+- The second one, called ~assets~, copies over all the files in the [[file:content/assets/][assets]] directory.
+The various publishing options are documented [[https://orgmode.org/manual/Publishing-options.html][here]].
 #+begin_src emacs-lisp :tangle "build.el"
   (setq org-publish-project-alist
         '(("website"
@@ -33,8 +34,13 @@ The second one, called ~assets~, copies over all the files in the [[file:content
            :with-title nil
            :with-toc nil
            :html-preamble make-header
+           :html-postamble '(("en" "<footer>
+    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
+    </footer>"))
            :html-head-include-default-style nil
            :html-head-include-scripts nil
+           :html-head "<link rel=\"stylesheet\" href=\"css/stylesheet.css\">"
+           :html-head-extra "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\">"
            :section-numbers nil
            )
           ("assets"
@@ -79,30 +85,23 @@ In turn, the above function calls ~make-nav-item~.
               (if (string-equal str title) " class=\"active\"" "")
               str)))
 #+end_src
-Also set the postamble.    
+Finally, define some pretty-printing functions for the teaching, research, and activity pages.
+First, for courses.
 #+begin_src emacs-lisp :tangle "build.el"
-  (setq org-html-postamble t)
-  (setq org-html-postamble-format
-        '(("en" "<footer>
-    Page generated using %c using the <a href=\"https://ethanschoonover.com/solarized/\">solarized</a> colour theme. Last modified on %C.
-    </footer>")))
 #+end_src
-Now set some publishing options, as documented [[https://orgmode.org/manual/Publishing-options.html][here]].
-Begin with options for ~org-html-head~.
 #+begin_src emacs-lisp :tangle "build.el"
-    (setq org-html-head "<link rel=\"stylesheet\" href=\"css/stylesheet.css\">")
-    (setq org-html-head-extra
-          "<link href=\"https://fonts.googleapis.com/css?family=Neuton:400,400i,700,700i\" rel=\"stylesheet\">")
 #+end_src
 Now publish!  
 #+begin_src emacs-lisp :tangle "build.el"
+  (setq org-confirm-babel-evaluate nil)
+  (setq make-backup-files nil)
   (org-publish-all t)
   (message "Build complete!")
 #+end_src
 
 We also create a shell script to run the above lisp file.
 #+begin_src shell :tangle "build.sh" :shebang "#!/bin/bash"
-  emacs -q --script build.el
+  emacs -Q --script build.el
 #+end_src
 
 * Building on Github
