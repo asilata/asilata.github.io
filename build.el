@@ -29,7 +29,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
            )
           ("assets"
            :base-directory "./content/assets"
-           :base-extension "jpg"
+           :base-extension "jpg\\|pdf"
            :publishing-directory "./public/assets"
            :recursive t
            :publishing-function org-publish-attachment)

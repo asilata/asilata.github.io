@@ -53,7 +53,7 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
              )
             ("assets"
              :base-directory "./content/assets"
-             :base-extension "jpg"
+             :base-extension "jpg\\|pdf"
              :publishing-directory "./public/assets"
              :recursive t
              :publishing-function org-publish-attachment)
