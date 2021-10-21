@@ -1,5 +1,0 @@
-- title: Categorical braid group actions
-  with: &anand "[Anand Deopurkar](https://deopurkar.github.io)"
-  comment: This sage code computes the braid group action on the triangulated category of complexes of projective modules over the zig-zag algebra of a quiver.
-  links:
-    github: https://github.com/asilata/cobracat
