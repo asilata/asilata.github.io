@@ -177,14 +177,14 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
   on:
     push:
       branches:
-        - master
+      - master
   
   jobs:
     build:
       runs-on: ubuntu-latest
       steps:
       - name: Check out repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: Install emacs
         run: sudo apt install emacs-nox --yes
