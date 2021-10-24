@@ -8,7 +8,7 @@
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]
 :comment: Preprint.
 :year: 2020
-:link: [[https://arxiv.org/abs/2011.14967][arXiv:2011.14967]]
+:link: [[https://arxiv.org/abs/2011.14967][arXiv]]
 :end:
 
 ** A Thurston compactification of the space of stability conditions
@@ -17,7 +17,7 @@
 :comment: Preprint.
 :year: 2020
 :link: [[file:assets/papers/a2-compactification.pdf][pdf]]
-:link+: [[https://arxiv.org/abs/2011.07908][arXiv:2011.07908]]
+:link+: [[https://arxiv.org/abs/2011.07908][arXiv]]
 :end:
 
 ** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
@@ -26,7 +26,7 @@
 :comment: Preprint.
 :year: 2020
 :link: [[file:assets/papers/stability-algorithm.pdf][pdf]]
-:link+: [[https://arxiv.org/abs/2108.09155][arXiv:2108.09155]]
+:link+: [[https://arxiv.org/abs/2108.09155][arXiv]]
 :end:
 
 ** Recollement for perverse sheaves on real hyperplane arrangements
@@ -34,8 +34,8 @@
 :comment: Journal of Algebra, 568 (2021), pp. 61--90
 :year: 2018
 :link: [[file:assets/papers/recollements-2018.pdf][pdf]]
-:link+: [[https://arxiv.org/abs/1810.13126][arXiv:1810.13126]]
-:journal: https://dx.doi.org/10.1016/j.jalgebra.2020.09.044
+:link+: [[https://arxiv.org/abs/1810.13126][arXiv]]
+:link+: [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
 :end:
 
 ** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
@@ -52,8 +52,8 @@
 :comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
 :year: 2015
 :link: [[file:assets/papers/bapat-2015.pdf][pdf]]
-:link+: [[http://arxiv.org/abs/1309.0859][arXiv:1309.0859]]
-:journal: http://dx.doi.org/10.2140/pjm.2015.276.19
+:link+: [[http://arxiv.org/abs/1309.0859][arXiv]]
+:link+: [[http://dx.doi.org/10.2140/pjm.2015.276.19][journal]]
 :end:
 
 ** Lower central series of free algebras in symmetric tensor categories
@@ -62,8 +62,8 @@
 :comment: Journal of Algebra, 373 (2013), pp. 299--311
 :year: 2013
 :link: [[file:assets/papers/bapat-jordan-2013.pdf][pdf]]
-:link+: [[http://arxiv.org/abs/1001.1375][arXiv:1001.1375]]
-:journal: http://dx.doi.org/10.1016/j.jalgebra.2012.10.001
+:link+: [[http://arxiv.org/abs/1001.1375][arXiv]]
+:link+: [[http://dx.doi.org/10.1016/j.jalgebra.2012.10.001][journal]]
 :end:
 
 
@@ -80,7 +80,7 @@
 :with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
 :comment: Preprint (not for publication).
 :year: 2015
-:link: [[http://arxiv.org/abs/1503.01055][arXiv:1503.01055]]
+:link: [[http://arxiv.org/abs/1503.01055][arXiv]]
 :end:
 
 
