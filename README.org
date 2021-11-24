@@ -3,7 +3,7 @@
 #+property: header-args :results silent
 #+startup: noptag contents
 
-[[https://github.com/asilata/asilata.github.io/actions/workflows/build.yml/badge.svg]]
+[[https://github.com/asilata/asilata.github.io/actions/workflows/build.yml][https://github.com/asilata/asilata.github.io/actions/workflows/build.yml/badge.svg]]
 
 This repository contains code that generates my personal website, [[https://asilata.github.io/]].
 
