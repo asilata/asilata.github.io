@@ -100,7 +100,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
                  ""
                (format " (with %s)" with))
              comment
-             links
+             (if (not links) "" links)
              ))
      )
 

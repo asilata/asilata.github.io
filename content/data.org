@@ -3,6 +3,13 @@
 #+startup: noptag overview
 
 * Papers                                                              :paper:
+** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
+:properties:
+:with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: In preparation.
+:year: 2021
+:end:
+
 ** Morse-based fibering of the persistence rank invariant
 :properties:
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]

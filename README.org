@@ -143,7 +143,7 @@ Next, for research outputs (papers, code, etc).
                    ""
                  (format " (with %s)" with))
                comment
-               links
+               (if (not links) "" links)
                ))
        )
 #+end_src
