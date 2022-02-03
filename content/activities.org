@@ -14,12 +14,22 @@
    "\n")
 #+end_src
 
-** Organization
+** Research visits
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
     'pp-activity
-    "activity+LEVEL=2-category=\"presentation\""
+    "activity+LEVEL=2+category=\"visit\""
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Organization, etc
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-activity
+    "activity+LEVEL=2+category=\"other\""
     '("data.org"))
    "\n")
 #+end_src

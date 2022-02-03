@@ -25,11 +25,10 @@ Specific topics of interest include Bridgeland stability conditions, perverse sh
 My papers and preprints are on my [[file:research.org][research page]].
 
 ** Teaching
-In 2021 Semester 2, I am teaching [[https://programsandcourses.anu.edu.au/course/MATH2301][MATH2301]] (Games, graphs, and machines). Course notes are available [[https://asilata.github.io/ggm/2021][here]].
-
-Older teaching is listed on my [[file:teaching.org][teaching page]].
+I am not teaching this semester. Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
+I am visiting [[https://icerm.brown.edu/][ICERM]] in Providence, RI (USA) until May 2022 for the semester program on [[https://icerm.brown.edu/programs/sp-s22/][Braids]].
 #+begin_src emacs-lisp :results value raw :exports results :session
   (string-join
    (org-map-entries

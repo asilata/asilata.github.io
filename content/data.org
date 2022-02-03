@@ -101,6 +101,22 @@
 :end:
 
 * Activities                                                       :activity:
+** [[https://icerm.brown.edu/programs/sp-s22/w1/][Braids in representation theory and algebraic combinatorics]]
+SCHEDULED: <2022-02-18 Fri>
+:properties:
+:location: ICERM, Brown University
+:category: presentation
+:end:
+
+** [[https://icerm.brown.edu/programs/sp-s22/][Braids]]
+SCHEDULED: <2022-05-06 Fri>
+:properties:
+:location: ICERM, Brown University
+:date: "2022-02-01"
+:display-date: Spring semester 2022
+:category: visit
+:end:
+
 ** [[https://emacsconf.org/2021/][EmacsConf 2021]]
 SCHEDULED: <2021-11-27 Sat>
 :properties:
