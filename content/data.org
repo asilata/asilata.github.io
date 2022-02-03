@@ -101,6 +101,21 @@
 :end:
 
 * Activities                                                       :activity:
+** [[http://www.birs.ca/events/2022/research-in-teams/22rit267][Geometric interpretation and visualization of multi-parameter persistent homology]]
+SCHEDULED: <2022-06-19 Sun>
+:properties:
+:location: Banff International Research Station
+:category: visit
+:comment: tentative
+:end:
+
+** [[http://women-in-ncalg-repthy.org/conferences/winart3-workshop/][Women in noncommutative algebra and representation theory workshop 3]]
+SCHEDULED: <2022-04-08 Fri>
+:properties:
+:location: Banff International Research Station
+:category: visit
+:end:
+
 ** [[https://icerm.brown.edu/programs/sp-s22/w1/][Braids in representation theory and algebraic combinatorics]]
 SCHEDULED: <2022-02-18 Fri>
 :properties:
@@ -446,6 +461,13 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Teaching                                                         :teaching:
+** Mathematics and Applications 2 ([[https://programsandcourses.anu.edu.au/course/MATH1014][MATH1014]])
+SCHEDULED: <2021-11-19 Fri>
+:properties:
+:location: Australian National University
+:display-date: 2021 Spring Semester     
+:end:
+
 ** Games, Graphs, and Machines ([[https://asilata.github.io/ggm/][MATH2301]])
 SCHEDULED: <2021-07-26 Mon>
 :properties:
