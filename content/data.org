@@ -6,8 +6,9 @@
 ** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
 :properties:
 :with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: In preparation.
-:year: 2021
+:comment: Preprint.
+:year: 2022
+:link: [[file:assets/papers/qrationals-2022.pdf][pdf]]
 :end:
 
 ** Morse-based fibering of the persistence rank invariant
@@ -114,6 +115,13 @@ SCHEDULED: <2022-04-08 Fri>
 :properties:
 :location: Banff International Research Station
 :category: visit
+:end:
+
+** [[http://mathserver.neu.edu/~robin/Seminars/GPRT/index.html][Geometry, physics, and representation theory seminar]]
+SCHEDULED: <2022-02-24 Thu>
+:properties:
+:location: Northeastern University
+:category: presentation
 :end:
 
 ** [[https://icerm.brown.edu/programs/sp-s22/w1/][Braids in representation theory and algebraic combinatorics]]
