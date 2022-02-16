@@ -9,6 +9,7 @@
 :comment: Preprint.
 :year: 2022
 :link: [[file:assets/papers/qrationals-2022.pdf][pdf]]
+:link+: [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
 
 ** Morse-based fibering of the persistence rank invariant
