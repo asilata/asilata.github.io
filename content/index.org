@@ -31,10 +31,11 @@ I am not teaching this semester. Older teaching is listed on my [[file:teaching.
 I am visiting [[https://icerm.brown.edu/][ICERM]] in Providence, RI (USA) until May 2022 for the semester program on [[https://icerm.brown.edu/programs/sp-s22/][Braids]].
 #+begin_src emacs-lisp :results value raw :exports results :session
   (string-join
-   (org-map-entries
+   (reverse
+    (org-map-entries
     'pp-activity
     "activity+LEVEL=2+SCHEDULED>=\"<now>\""
-    '("data.org"))
+    '("data.org")))
    "\n")
 #+end_src
 

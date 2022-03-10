@@ -111,11 +111,41 @@ SCHEDULED: <2022-06-19 Sun>
 :comment: tentative
 :end:
 
+** [[https://icerm.brown.edu/programs/sp-s22/][Braids]]
+SCHEDULED: <2022-05-06 Fri>
+:properties:
+:location: ICERM, Brown University
+:date: "2022-02-01"
+:display-date: Spring semester 2022
+:category: visit
+:end:
+
+** [[https://www.fd-seminar.xyz/][FD Seminar]]
+SCHEDULED: <2022-04-28 Thu>
+:properties:
+:location: online
+:category: presentation
+:end:
+
 ** [[http://women-in-ncalg-repthy.org/conferences/winart3-workshop/][Women in noncommutative algebra and representation theory workshop 3]]
 SCHEDULED: <2022-04-08 Fri>
 :properties:
 :location: Banff International Research Station
 :category: visit
+:end:
+
+** [[https://sites.google.com/view/lagoonwebinar/home][LAGOON webinar]]
+SCHEDULED: <2022-03-31 Thu>
+:properties:
+:location: online
+:category: presentation
+:end:
+
+** [[https://www.imj-prg.fr/gestion/evenement/affEvenement/1][Paris algebra seminar]]
+SCHEDULED: <2022-03-28 Mon 08:00>
+:properties:
+:location: online
+:category: presentation
 :end:
 
 ** [[http://mathserver.neu.edu/~robin/Seminars/GPRT/index.html][Geometry, physics, and representation theory seminar]]
@@ -130,15 +160,6 @@ SCHEDULED: <2022-02-18 Fri>
 :properties:
 :location: ICERM, Brown University
 :category: presentation
-:end:
-
-** [[https://icerm.brown.edu/programs/sp-s22/][Braids]]
-SCHEDULED: <2022-05-06 Fri>
-:properties:
-:location: ICERM, Brown University
-:date: "2022-02-01"
-:display-date: Spring semester 2022
-:category: visit
 :end:
 
 ** [[https://emacsconf.org/2021/][EmacsConf 2021]]
