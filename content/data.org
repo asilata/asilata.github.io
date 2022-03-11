@@ -160,6 +160,15 @@ SCHEDULED: <2022-02-18 Fri>
 :properties:
 :location: ICERM, Brown University
 :category: presentation
+:link: [[file:assets/slides/2022-02-18-icerm.pdf][slides]]
+:end:
+
+** Special session on representation theory, [[https://austms.org.au/event/austms-2021/][AustMS 2021]]
+SCHEDULED: <2021-12-08 Thu>
+:properties:
+:location: online
+:category: presentation
+:link: [[file:assets/slides/2021-12-08-austms.pdf][slides]]
 :end:
 
 ** [[https://emacsconf.org/2021/][EmacsConf 2021]]
@@ -168,6 +177,7 @@ SCHEDULED: <2021-11-27 Sat>
 :location: online
 :date: "2021-11-27"
 :category: presentation
+:link: [[https://youtu.be/1Ooi4KAd2FM][video]]
 :end:
 
 ** [[https://sites.google.com/view/symposium-dits/][Dynamical Systems in Triangulated Categories and Surfaces (DiTS)]]
@@ -176,6 +186,7 @@ SCHEDULED: <2021-06-21 Mon>
 :location: online
 :date: "2021-06-21"
 :category: presentation
+:link: [[file:assets/slides/2021-06-21-dits.pdf][slides]], [[https://youtu.be/0qCHvPcZEmk][video]]
 :end:
 
 ** AMS special session on geometric and categorical methods in representation theory
@@ -212,7 +223,7 @@ SCHEDULED: <2020-02-10 Mon>
 :link: [[file:slides/bapat-mooloolaba-2020.pdf][slides]]
 :end:
 
-** Triangulated Categories in Geometry and Representation Theory
+** [[https://sites.google.com/site/ausreptheory/workshop-2019][Triangulated Categories in Geometry and Representation Theory]]
 SCHEDULED: <2019-06-24 Mon>
 :properties:
 :location: University of Sydney

@@ -120,7 +120,8 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
             (if location (concat ", " location) "")
             (if with (concat ", with " with) "")
             (if comment (format " (%s)" comment) "")
-            (if links (concat " " links) ""))))
+            (if links (concat " [" links "]") ""))
+            ))
 
 (setq org-confirm-babel-evaluate nil)
 (setq make-backup-files nil)
