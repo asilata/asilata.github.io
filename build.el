@@ -88,21 +88,41 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
               comment))
     ))
 
+(defun pp-short-talk ()
+  (let ((shorttitle (org-entry-get nil "shorttitle"))
+        (date (encode-time (org-parse-time-string (org-entry-get nil "SCHEDULED"))))
+        (location (org-entry-get nil "location"))
+        (links (org-entry-get nil "link")))
+    (format "%s%s"
+            (concat
+             (if shorttitle (concat shorttitle " ")
+               (if location (concat location " ") ""))
+             (org-format-time-string "%Y" date))
+            (if links (format " (%s)" links) ""))))
+
+(defun paper-to-talks (slug)
+  (string-join
+   (org-map-entries
+    'pp-short-talk
+    (format "activity+%s" slug)
+    '("data.org"))
+   ", "))
+
 (defun pp-research-output ()
   "Pretty-print the current research output item (e.g. paper, preprint, or code). This function is called when mapping over entries in the data.org file."
-   (let ((title (org-entry-get nil "ITEM"))
-         (with (org-entry-get nil "with"))
-         (comment (org-entry-get nil "comment"))
-         (links (org-entry-get nil "link")))
-     (format "#+begin_papers\n**%s**%s\\\\\n%s\n\n%s\n#+end_papers"
-             title
-             (if (or (not with) (string-equal with ""))
-                 ""
-               (format " (with %s)" with))
-             comment
-             (if (not links) "" links)
-             ))
-     )
+  (let ((title (org-entry-get nil "ITEM"))
+        (with (org-entry-get nil "with"))
+        (comment (org-entry-get nil "comment"))
+        (links (org-entry-get nil "link"))
+        (slug (org-entry-get nil "slug")))
+    (format "#+begin_papers\n**%s**%s%s%s\n\n%s\n#+end_papers"
+            title
+            (if (or (not with) (string-equal with ""))
+                ""
+              (format " (with %s)" with))
+            (if comment (concat "\\\\\n" comment) "")
+            (if slug (concat "\\\\\n**Talks:** "(paper-to-talks slug)) "")
+            (if links (format "[%s]" links) ""))))
 
 (defun pp-activity ()
   "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
@@ -120,7 +140,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
             (if location (concat ", " location) "")
             (if with (concat ", with " with) "")
             (if comment (format " (%s)" comment) "")
-            (if links (concat " " links) ""))
+            (if links (format " [%s]" links) ""))
             ))
 
 (setq org-confirm-babel-evaluate nil)
