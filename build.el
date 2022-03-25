@@ -122,7 +122,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
               (format " (with %s)" with))
             (if comment (concat "\\\\\n" comment) "")
             (if slug (concat "\\\\\n**Talks:** "(paper-to-talks slug)) "")
-            (if links (format "[%s]" links) ""))))
+            (if links links ""))))
 
 (defun pp-activity ()
   "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
@@ -140,7 +140,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
             (if location (concat ", " location) "")
             (if with (concat ", with " with) "")
             (if comment (format " (%s)" comment) "")
-            (if links links ""))
+            (if links (format " (%s)" links) ""))
             ))
 
 (setq org-confirm-babel-evaluate nil)
