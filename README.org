@@ -185,7 +185,7 @@ Finally, for activities (talks and organisation).
               (if location (concat ", " location) "")
               (if with (concat ", with " with) "")
               (if comment (format " (%s)" comment) "")
-              (if links (format " [%s]" links) ""))
+              (if links links ""))
               ))
 #+end_src
 
