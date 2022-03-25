@@ -122,7 +122,7 @@ Page generated using %c using the <a href=\"https://ethanschoonover.com/solarize
               (format " (with %s)" with))
             (if comment (concat "\\\\\n" comment) "")
             (if slug (concat "\\\\\n**Talks:** "(paper-to-talks slug)) "")
-            (if links links ""))))
+            (if links (format "(%s)" links) ""))))
 
 (defun pp-activity ()
   "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."

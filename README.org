@@ -165,7 +165,7 @@ Next, for research outputs (papers, code, etc).
                 (format " (with %s)" with))
               (if comment (concat "\\\\\n" comment) "")
               (if slug (concat "\\\\\n**Talks:** "(paper-to-talks slug)) "")
-              (if links links ""))))
+              (if links (format "(%s)" links) ""))))
 #+end_src
 Finally, for activities (talks and organisation).
 #+begin_src emacs-lisp :tangle "build.el"
