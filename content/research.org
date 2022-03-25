@@ -3,6 +3,16 @@
 #+startup: noptag content
 
 * {{{title}}}
+** Work in progress
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-research-output
+    "inprogress+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
 ** Papers
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
