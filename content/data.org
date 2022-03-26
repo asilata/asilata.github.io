@@ -19,6 +19,7 @@
 :slug: qrationals
 :link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
+
 ** Morse-based fibering of the persistence rank invariant
 :properties:
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]
@@ -47,6 +48,7 @@
 
 ** Recollement for perverse sheaves on real hyperplane arrangements
 :properties:
+:slug: recollement
 :comment: Journal of Algebra, 568 (2021), pp. 61--90
 :year: 2018
 :link: [[file:assets/papers/recollements-2018.pdf][pdf]], [[https://arxiv.org/abs/1810.13126][arXiv]], [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
@@ -54,6 +56,7 @@
 
 ** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
 :properties:
+:slug: bfunctions
 :with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
 :comment: Mathematical Research Letters 24 (2017), no. 4, 947--954
 :year: 2017
@@ -62,6 +65,7 @@
 
 ** Torus actions and tensor products of intersection cohomology
 :properties:
+:slug: torus
 :comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
 :year: 2015
 :link: [[file:assets/papers/bapat-2015.pdf][pdf]], [[http://arxiv.org/abs/1309.0859][arXiv]], [[http://dx.doi.org/10.2140/pjm.2015.276.19][journal]]
@@ -216,12 +220,14 @@ SCHEDULED: <2021-01-27 Wed>
 :link: [[https://media.ed.ac.uk/playlist/dedicated/51612401/1_ekm4jzrk/1_k02igrw4][video]]
 :end:
 
-** Algebra Seminar
+** Algebra Seminar                                                 :thurston:
 SCHEDULED: <2020-11-30 Mon>
 :properties:
+:shorttitle: UGA
 :location: University of Georgia
 :date: "2020-11-30"
 :category: presentation
+:link: [[file:assets/slides/2020-11-30-uga.pdf][slides]]
 :end:
 
 ** [[https://sites.google.com/view/mooloolaba2020/home][New Connections in Representation Theory]]                        :thurston:
@@ -284,12 +290,14 @@ SCHEDULED: <2018-07-03 Tue>
 :date: "2018-07-03"
 :category: *presentatio:end:
 
-** Pure mathematics seminar
+** Pure mathematics seminar                                     :recollement:
 SCHEDULED: <2018-05-25 Fri>
 :properties:
+:shorttitle: Melbourne
 :location: University of Melbourne
 :date: "2018-05-25"
 :category: presentation
+:link: [[file:assets/slides/2018-May-25-Melbourne.pdf][notes]]
 :end:
 
 ** Future Directions in Representation Theory
@@ -344,20 +352,24 @@ SCHEDULED: <2017-03-24 Fri>
 :category: presentation
 :end:
 
-** Special session on Geometric Methods in Representation Theory, AMS Southeastern Spring Sectional Meeting
+** Special session on Geometric Methods in Representation Theory, AMS Southeastern Spring Sectional Meeting :torus:
 SCHEDULED: <2017-03-10 Fri>
 :properties:
+:shorttitle: AMS special session
 :location: Charleston
 :date: "2017-03-10"
 :category: presentation
+:link: [[file:assets/slides/2017-special-session-talk.pdf][slides]]
 :end:
 
-** Special session on New Developments in Noncommutative Algebra and Representation Theory, AMS Joint Mathematical Meeting
+** Special session on New Developments in Noncommutative Algebra and Representation Theory, AMS Joint Mathematical Meeting :bfunctions:
 SCHEDULED: <2017-01-07 Sat>
 :properties:
+:shorttitle: JMM
 :location: Atlanta
 :date: "2017-01-07"
 :category: presentation
+:link: [[file:assets/slides/2017-jmm-talk.pdf][slides]]
 :end:
 
 ** Mathematics Seminar

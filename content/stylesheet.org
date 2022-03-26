@@ -1,4 +1,4 @@
- #+title: Stylesheet
+#+title: Stylesheet
 #+author: Asilata Bapat
 #+property: header-args:scss :tangle "css/stylesheet.scss"
 
