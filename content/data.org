@@ -124,6 +124,13 @@ SCHEDULED: <2022-05-06 Fri>
 :category: visit
 :end:
 
+** Algebra & discrete mathematics seminar
+SCHEDULED: <2022-05-02 Mon>
+:properties:
+:location: UC Davis, online
+:category: presentation
+:end:
+
 ** [[https://www.fd-seminar.xyz/][FD Seminar]]
 SCHEDULED: <2022-04-28 Thu>
 :properties:
@@ -144,6 +151,7 @@ SCHEDULED: <2022-03-31 Thu>
 :shorttitle: LAGOON
 :location: online
 :category: presentation
+:link: [[file:assets/slides/2022-03-31-lagoon.pdf][slides]]
 :end:
 
 ** [[https://www.imj-prg.fr/gestion/evenement/affEvenement/1][Paris algebra seminar]]                                         :qrationals:
@@ -152,6 +160,7 @@ SCHEDULED: <2022-03-28 Mon 08:00>
 :shorttitle: Paris
 :location: online
 :category: presentation
+:link: [[file:assets/slides/2022-03-28-paris.pdf][slides]]
 :end:
 
 ** [[http://mathserver.neu.edu/~robin/Seminars/GPRT/index.html][Geometry, physics, and representation theory seminar]]           :algorithm:
