@@ -107,6 +107,20 @@
 :end:
 
 * Activities                                                       :activity:
+** [[https://sites.google.com/view/quivers-in-physics][Quivers, representation theory, and physics]]
+SCHEDULED: <2022-09-07 Wed>
+:properties:
+:location: The University of Cologne
+:category: presentation
+:end:
+
+** [[https://ws.amsi.org.au/][AMSI winter school 2022]]
+SCHEDULED: <2022-06-27 Mon>
+:properties:
+:location: The University of Queensland
+:category: presentation
+:end:
+
 ** [[http://www.birs.ca/events/2022/research-in-teams/22rit267][Geometric interpretation and visualization of multi-parameter persistent homology]]
 SCHEDULED: <2022-06-19 Sun>
 :properties:
