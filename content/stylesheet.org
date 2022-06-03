@@ -158,12 +158,20 @@ The layout changes are mainly made via [[https://css-tricks.com/snippets/css/a-g
   @media screen and (min-width: 1000px) {
       body {
           max-width:1000px;
-  
+
           header {
               flex-direction: row;
           }
           .papers {
               flex-direction: row;
+              p:last-child {
+                  flex-basis:9em;
+                  text-align: right;
+              }
+              p:first-child {
+                  flex-basis:auto;
+                  text-align: left;                  
+              }
           }
       }
   }

@@ -16,7 +16,13 @@
     body header {
       flex-direction: row; }
     body .papers {
-      flex-direction: row; } }
+      flex-direction: row; }
+      body .papers p:last-child {
+        flex-basis: 9em;
+        text-align: right; }
+      body .papers p:first-child {
+        flex-basis: auto;
+        text-align: left; } }
 body {
   font-family: Neuton, serif;
   margin-top: 0em;
