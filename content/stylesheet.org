@@ -103,19 +103,23 @@ Later on we can just include the one we want.
   // $blue:      #268bd2;
   // $cyan:      #2aa198;
   // $green:     #859900;
-  
+
+  @mixin current {
+      @include theme(#fffffb, #e6e6e2, #161316, #302d30, #1d58b2, #3772cc, #9c0d38, #9c0d38);
+  }
+
   @mixin solarized-light {
       @include theme(#fdf6e3, #eee8d5, #657b83, #93a1a1, #268bd2, #2aa198, #cb4b16, #d33682);
   }
-  
+
   @mixin solarized-dark {
       @include theme(#002b36, #073642, #839496, #586e75, #268bd2, #2aa198, #cb4b16, #859900);
   }
-  
+
   @mixin zenburn {
       @include theme(#3F3F3F, #4F4F4F, #DCDCCC, #656555, #8CD0D3, #7CB8BB, #CC9393, #7F9F7F);
   }
-  
+
   @mixin print {
       @include theme(#fff, #fff, #000, #000, #000, #000, #000, #000);
   }
@@ -135,7 +139,7 @@ The layout changes are mainly made via [[https://css-tricks.com/snippets/css/a-g
   @media screen and (max-width: 480px) {
       body {
           max-width:95%;
-          font-size:100%;
+          font-size:110%;
       }
   }
   @media screen and (min-width: 480px) {
@@ -148,7 +152,7 @@ The layout changes are mainly made via [[https://css-tricks.com/snippets/css/a-g
           .intro {
               flex-direction: row-reverse;
           }
-          font-size:110%;
+          font-size:120%;
       }
   }
   @media screen and (min-width: 1000px) {
@@ -314,9 +318,9 @@ Footer style and other miscellany.
       padding-top:0.3em;
   }
   #mypicture {
-      width:15em;
+      width:10em;
       @media screen and (min-width: 960px) {
-          width: 20em;
+          width: 15em;
       }
       @media screen and (max-width: 480px) {
           margin-left: 0;
@@ -330,7 +334,7 @@ Footer style and other miscellany.
 
 Include the colour themes previously defined.  
 #+begin_src scss
-  @include solarized-light;
+  @include current;
 
   // Print stylesheet
   @media print {
