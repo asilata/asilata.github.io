@@ -28,7 +28,6 @@ My papers and preprints are on my [[file:research.org][research page]].
 I am not teaching this semester. Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
-I am visiting [[https://icerm.brown.edu/][ICERM]] in Providence, RI (USA) until May 2022 for the semester program on [[https://icerm.brown.edu/programs/sp-s22/][Braids]].
 #+begin_src emacs-lisp :results value raw :exports results :session
   (string-join
    (reverse
@@ -39,8 +38,7 @@ I am visiting [[https://icerm.brown.edu/][ICERM]] in Providence, RI (USA) until 
    "\n")
 #+end_src
 
-I am in the process of rewriting the MSI LaTeX templates for exams using [[https://orgmode.org/worg/org-contrib/babel/][org-babel]]. It is very much a work in progress, but you can view the source code (at your own risk) in [[https://github.com/asilata/msi-exam-template/][the Github repository]].
+I +am+ was at one point rewriting the MSI LaTeX templates for exams using [[https://orgmode.org/worg/org-contrib/babel/][org-babel]]. It is very much a work in progress, but you can view the source code (at your own risk) in [[https://github.com/asilata/msi-exam-template/][the Github repository]].
 
 Older activities are listed on my [[file:activities.org][activities page]].
 
-/This website is being reworked. Links may be broken./

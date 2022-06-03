@@ -11,21 +11,21 @@
 :end:
 
 * Papers                                                              :paper:
-** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
-:properties:
-:with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Preprint.
-:year: 2022
-:slug: qrationals
-:link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
-:end:
-
 ** Morse-based fibering of the persistence rank invariant
 :properties:
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]
-:comment: Preprint.
-:year: 2020
-:link: [[https://arxiv.org/abs/2011.14967][arXiv]]
+:comment: Research in Computational Topology 2 (2022), pp. 27--62
+:year: 2022
+:link: [[https://arxiv.org/abs/2011.14967][arXiv]], [[http://dx.doi.org/10.1007/978-3-030-95519-9_2][journal]]
+:end:
+
+** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
+:properties:
+:with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Submitted.
+:year: 2022
+:slug: qrationals
+:link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
 
 ** A Thurston compactification of the space of stability conditions
@@ -40,7 +40,7 @@
 ** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Preprint.
+:comment: Submitted.
 :year: 2020
 :slug: algorithm
 :link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
@@ -107,6 +107,13 @@
 :end:
 
 * Activities                                                       :activity:
+** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]]
+SCHEDULED: <2022-08-12 Fri>
+:properties:
+:location: The University of Oregon
+:category: presentation
+:end:
+
 ** [[https://sites.google.com/view/quivers-in-physics][Quivers, representation theory, and physics]]
 SCHEDULED: <2022-09-07 Wed>
 :properties:
@@ -126,7 +133,6 @@ SCHEDULED: <2022-06-19 Sun>
 :properties:
 :location: Banff International Research Station
 :category: visit
-:comment: tentative
 :end:
 
 ** [[https://icerm.brown.edu/programs/sp-s22/][Braids]]
