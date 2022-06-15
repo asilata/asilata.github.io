@@ -223,7 +223,7 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
         uses: actions/checkout@v2
 
       - name: build on emacs
-        uses: docker://silex/emacs
+        uses: docker://iquiv/alpine-emacs
         if: github.event.deleted == false
         with:
           args: ./build.sh
