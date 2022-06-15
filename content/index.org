@@ -1,6 +1,5 @@
 #+title: Home
 #+author: Asilata Bapat
-#+setupfile: setup.org
 
 #+begin_intro
 #+attr_html: :id mypicture :alt Asilata Bapat
