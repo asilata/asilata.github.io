@@ -200,7 +200,7 @@ Now publish!
 
 We also create a shell script to run the above lisp file.
 #+begin_src shell :tangle "build.sh" :shebang "#!/bin/bash"
-  emacs -Q --batch --eval '(org-mode)' -l build.el
+  emacs --batch -l build.el
 #+end_src
 
 * TODO Building on Github
@@ -225,7 +225,7 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
       - name: Install emacs
         uses: purcell/setup-emacs@master
         with:
-          version: 28.1
+          version: 27.1
 
       - name: Build website
         run: ./build.sh
