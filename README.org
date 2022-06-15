@@ -200,7 +200,7 @@ Now publish!
 
 We also create a shell script to run the above lisp file.
 #+begin_src shell :tangle "build.sh" :shebang "#!/bin/bash"
-  emacs -Q --script build.el
+  emacs -Q --batch --eval '(org-mode)' -l build.el
 #+end_src
 
 * TODO Building on Github

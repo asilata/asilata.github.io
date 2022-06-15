@@ -1,2 +1,2 @@
 #!/bin/bash
-emacs -Q --script build.el
+emacs -Q --batch --eval '(org-mode)' -l build.el
