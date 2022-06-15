@@ -225,7 +225,7 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
       - name: Install emacs
         uses: purcell/setup-emacs@master
         with:
-          version: 27.1
+          version: 27.2
 
       - name: Build website
         run: ./build.sh
