@@ -21,7 +21,9 @@ My research focuses on problems in representation theory and algebraic geometry.
 I am particularly interested in the topology, geometry, and combinatorics of spaces naturally arising from representation theory.
 Recently I have been thinking about Bridgeland stability conditions on triangulated categories, and associated braid group actions.
 Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
+
 My papers and preprints are on my [[file:research.org][research page]].
+A CV is available [[file:cv.org][here (html)]].
 
 ** Teaching
 I am not teaching this semester. Older teaching is listed on my [[file:teaching.org][teaching page]].
