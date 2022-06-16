@@ -106,7 +106,7 @@
 :link: [[https://arxiv.org/abs/2011.14967][arXiv]], [[http://dx.doi.org/10.1007/978-3-030-95519-9_2][journal]]
 :end:
 
-** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
+** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\) :paper:
 :properties:
 :with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
 :comment: Submitted.
@@ -115,7 +115,16 @@
 :link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
 
-** A Thurston compactification of the space of stability conditions
+** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories :paper:
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Submitted.
+:year: 2021
+:slug: algorithm
+:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
+:end:
+
+** A Thurston compactification of the space of stability conditions    :paper:
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
 :comment: Preprint.
@@ -124,16 +133,7 @@
 :link: [[file:assets/papers/a2-compactification.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
 :end:
 
-** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
-:properties:
-:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Submitted.
-:year: 2020
-:slug: algorithm
-:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
-:end:
-
-** Recollement for perverse sheaves on real hyperplane arrangements
+** Recollement for perverse sheaves on real hyperplane arrangements    :paper:
 :properties:
 :slug: recollement
 :comment: Journal of Algebra, 568 (2021), pp. 61--90
@@ -141,7 +141,7 @@
 :link: [[file:assets/papers/recollements-2018.pdf][pdf]], [[https://arxiv.org/abs/1810.13126][arXiv]], [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
 :end:
 
-** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
+** The strong topological monodromy conjecture for Coxeter hyperplane arrangements :paper:
 :properties:
 :slug: bfunctions
 :with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
@@ -150,7 +150,7 @@
 :link: [[file:assets/papers/bapat-walters-2015.pdf][pdf]], [[http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1][journal]]
 :end:    
 
-** Torus actions and tensor products of intersection cohomology
+** Torus actions and tensor products of intersection cohomology        :paper:
 :properties:
 :slug: torus
 :comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
@@ -158,24 +158,7 @@
 :link: [[file:assets/papers/bapat-2015.pdf][pdf]], [[http://arxiv.org/abs/1309.0859][arXiv]], [[http://dx.doi.org/10.2140/pjm.2015.276.19][journal]]
 :end:
 
-** Lower central series of free algebras in symmetric tensor categories
-:properties:
-:with: [[http://www.maths.ed.ac.uk/~djordan/][David Jordan]]
-:comment: Journal of Algebra, 373 (2013), pp. 299--311
-:year: 2013
-:link: [[file:assets/papers/bapat-jordan-2013.pdf][pdf]], [[http://arxiv.org/abs/1001.1375][arXiv]], [[http://dx.doi.org/10.1016/j.jalgebra.2012.10.001][journal]]
-:end:
-
-
-* Not for publication                                                   :nfp:
-** Equivariant cohomology and the localization theorem
-:properties:
-:comment: Topic proposal (expository).
-:year: 2011
-:link: [[file:assets/papers/topic-proposal.pdf][pdf]]
-:end:
-
-** The Bernstein-Sato \(b\)-function of the Vandermonde determinant
+** The Bernstein-Sato \(b\)-function of the Vandermonde determinant      :nfp:
 :properties:
 :with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
 :comment: Preprint (not for publication).
@@ -183,10 +166,29 @@
 :link: [[http://arxiv.org/abs/1503.01055][arXiv]]
 :end:
 
+** Lower central series of free algebras in symmetric tensor categories :paper:
+:properties:
+:with: [[http://www.maths.ed.ac.uk/~djordan/][David Jordan]]
+:comment: Journal of Algebra, 373 (2013), pp. 299--311
+:year: 2013
+:link: [[file:assets/papers/bapat-jordan-2013.pdf][pdf]], [[http://arxiv.org/abs/1001.1375][arXiv]], [[http://dx.doi.org/10.1016/j.jalgebra.2012.10.001][journal]]
+:end:
 
+** Equivariant cohomology and the localization theorem                   :nfp:
+:properties:
+:comment: Topic proposal (expository).
+:year: 2011
+:link: [[file:assets/papers/topic-proposal.pdf][pdf]]
+:end:
 
-* Code                                                                 :code:
-** Categorical braid group actions
+** The sphere of spherical objects                                :inprogress:
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: In progress.
+:slug: sphericals
+:end:
+
+** Categorical braid group actions                                      :code:
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]]
 :comment: This sage code computes the braid group action on the triangulated category of complexes of projective modules over the zig-zag algebra of a quiver.
