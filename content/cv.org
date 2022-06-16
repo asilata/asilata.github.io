@@ -1,0 +1,111 @@
+#+title: Curriculum vitae
+#+author: Asilata Bapat
+#+startup: noptag content
+
+* {{{title}}}
+
+** Employment
+#+begin_src emacs-lisp :results silent :exports results
+  (defun pp-employment ()
+    "Pretty-print the current employment item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (date (org-entry-get nil "date"))
+          (comment (org-entry-get nil "comment")))
+      (format "#+begin_papers\n**%s**%s\n\n%s\n#+end_papers"
+              title
+              (if comment (concat "\\\\\n" comment) "")
+              date)))
+#+end_src
+
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-employment
+    "employment+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Education
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-employment
+    "education+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+
+** Career interruptions
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-employment
+    "interruptions+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Preprints and publications
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-research-output
+    "paper+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Grants and awards
+#+begin_src emacs-lisp :results silent :exports results
+  (defun pp-award ()
+    "Pretty-print the award item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (date (org-entry-get nil "date"))
+          (location (org-entry-get nil "location"))
+          )
+      (format "- **%s**: %s%s"
+              date
+              title
+              (if location (concat ", " location) "")
+      )))
+#+end_src
+
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-award
+    "awards+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+** Teaching
+#+begin_src emacs-lisp :results silent :exports results
+  (defun pp-course-location ()
+    "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (display-date (org-entry-get nil "display-date"))
+          (comment (org-entry-get nil "comment"))
+          (shortlocation (org-entry-get nil "shortlocation"))                    
+          (location (org-entry-get nil "location"))          
+          )
+      (format "- **%s**: %s %s%s"
+              display-date
+              title
+              (if (or (not comment) (string-equal comment ""))
+                  ""
+                comment)
+              (concat "— " (if shortlocation shortlocation location)))
+      ))  
+#+end_src
+
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-course-location
+    "teaching+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
