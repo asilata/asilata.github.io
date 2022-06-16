@@ -2,16 +2,103 @@
 #+author: Asilata Bapat
 #+startup: noptag overview
 
-* Work in progress                                               :inprogress:
-** The sphere of spherical objects
+* Employment                                                     :employment:
+** The Australian National University
 :properties:
-:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: In progress.
-:slug: sphericals
+:comment: Lecturer (tenure track).
+:date: 2018–
 :end:
 
-* Papers                                                              :paper:
-** Morse-based fibering of the persistence rank invariant
+** University of Georgia
+:properties:
+:comment: Limited-term assistant professor.
+:date: 2016–2017
+:end:
+
+* Education                                                       :education:
+** The University of Chicago
+:properties:
+:date: 2010–2016
+:comment: M.S. in Mathematics (June 2012). PhD in Mathematics (June 2016). Advised by Victor Ginzburg.
+:end:
+
+** Massachusetts Institute of Technology
+:properties:
+:date: 2006–2010
+:comment: B.S. in Mathematics with Computer Science.
+:end:
+
+* Career interruptions                                        :interruptions:
+** Maternity leave
+:properties:
+:date: Jul 2019–Jan 2020
+:end:
+
+* Grants and awards                                                  :awards:
+** Dean's commendation for Excellence in Education (for Teaching Excellence)
+:properties:
+:date: 2021
+:location: ANU
+:end:
+
+** AMS–Simons travel grant
+:properties:
+:date: 2016–2018
+:end:
+
+** Nadine Kowalsky Prize
+:properties:
+:date: 2016
+:location: UChicago
+:end:
+
+** DAAD (German Academic Exchange Service) short-term research grant
+:properties:
+:date: 2015
+:end:
+
+** Jerry Rao Fellowship
+:properties:
+:date: 2014–2015
+:location: UChicago
+:end:
+
+** Lawrence and Josephine Graves Teaching Prize
+:properties:
+:date: 2014
+:location: UChicago
+:end:
+
+** Amick Fellowship
+:properties:
+:date: 2010–2012
+:location: UChicago
+:end:
+
+** Phi Beta Kappa
+:properties:
+:date: 2010
+:location: MIT
+:end:
+
+** Rogers prize for best paper, Summer Program in Undergraduate Research
+:properties:
+:date: 2009
+:location: MIT
+:end:
+
+** Indian National Mathematical Olympiad scholarship
+:properties:
+:date: 2005
+:end:
+
+** Gold and silver medals, International Astronomy Olympiad, as a member of the Indian delegation
+:properties:
+:date: 2003, 2005
+:end:
+
+* Research outputs
+** Morse-based fibering of the persistence rank invariant              :paper:
 :properties:
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]
 :comment: Research in Computational Topology 2 (2022), pp. 27--62
