@@ -65,7 +65,7 @@ We do this via a [[https://sass-lang.com/documentation/at-rules/mixin][mixin]] c
           border-color: $fg-faded;
           a, a:active, a:visited { color: $link-faded; }
       }
-      .papers {
+      .papers, .cvitem {
           ul {
               background: $bg-faded;
           }
@@ -162,7 +162,7 @@ The layout changes are mainly made via [[https://css-tricks.com/snippets/css/a-g
           header {
               flex-direction: row;
           }
-          .papers {
+          .papers, .cvitem {
               flex-direction: row;
               p:last-child {
                   flex-basis:9em;
@@ -230,18 +230,27 @@ Now style individual divs.
           }
       }
   }
-  .papers {
+  .papers, .cvitem {
       padding: 0em;
       margin: 0em;
-      border-top: dotted 0.1em;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+  }
+  .cvitem {
+      p {
+          padding: 0em;
+          margin: 0.2em 0em;
+      }
+  }
+  .papers {
+      border-top: dotted 0.1em;
       p {
           padding: 0em;
           margin: 0.5em 0em;
-      }
+      }      
   }
+
   .bibliography {
       table {
           text-align: left;
@@ -284,13 +293,13 @@ Now style the header, intro, and navigation.
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-  
+
       margin-top:0em;
       margin-bottom: 2em;
       padding-top: 0.5em;
       padding-bottom: 0.2em;
       //border-bottom: solid 0.15em;
-  
+
       h1 {
           text-align: center;
           margin: 0em;

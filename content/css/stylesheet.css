@@ -15,12 +15,12 @@
     max-width: 1000px; }
     body header {
       flex-direction: row; }
-    body .papers {
+    body .papers, body .cvitem {
       flex-direction: row; }
-      body .papers p:last-child {
+      body .papers p:last-child, body .cvitem p:last-child {
         flex-basis: 9em;
         text-align: right; }
-      body .papers p:first-child {
+      body .papers p:first-child, body .cvitem p:first-child {
         flex-basis: auto;
         text-align: left; } }
 body {
@@ -62,13 +62,19 @@ figure {
     border-top: 0.1em solid;
     border-bottom: 0.1em solid; }
 
-.papers {
+.papers, .cvitem {
   padding: 0em;
   margin: 0em;
-  border-top: dotted 0.1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.cvitem p {
+  padding: 0em;
+  margin: 0.2em 0em; }
+
+.papers {
+  border-top: dotted 0.1em; }
   .papers p {
     padding: 0em;
     margin: 0.5em 0em; }
@@ -182,7 +188,7 @@ footer {
   footer a, footer a:active, footer a:visited {
     color: #3772cc; }
 
-.papers ul {
+.papers ul, .cvitem ul {
   background: #e6e6e2; }
 
 .bibliography table tbody > tr:nth-child(odd), .classplan table tbody > tr:nth-child(odd) {
@@ -245,7 +251,7 @@ footer {
     footer a, footer a:active, footer a:visited {
       color: #000; }
 
-  .papers ul {
+  .papers ul, .cvitem ul {
     background: #fff; }
 
   .bibliography table tbody > tr:nth-child(odd), .classplan table tbody > tr:nth-child(odd) {

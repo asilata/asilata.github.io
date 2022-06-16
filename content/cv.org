@@ -11,7 +11,7 @@
     (let ((title (org-entry-get nil "ITEM"))
           (date (org-entry-get nil "date"))
           (comment (org-entry-get nil "comment")))
-      (format "#+begin_papers\n**%s**%s\n\n%s\n#+end_papers"
+      (format "#+begin_cvitem\n*%s*%s\n\n%s\n#+end_cvitem"
               title
               (if comment (concat "\\\\\n" comment) "")
               date)))
@@ -65,7 +65,7 @@
           (date (org-entry-get nil "date"))
           (location (org-entry-get nil "location"))
           )
-      (format "- **%s**: %s%s"
+      (format "- *%s*: %s%s"
               date
               title
               (if location (concat ", " location) "")
@@ -91,7 +91,7 @@
           (shortlocation (org-entry-get nil "shortlocation"))                    
           (location (org-entry-get nil "location"))          
           )
-      (format "- **%s**: %s %s%s"
+      (format "- *%s*: %s %s%s"
               display-date
               title
               (if (or (not comment) (string-equal comment ""))
