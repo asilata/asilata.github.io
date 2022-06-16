@@ -647,6 +647,7 @@ SCHEDULED: <2011-09-01 Thu>
 SCHEDULED: <2021-11-19 Fri>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :display-date: 2021 Spring Semester     
 :end:
 
@@ -654,6 +655,7 @@ SCHEDULED: <2021-11-19 Fri>
 SCHEDULED: <2021-07-26 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :display-date: 2021 Semester 2
 :end:
 
@@ -661,6 +663,7 @@ SCHEDULED: <2021-07-26 Mon>
 SCHEDULED: <2021-01-04 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2021-01-04"
 :display-date: 2021 Summer Session
 :end:
@@ -669,6 +672,7 @@ SCHEDULED: <2021-01-04 Mon>
 SCHEDULED: <2020-11-23 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2020-11-23"
 :display-date: 2020 Spring Semester     
 :end:
@@ -677,6 +681,7 @@ SCHEDULED: <2020-11-23 Mon>
 SCHEDULED: <2020-02-24 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2020-02-24"
 :display-date: 2020 Semester 1
 :end:
@@ -685,6 +690,7 @@ SCHEDULED: <2020-02-24 Mon>
 SCHEDULED: <2020-02-24 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2020-02-24"
 :display-date: 2020 Semester 2
 :end:
@@ -693,6 +699,7 @@ SCHEDULED: <2020-02-24 Mon>
 SCHEDULED: <2019-02-25 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2019-02-25"
 :display-date: 2019 Semester 1
 :end:
@@ -701,6 +708,7 @@ SCHEDULED: <2019-02-25 Mon>
 SCHEDULED: <2018-12-01 Sat>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2018-12-01"
 :display-date: 2018–2019 Summer Session
 :end:
@@ -709,6 +717,7 @@ SCHEDULED: <2018-12-01 Sat>
 SCHEDULED: <2018-07-23 Mon>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2018-07-23"
 :display-date: 2018 Semester 2
 :end:
@@ -717,6 +726,7 @@ SCHEDULED: <2018-07-23 Mon>
 SCHEDULED: <2018-02-20 Tue>
 :properties:
 :location: Australian National University
+:shortlocation: ANU
 :date: "2018-02-20"
 :display-date: 2018 Semester 1
 :end:
@@ -725,6 +735,7 @@ SCHEDULED: <2018-02-20 Tue>
 SCHEDULED: <2017-08-14 Mon>
 :properties:
 :location: University of Georgia
+:shortlocation: UGA
 :date: "2017-08-14"
 :display-date: Fall 2017
 :end:
@@ -733,6 +744,7 @@ SCHEDULED: <2017-08-14 Mon>
 SCHEDULED: <2017-08-14 Mon>
 :properties:
 :location: University of Georgia
+:shortlocation: UGA
 :date: "2017-08-14"
 :display-date: Fall 2017
 :end:
@@ -741,6 +753,7 @@ SCHEDULED: <2017-08-14 Mon>
 SCHEDULED: <2017-01-05 Thu>
 :properties:
 :location: University of Georgia
+:shortlocation: UGA
 :date: "2017-01-05"
 :display-date: Spring 2017
 :end:
@@ -749,6 +762,7 @@ SCHEDULED: <2017-01-05 Thu>
 SCHEDULED: <2016-09-05 Mon>
 :properties:
 :location: University of Georgia
+:shortlocation: UGA
 :date: "2016-09-05"
 :display-date: Fall 2016
 :end:
@@ -757,6 +771,7 @@ SCHEDULED: <2016-09-05 Mon>
 SCHEDULED: <2015-09-01 Tue>
 :properties:
 :location: University of Chicago
+:shortlocation: UChicago
 :date: "2015-09-01"
 :display-date: 2015--2016
 :end:
@@ -774,6 +789,7 @@ SCHEDULED: <2015-07-05 Sun>
 SCHEDULED: <2014-09-01 Mon>
 :properties:
 :location: University of Chicago
+:shortlocation: UChicago
 :date: "2014-09-01"
 :display-date: 2014--2015
 :end:
@@ -782,6 +798,7 @@ SCHEDULED: <2014-09-01 Mon>
 SCHEDULED: <2014-06-01 Sun>
 :properties:
 :location: University of Chicago
+:shortlocation: UChicago
 :date: "2014-06-01"
 :display-date: Summer 2014
 :end:
@@ -790,6 +807,7 @@ SCHEDULED: <2014-06-01 Sun>
 SCHEDULED: <2013-09-01 Sun>
 :properties:
 :location: University of Chicago
+:shortlocation: UChicago
 :date: "2013-09-01"
 :display-date: 2013--2014
 :end:
@@ -807,6 +825,7 @@ SCHEDULED: <2013-07-01 Mon>
 SCHEDULED: <2012-09-01 Sat>
 :properties:
 :location: University of Chicago
+:shortlocation: UChicago
 :date: "2012-09-01"
 :display-date: 2012--2013
 :end:
@@ -824,6 +843,7 @@ SCHEDULED: <2012-07-01 Sun>
 SCHEDULED: <2011-09-01 Thu>
 :properties:
 :location: University of Chicago
+:shortlocation: UChicago
 :date: "2011-09-01"
 :display-date: 2011--2012
 :end:
