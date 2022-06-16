@@ -120,7 +120,7 @@ First, for courses.
           (display-date (org-entry-get nil "display-date"))
           (comment (org-entry-get nil "comment"))
           )
-      (format "- **%s**: %s %s"
+      (format "- *%s*: %s %s"
               display-date
               title
               (if (or (not comment) (string-equal comment ""))
@@ -158,13 +158,13 @@ Next, for research outputs (papers, code, etc).
           (comment (org-entry-get nil "comment"))
           (links (org-entry-get nil "link"))
           (slug (org-entry-get nil "slug")))
-      (format "#+begin_papers\n**%s**%s%s%s\n\n%s\n#+end_papers"
+      (format "#+begin_papers\n*%s*%s%s%s\n\n%s\n#+end_papers"
               title
               (if (or (not with) (string-equal with ""))
                   ""
                 (format " (with %s)" with))
               (if comment (concat "\\\\\n" comment) "")
-              (if slug (concat "\\\\\n**Talks:** "(paper-to-talks slug)) "")
+              (if slug (concat "\\\\\n*Talks:* "(paper-to-talks slug)) "")
               (if links (format "(%s)" links) ""))))
 #+end_src
 Finally, for activities (talks and organisation).
@@ -178,7 +178,7 @@ Finally, for activities (talks and organisation).
           (location (org-entry-get nil "location"))
           (links (org-entry-get nil "link"))
           (comment (org-entry-get nil "comment")))
-      (format "- **%s**: %s%s%s%s%s"
+      (format "- *%s*: %s%s%s%s%s"
               (if display-date display-date
                 (org-format-time-string "%b %Y" scheduled))
               title
