@@ -107,17 +107,17 @@
 :end:
 
 * Activities                                                       :activity:
-** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]]
-SCHEDULED: <2022-08-12 Fri>
-:properties:
-:location: The University of Oregon
-:category: presentation
-:end:
-
 ** [[https://sites.google.com/view/quivers-in-physics][Quivers, representation theory, and physics]]
 SCHEDULED: <2022-09-07 Wed>
 :properties:
 :location: The University of Cologne
+:category: presentation
+:end:
+
+** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]]
+SCHEDULED: <2022-08-12 Fri>
+:properties:
+:location: The University of Oregon
 :category: presentation
 :end:
 
