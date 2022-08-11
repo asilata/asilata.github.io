@@ -3,6 +3,13 @@
 #+startup: noptag overview
 
 * Work in progress                                               :inprogress:
+** A contracting flow on the stability manifold in type \(A\)
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: In progress.
+:slug: flow
+:end:
+
 ** The sphere of spherical objects
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
@@ -107,16 +114,17 @@
 :end:
 
 * Activities                                                       :activity:
-** [[https://sites.google.com/view/quivers-in-physics][Quivers, representation theory, and physics]]
-SCHEDULED: <2022-09-07 Wed>
+** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]
+SCHEDULED: <2022-12-02 Fri>
 :properties:
-:location: The University of Cologne
+:location: University of Sydney
 :category: presentation
 :end:
 
-** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]]
+** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]] :flow:
 SCHEDULED: <2022-08-12 Fri>
 :properties:
+:shorttitle: QUACKS II
 :location: The University of Oregon
 :category: presentation
 :end:
@@ -126,6 +134,7 @@ SCHEDULED: <2022-06-27 Mon>
 :properties:
 :location: The University of Queensland
 :category: presentation
+:link: [[file:assets/slides/2022-07-01-amsi.pdf][notes]]
 :end:
 
 ** [[http://www.birs.ca/events/2022/research-in-teams/22rit267][Geometric interpretation and visualization of multi-parameter persistent homology]]
@@ -144,18 +153,22 @@ SCHEDULED: <2022-05-06 Fri>
 :category: visit
 :end:
 
-** Algebra & discrete mathematics seminar
+** Algebra & discrete mathematics seminar :sphericals:
 SCHEDULED: <2022-05-02 Mon>
 :properties:
+:shorttitle: Davis
 :location: UC Davis, online
 :category: presentation
+:link: [[file:assets/slides/2022-05-02-davis.pdf][slides]]
 :end:
 
-** [[https://www.fd-seminar.xyz/][FD Seminar]]
+** [[https://www.fd-seminar.xyz/][FD Seminar]] :thurston:algorithm:
 SCHEDULED: <2022-04-28 Thu>
 :properties:
+:shorttitle: FD Seminar
 :location: online
 :category: presentation
+:link: [[file:assets/slides/2022-04-28-fdseminar.pdf][slides]]
 :end:
 
 ** [[http://women-in-ncalg-repthy.org/conferences/winart3-workshop/][Women in noncommutative algebra and representation theory workshop 3]]
