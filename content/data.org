@@ -115,7 +115,7 @@
 
 * Activities                                                       :activity:
 ** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]
-SCHEDULED: <2022-12-02 Fri>
+SCHEDULED: <2022-11-28 Mon>
 :properties:
 :location: University of Sydney
 :category: presentation
