@@ -80,7 +80,7 @@ Page generated using %c. Last modified on %C. Source on <a href=\"https://github
         (display-date (org-entry-get nil "display-date"))
         (comment (org-entry-get nil "comment"))
         )
-    (format "- **%s**: %s %s"
+    (format "- *%s*: %s %s"
             display-date
             title
             (if (or (not comment) (string-equal comment ""))
@@ -115,13 +115,13 @@ Page generated using %c. Last modified on %C. Source on <a href=\"https://github
         (comment (org-entry-get nil "comment"))
         (links (org-entry-get nil "link"))
         (slug (org-entry-get nil "slug")))
-    (format "#+begin_papers\n**%s**%s%s%s\n\n%s\n#+end_papers"
+    (format "#+begin_papers\n*%s*%s%s%s\n\n%s\n#+end_papers"
             title
             (if (or (not with) (string-equal with ""))
                 ""
               (format " (with %s)" with))
             (if comment (concat "\\\\\n" comment) "")
-            (if slug (concat "\\\\\n**Talks:** "(paper-to-talks slug)) "")
+            (if slug (concat "\\\\\n*Talks:* "(paper-to-talks slug)) "")
             (if links (format "(%s)" links) ""))))
 
 (defun pp-activity ()
@@ -133,7 +133,7 @@ Page generated using %c. Last modified on %C. Source on <a href=\"https://github
         (location (org-entry-get nil "location"))
         (links (org-entry-get nil "link"))
         (comment (org-entry-get nil "comment")))
-    (format "- **%s**: %s%s%s%s%s"
+    (format "- *%s*: %s%s%s%s%s"
             (if display-date display-date
               (org-format-time-string "%b %Y" scheduled))
             title
