@@ -24,7 +24,7 @@ Specific topics of interest include Bridgeland stability conditions, perverse sh
 My papers and preprints are on my [[file:research.org][research page]].
 
 ** Teaching
-I am not teaching this semester. Older teaching is listed on my [[file:teaching.org][teaching page]].
+I am teaching [[https://programsandcourses.anu.edu.au/2022/course/MATH2301][MATH2301]] (Games, Graphs, and Machines) in Semester 2, 2022. Course notes are available [[https://asilata.github.io/ggm/2022][here]]. Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
 #+begin_src emacs-lisp :results value raw :exports results :session
