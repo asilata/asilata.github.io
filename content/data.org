@@ -3,6 +3,12 @@
 #+startup: noptag overview
 
 * Work in progress                                               :inprogress:
+** Computing the matching distance of 2-parameter persistence modules from critical values
+:properties:
+:with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]], Elisabeth Stephenson
+:comment: In progress.
+:end:
+
 ** A contracting flow on the stability manifold in type \(A\)
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
