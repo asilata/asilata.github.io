@@ -44,7 +44,7 @@
 ** A Thurston compactification of the space of stability conditions
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Preprint.
+:comment: Submitted.
 :slug: thurston
 :year: 2020
 :link: [[file:assets/papers/a2-compactification.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
@@ -124,6 +124,14 @@
 SCHEDULED: <2022-11-28 Mon>
 :properties:
 :location: University of Sydney
+:category: presentation
+:end:
+
+** Lie groups seminar
+SCHEDULED: <2022-11-08 Mon>
+:properties:
+:shorttitle: MIT
+:location: Massachusetts Institute of Technology, online
 :category: presentation
 :end:
 
