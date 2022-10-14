@@ -8,6 +8,22 @@
 #+latex_header_extra: \address{Mathematical Sciences Institute, The Australian National University}
 #+latex_header_extra: \email{asilata.bapat@anu.edu.au} \homepage{https://asilata.github.io} \phone{02 6125 7320}
 
+#+name: export-setup
+#+begin_src emacs-lisp :results silent :exports none
+  (setq-local org-latex-with-hyperref nil)
+  (add-to-list 'org-latex-classes
+               `("moderncv"
+                 ,(string-join
+                   '("\\documentclass[a4paper]{moderncv}"
+                     "[NO-DEFAULT-PACKAGES]"
+                     "\\usepackage{amsmath,amssymb}")
+                   "\n")
+                 ("\\section{%s}" . "\\section*{%s}")
+                 ("\\subsection{%s}" . "\\subsection*{%s}")
+                 ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                 ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+#+end_src
+
 * Education
 #+begin_src emacs-lisp :results value raw :exports results
   (defun pp-education-cv ()
@@ -18,7 +34,7 @@
       (format "- *%s*: %s"
               (if date date)
               (if title title)
-              (if comment (concat "\\\\n  " + comment)))
+              (if comment (concat "\\\\n  " comment)))
       ))
 
   (string-join
@@ -57,6 +73,22 @@
 #+end_src
 
 * Teaching
+#+begin_src emacs-lisp :results silent :exports results
+  (defun pp-course ()
+  "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
+  (let ((title (org-entry-get nil "ITEM"))
+        (display-date (org-entry-get nil "display-date"))
+        (comment (org-entry-get nil "comment"))
+        )
+    (format "- *%s*: %s %s"
+            display-date
+            title
+            (if (or (not comment) (string-equal comment ""))
+                ""
+              comment))
+    ))
+#+end_src
+
 ** Australian National University
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
@@ -98,7 +130,7 @@
    "\n")
 #+end_src
 
-* Talks and presentations :noexport:
+* Talks and presentations
 #+begin_src emacs-lisp :results value raw :exports results
   (defun pp-activity-cv ()
     "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
@@ -129,5 +161,5 @@
 
 * Local variables                                                  :noexport:
 # Local variables:
-# eval: (add-hook 'org-export-before-processing-hook (lambda (be) (org-babel-ref-resolve "export-setup")) nil t)
+# eval: (add-hook 'org-export-before-processing-functions (lambda (be) (org-babel-ref-resolve "export-setup")) nil t)
 # End:
