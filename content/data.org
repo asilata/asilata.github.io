@@ -2,6 +2,98 @@
 #+author: Asilata Bapat
 #+startup: noptag overview
 
+* Education                                                       :education:
+** The University of Chicago
+:properties:
+:date: 2010--2016
+:degree: PhD in Mathematics.
+:comment: Advisor: Victor Ginzburg.
+:location: Chicago, IL
+:end:
+
+** The University of Chicago
+:properties:
+:date: 2010--2012
+:degree: MS in Mathematics.
+:location: Chicago, IL
+:end:
+
+** Massachusetts Institute of Technology
+:properties:
+:date: 2006--2010
+:degree: SB (Bachelor of Science) in Mathematics with Computer Science.
+:location: Cambridge, MA
+:comment: GPA 4.9 out of 5.
+:end:
+
+* Employment                                                     :employment:
+** Australian National University (ANU)
+:properties:
+:date: 2018--
+:job: Lecturer (Level B)
+:department: Mathematical Sciences Institute
+:location: Canberra
+:end:
+
+** University of Georgia (UGA)
+:properties:
+:date: 2016--2017
+:job: Assistant Professor (Limited Term)
+:department: Department of Mathematics
+:location: Athens, GA
+:end:
+
+* Academic awards                                                     :award:
+** Dean's Commendation for Excellence in Education (for Teaching Excellence), ANU, 2021.
+:properties:
+:longcomment: College award at ANU for excellence in teaching.
+:end:
+  
+** Nadine Kowalsky Fellowship, University of Chicago, 2016.
+:properties:
+:longcomment: Departmental award at the University of Chicago for excellent research towards the PhD dissertation. Awarded USD 4500 and teaching leave for one quarter.
+
+
+** Jerry Rao Fellowship, University of Chicago, 2014--2015.
+:properties:
+:longcomment: University award at the University of Chicago in recognition of achievement and professional promise, for an Indian student in the Physical Sciences Division. Awarded USD 10000.
+:end:
+
+** Young Researcher at the 2nd Heidelberg Laureate Forum, Heidelberg, Germany, 2014.
+:properties:
+:longcomment: One of 200 young researchers selected from around the world to attend the HLF in Heidelberg, fully funded.
+:end:
+
+** Lawrence and Josephine Graves Teaching Prize, University of Chicago, 2014.
+:properties:
+:longcomment: Departmental award at the University of Chicago for excellence in undergraduate teaching. Awarded USD 750.
+:end:
+
+** Amick Fellowship, University of Chicago, 2010--2012.
+:properties:
+:longcomment: Departmental award at the University of Chicago for a promising incoming graduate student. Awarded USD 9000.
+:end:
+
+** Phi Beta Kappa, MIT, 2010.
+:properties:
+:longcomment: Honour society membership awarded as a university award at MIT, for the top 10\% of undergraduates.
+:end:
+
+** Rogers Prize for best paper, Summer Program in Undergraduate Research, MIT, 2009.
+:properties:
+:longcomment: Departmental award at MIT for best summer research.
+:end:
+
+** Indian National Mathematical Olympiad (INMO) scholarship, 2005.
+:properties:
+:longcomment: Awarded to approximately 30 high school students in India each year.
+:end:
+
+** International Astronomy Olympiad, Silver medal (2005) and Gold medal (2003).
+:properties:
+:longcomment: As a member of the Indian delegations to China and Sweden respectively.
+:end:
+  
 * Work in progress                                               :inprogress:
 ** Computing the matching distance of 2-parameter persistence modules from critical values
 :properties:
