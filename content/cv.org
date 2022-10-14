@@ -28,13 +28,17 @@
 #+begin_src emacs-lisp :results value raw :exports results
   (defun pp-education-cv ()
     "Pretty-print the current education item. This function is called when mapping over entries in the data.org file."
-    (let ((title (org-entry-get nil "ITEM"))
+    (let ((uni (org-entry-get nil "ITEM"))
           (date (org-entry-get nil "date"))
+          (degree (org-entry-get nil "degree"))
+          (location (org-entry-get nil "location"))          
           (comment (org-entry-get nil "comment")))
-      (format "- *%s*: %s"
+      (format "\\cventry{%s}{%s}{%s}{%s}{}{%s}"
               (if date date)
-              (if title title)
-              (if comment (concat "\\\\n  " comment)))
+              (if degree degree)
+              (if uni uni)
+              (if location location)
+              (if comment comment ""))
       ))
 
   (string-join
@@ -46,7 +50,30 @@
 #+end_src
 
 * Employment
+#+begin_src emacs-lisp :results value raw :exports results
+  (defun pp-employment-cv ()
+    "Pretty-print the current employment item. This function is called when mapping over entries in the data.org file."
+    (let ((uni (org-entry-get nil "ITEM"))
+          (date (org-entry-get nil "date"))
+          (job (org-entry-get nil "job"))
+          (department (org-entry-get nil "department"))          
+          (location (org-entry-get nil "location")))
+      (format "\\cventry{%s}{%s}{%s}{%s}{%s}{}"
+              (if date date)
+              (if job job)
+              (if uni uni)
+              (if location location)
+              (if department department))
+      ))
 
+  (string-join
+   (org-map-entries
+    'pp-employment-cv
+    "employment+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+   
 * Papers and preprints
 #+begin_src emacs-lisp :results value raw :exports results
   (defun pp-research-output-cv ()
@@ -71,6 +98,23 @@
                 '("data.org"))
                "\n")
 #+end_src
+
+* Academic awards
+#+begin_src emacs-lisp :results value raw :exports results
+  (defun pp-award-cv ()
+    "Pretty-print the current award item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM")))
+      (format "- %s" title)
+      ))
+
+  (string-join
+   (org-map-entries
+    'pp-award-cv
+    "award+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
 
 * Teaching
 #+begin_src emacs-lisp :results silent :exports results
