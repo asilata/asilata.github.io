@@ -73,7 +73,7 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
            :base-directory "./content/cv"
            :publishing-directory "./public"
            :latex-hyperref-template "nil"
-           :publishing-function org-latex-publish-to-pdf
+           :publishing-function org-latex-publish-to-latex
            )
           )
         )

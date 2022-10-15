@@ -43,7 +43,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
          :base-directory "./content/cv"
          :publishing-directory "./public"
          :latex-hyperref-template "nil"
-         :publishing-function org-latex-publish-to-pdf
+         :publishing-function org-latex-publish-to-latex
          )
         )
       )
