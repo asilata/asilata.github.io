@@ -42,6 +42,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         ("cv"
          :base-directory "./content/cv"
          :publishing-directory "./public"
+         :latex-hyperref-template "nil"
          :publishing-function org-latex-publish-to-pdf
          )
         )
@@ -148,6 +149,18 @@ Page generated using %c. Last modified on %C. Source on <a href=\"https://github
             (if comment (format " (%s)" comment) "")
             (if links (format " (%s)" links) ""))
             ))
+
+(add-to-list 'org-latex-classes
+             `("moderncv"
+               ,(string-join
+                 '("\\documentclass[a4paper]{moderncv}"
+                   "[NO-DEFAULT-PACKAGES]"
+                   "\\usepackage{amsmath,amssymb}")
+                 "\n")
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
 (setq org-confirm-babel-evaluate nil)
 (setq make-backup-files nil)

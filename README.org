@@ -72,6 +72,7 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
           ("cv"
            :base-directory "./content/cv"
            :publishing-directory "./public"
+           :latex-hyperref-template "nil"
            :publishing-function org-latex-publish-to-pdf
            )
           )
@@ -197,7 +198,21 @@ Finally, for activities (talks and organisation).
               ))
 #+end_src
 
-#+end_src
+Some "manual" cv options
+  #+begin_src emacs-lisp :tangle build.el
+    (add-to-list 'org-latex-classes
+                 `("moderncv"
+                   ,(string-join
+                     '("\\documentclass[a4paper]{moderncv}"
+                       "[NO-DEFAULT-PACKAGES]"
+                       "\\usepackage{amsmath,amssymb}")
+                     "\n")
+                   ("\\section{%s}" . "\\section*{%s}")
+                   ("\\subsection{%s}" . "\\subsection*{%s}")
+                   ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                   ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+  #+end_src
+
 Now publish!  
 #+begin_src emacs-lisp :tangle "build.el"
   (setq org-confirm-babel-evaluate nil)
