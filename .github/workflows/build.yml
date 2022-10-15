@@ -19,6 +19,12 @@ jobs:
     - name: Build website
       run: ./build.sh
 
+    - name: Run latex
+      uses: xu-cheng/latex-actions@v2
+      with:
+        working_directory: ./cv
+        root_file: cv.tex
+
     - name: Publish to gh-pages branch
       uses: JamesIves/github-pages-deploy-action@4.1.4
       if: success()
