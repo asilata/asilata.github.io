@@ -1,2 +1,5 @@
 #!/bin/bash
-emacs --batch -l build.el
+emacs --batch \
+      --eval "(setq org-confirm-babel-evaluate nil)" \
+      --eval "(let ((enable-local-variables :all)) (hack-local-variables))" \
+      -l build.el
