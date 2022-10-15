@@ -257,7 +257,7 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
         run: ./build.sh
 
       - name: Run latex
-        uses: xu-cheng/latex-actions@v2
+        uses: xu-cheng/latex-action@v2
         with:
           working_directory: ./cv
           root_file: cv.tex
