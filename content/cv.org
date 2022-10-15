@@ -22,10 +22,7 @@
                  ("\\subsection{%s}" . "\\subsection*{%s}")
                  ("\\paragraph{%s}" . "\\paragraph*{%s}")
                  ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
-#+end_src
 
-* Education
-#+begin_src emacs-lisp :results value raw :exports results
   (defun pp-education-cv ()
     "Pretty-print the current education item. This function is called when mapping over entries in the data.org file."
     (let ((uni (org-entry-get nil "ITEM"))
@@ -41,16 +38,6 @@
               (if comment comment ""))
       ))
 
-  (string-join
-   (org-map-entries
-    'pp-education-cv
-    "education+LEVEL=2"
-    '("data.org"))
-   "\n")
-#+end_src
-
-* Employment
-#+begin_src emacs-lisp :results value raw :exports results
   (defun pp-employment-cv ()
     "Pretty-print the current employment item. This function is called when mapping over entries in the data.org file."
     (let ((uni (org-entry-get nil "ITEM"))
@@ -66,16 +53,6 @@
               (if department department))
       ))
 
-  (string-join
-   (org-map-entries
-    'pp-employment-cv
-    "employment+LEVEL=2"
-    '("data.org"))
-   "\n")
-#+end_src
-   
-* Papers and preprints
-#+begin_src emacs-lisp :results value raw :exports results
   (defun pp-research-output-cv ()
     "Pretty-print the current research output item (e.g. paper, preprint, or code). This function is called when mapping over entries in the data.org file."
     (let ((title (org-entry-get nil "ITEM"))
@@ -92,32 +69,12 @@
               )
       ))
 
-  (string-join (org-map-entries
-                'pp-research-output-cv
-                "paper+LEVEL=2"
-                '("data.org"))
-               "\n")
-#+end_src
-
-* Academic awards
-#+begin_src emacs-lisp :results value raw :exports results
   (defun pp-award-cv ()
     "Pretty-print the current award item. This function is called when mapping over entries in the data.org file."
     (let ((title (org-entry-get nil "ITEM")))
       (format "- %s" title)
       ))
 
-  (string-join
-   (org-map-entries
-    'pp-award-cv
-    "award+LEVEL=2"
-    '("data.org"))
-   "\n")
-#+end_src
-
-
-* Teaching
-#+begin_src emacs-lisp :results silent :exports results
   (defun pp-course-cv ()
   "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
   (let ((title (org-entry-get nil "ITEM"))
@@ -131,8 +88,67 @@
                 ""
               comment))
     ))
+
+  (defun pp-activity-cv ()
+    "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (scheduled (encode-time (org-parse-time-string (org-entry-get nil "SCHEDULED"))))
+          (display-date (org-entry-get nil "display-date"))
+          (with (org-entry-get nil "with"))
+          (location (org-entry-get nil "location"))
+          (links (org-entry-get nil "link"))
+          (comment (org-entry-get nil "comment")))
+      (format "- *%s*: %s%s%s%s"
+              (if display-date display-date
+                (org-format-time-string "%b %Y" scheduled))
+              title
+              (if location (concat ", " location) "")
+              (if with (concat ", with " with) "")
+              (if comment (format " (%s)" comment) "")
+              )
+              ))
 #+end_src
 
+* Education
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-education-cv
+    "education+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+* Employment
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-employment-cv
+    "employment+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+   
+* Papers and preprints
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join (org-map-entries
+                'pp-research-output-cv
+                "paper+LEVEL=2"
+                '("data.org"))
+               "\n")
+#+end_src
+
+* Academic awards
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-award-cv
+    "award+LEVEL=2"
+    '("data.org"))
+   "\n")
+#+end_src
+
+* Teaching
 ** Australian National University
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
@@ -176,25 +192,6 @@
 
 * Talks and presentations
 #+begin_src emacs-lisp :results value raw :exports results
-  (defun pp-activity-cv ()
-    "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
-    (let ((title (org-entry-get nil "ITEM"))
-          (scheduled (encode-time (org-parse-time-string (org-entry-get nil "SCHEDULED"))))
-          (display-date (org-entry-get nil "display-date"))
-          (with (org-entry-get nil "with"))
-          (location (org-entry-get nil "location"))
-          (links (org-entry-get nil "link"))
-          (comment (org-entry-get nil "comment")))
-      (format "- *%s*: %s%s%s%s"
-              (if display-date display-date
-                (org-format-time-string "%b %Y" scheduled))
-              title
-              (if location (concat ", " location) "")
-              (if with (concat ", with " with) "")
-              (if comment (format " (%s)" comment) "")
-              )
-              ))
-
   (string-join
    (org-map-entries
     'pp-activity-cv
@@ -205,5 +202,5 @@
 
 * Local variables                                                  :noexport:
 # Local variables:
-# eval: (add-hook 'org-export-before-processing-functions (lambda (be) (org-babel-ref-resolve "export-setup")) nil t)
+# eval: (add-hook 'org-export-before-processing-hook (lambda (be) (org-babel-ref-resolve "export-setup")) nil t)
 # End:
