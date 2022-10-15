@@ -8,7 +8,8 @@
 #+latex_header_extra: \address{Mathematical Sciences Institute, The Australian National University}
 #+latex_header_extra: \email{asilata.bapat@anu.edu.au} \homepage{https://asilata.github.io} \phone{02 6125 7320}
 
-#+begin_src emacs-lisp :results silent :exports results
+#+name: export-setup
+#+begin_src emacs-lisp :results silent :exports none
   (setq-local org-latex-with-hyperref nil)
   (add-to-list 'org-latex-classes
                `("moderncv"
@@ -21,7 +22,10 @@
                  ("\\subsection{%s}" . "\\subsection*{%s}")
                  ("\\paragraph{%s}" . "\\paragraph*{%s}")
                  ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+#+END_SRC
 
+#+begin_src emacs-lisp :results silent :exports results
+  ;; Some helper functions
   (defun pp-education-cv ()
     "Pretty-print the current education item. This function is called when mapping over entries in the data.org file."
     (let ((uni (org-entry-get nil "ITEM"))
@@ -198,3 +202,8 @@
     '("../data.org"))
    "\n")
 #+end_src
+
+* Local variables                                                  :noexport:
+# Local variables:
+# eval: (add-hook 'org-export-before-processing-hook (lambda (be) (org-babel-ref-resolve "export-setup")) nil t)
+# End:
