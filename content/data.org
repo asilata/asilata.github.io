@@ -2,103 +2,121 @@
 #+author: Asilata Bapat
 #+startup: noptag overview
 
-* Employment                                                     :employment:
-** The Australian National University
-:properties:
-:comment: Lecturer (tenure track).
-:date: 2018–
-:end:
-
-** University of Georgia
-:properties:
-:comment: Limited-term assistant professor.
-:date: 2016–2017
-:end:
-
 * Education                                                       :education:
 ** The University of Chicago
 :properties:
-:date: 2010–2016
-:comment: M.S. in Mathematics (June 2012). PhD in Mathematics (June 2016). Advised by Victor Ginzburg.
+:date: 2010--2016
+:degree: PhD in Mathematics.
+:comment: Advisor: Victor Ginzburg.
+:location: Chicago, IL
+:end:
+
+** The University of Chicago
+:properties:
+:date: 2010--2012
+:degree: MS in Mathematics.
+:location: Chicago, IL
 :end:
 
 ** Massachusetts Institute of Technology
 :properties:
-:date: 2006–2010
-:comment: B.S. in Mathematics with Computer Science.
+:date: 2006--2010
+:degree: SB (Bachelor of Science) in Mathematics with Computer Science.
+:location: Cambridge, MA
+:comment: GPA 4.9 out of 5.
 :end:
 
-* Career interruptions                                        :interruptions:
-** Maternity leave
+* Employment                                                     :employment:
+** Australian National University (ANU)
 :properties:
-:date: Jul 2019–Jan 2020
+:date: 2018--
+:job: Lecturer (Level B)
+:department: Mathematical Sciences Institute
+:location: Canberra
 :end:
 
-* Grants and awards                                                  :awards:
-** Dean's commendation for Excellence in Education (for Teaching Excellence)
+** University of Georgia (UGA)
 :properties:
-:date: 2021
-:location: ANU
+:date: 2016--2017
+:job: Assistant Professor (Limited Term)
+:department: Department of Mathematics
+:location: Athens, GA
 :end:
 
-** AMS–Simons travel grant
+* Academic awards                                                     :award:
+** Dean's Commendation for Excellence in Education (for Teaching Excellence), ANU, 2021.
 :properties:
-:date: 2016–2018
+:longcomment: College award at ANU for excellence in teaching.
 :end:
-
-** Nadine Kowalsky Prize
+  
+** Nadine Kowalsky Fellowship, University of Chicago, 2016.
 :properties:
-:date: 2016
-:location: UChicago
-:end:
+:longcomment: Departmental award at the University of Chicago for excellent research towards the PhD dissertation. Awarded USD 4500 and teaching leave for one quarter.
 
-** DAAD (German Academic Exchange Service) short-term research grant
+
+** Jerry Rao Fellowship, University of Chicago, 2014--2015.
 :properties:
-:date: 2015
+:longcomment: University award at the University of Chicago in recognition of achievement and professional promise, for an Indian student in the Physical Sciences Division. Awarded USD 10000.
 :end:
 
-** Jerry Rao Fellowship
+** Young Researcher at the 2nd Heidelberg Laureate Forum, Heidelberg, Germany, 2014.
 :properties:
-:date: 2014–2015
-:location: UChicago
+:longcomment: One of 200 young researchers selected from around the world to attend the HLF in Heidelberg, fully funded.
 :end:
 
-** Lawrence and Josephine Graves Teaching Prize
+** Lawrence and Josephine Graves Teaching Prize, University of Chicago, 2014.
 :properties:
-:date: 2014
-:location: UChicago
+:longcomment: Departmental award at the University of Chicago for excellence in undergraduate teaching. Awarded USD 750.
 :end:
 
-** Amick Fellowship
+** Amick Fellowship, University of Chicago, 2010--2012.
 :properties:
-:date: 2010–2012
-:location: UChicago
+:longcomment: Departmental award at the University of Chicago for a promising incoming graduate student. Awarded USD 9000.
 :end:
 
-** Phi Beta Kappa
+** Phi Beta Kappa, MIT, 2010.
 :properties:
-:date: 2010
-:location: MIT
+:longcomment: Honour society membership awarded as a university award at MIT, for the top 10\% of undergraduates.
 :end:
 
-** Rogers prize for best paper, Summer Program in Undergraduate Research
+** Rogers Prize for best paper, Summer Program in Undergraduate Research, MIT, 2009.
 :properties:
-:date: 2009
-:location: MIT
+:longcomment: Departmental award at MIT for best summer research.
 :end:
 
-** Indian National Mathematical Olympiad scholarship
+** Indian National Mathematical Olympiad (INMO) scholarship, 2005.
 :properties:
-:date: 2005
+:longcomment: Awarded to approximately 30 high school students in India each year.
 :end:
 
-** Gold and silver medals, International Astronomy Olympiad, as a member of the Indian delegation
+** International Astronomy Olympiad, Silver medal (2005) and Gold medal (2003).
 :properties:
-:date: 2003, 2005
+:longcomment: As a member of the Indian delegations to China and Sweden respectively.
+:end:
+  
+* Work in progress                                               :inprogress:
+** Computing the matching distance of 2-parameter persistence modules from critical values
+:properties:
+:with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]], Elisabeth Stephenson
+:comment: In progress.
 :end:
 
-* Research outputs
-** Morse-based fibering of the persistence rank invariant              :paper:
+** A contracting flow on the stability manifold in type \(A\)
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: In progress.
+:slug: flow
+:end:
+
+** The sphere of spherical objects
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: In progress.
+:slug: sphericals
+:end:
+
+* Papers                                                              :paper:
+** Morse-based fibering of the persistence rank invariant
 :properties:
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]]
 :comment: Research in Computational Topology 2 (2022), pp. 27--62
@@ -106,7 +124,7 @@
 :link: [[https://arxiv.org/abs/2011.14967][arXiv]], [[http://dx.doi.org/10.1007/978-3-030-95519-9_2][journal]]
 :end:
 
-** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\) :paper:
+** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
 :properties:
 :with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
 :comment: Submitted.
@@ -115,25 +133,25 @@
 :link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
 
-** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories :paper:
+** A Thurston compactification of the space of stability conditions
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
 :comment: Submitted.
-:year: 2021
-:slug: algorithm
-:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
-:end:
-
-** A Thurston compactification of the space of stability conditions    :paper:
-:properties:
-:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Preprint.
 :slug: thurston
 :year: 2020
 :link: [[file:assets/papers/a2-compactification.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
 :end:
 
-** Recollement for perverse sheaves on real hyperplane arrangements    :paper:
+** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Submitted.
+:year: 2020
+:slug: algorithm
+:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
+:end:
+
+** Recollement for perverse sheaves on real hyperplane arrangements
 :properties:
 :slug: recollement
 :comment: Journal of Algebra, 568 (2021), pp. 61--90
@@ -141,7 +159,7 @@
 :link: [[file:assets/papers/recollements-2018.pdf][pdf]], [[https://arxiv.org/abs/1810.13126][arXiv]], [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
 :end:
 
-** The strong topological monodromy conjecture for Coxeter hyperplane arrangements :paper:
+** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
 :properties:
 :slug: bfunctions
 :with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
@@ -150,7 +168,7 @@
 :link: [[file:assets/papers/bapat-walters-2015.pdf][pdf]], [[http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1][journal]]
 :end:    
 
-** Torus actions and tensor products of intersection cohomology        :paper:
+** Torus actions and tensor products of intersection cohomology
 :properties:
 :slug: torus
 :comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
@@ -158,15 +176,7 @@
 :link: [[file:assets/papers/bapat-2015.pdf][pdf]], [[http://arxiv.org/abs/1309.0859][arXiv]], [[http://dx.doi.org/10.2140/pjm.2015.276.19][journal]]
 :end:
 
-** The Bernstein-Sato \(b\)-function of the Vandermonde determinant      :nfp:
-:properties:
-:with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
-:comment: Preprint (not for publication).
-:year: 2015
-:link: [[http://arxiv.org/abs/1503.01055][arXiv]]
-:end:
-
-** Lower central series of free algebras in symmetric tensor categories :paper:
+** Lower central series of free algebras in symmetric tensor categories
 :properties:
 :with: [[http://www.maths.ed.ac.uk/~djordan/][David Jordan]]
 :comment: Journal of Algebra, 373 (2013), pp. 299--311
@@ -174,21 +184,27 @@
 :link: [[file:assets/papers/bapat-jordan-2013.pdf][pdf]], [[http://arxiv.org/abs/1001.1375][arXiv]], [[http://dx.doi.org/10.1016/j.jalgebra.2012.10.001][journal]]
 :end:
 
-** Equivariant cohomology and the localization theorem                   :nfp:
+
+* Not for publication                                                   :nfp:
+** Equivariant cohomology and the localization theorem
 :properties:
 :comment: Topic proposal (expository).
 :year: 2011
 :link: [[file:assets/papers/topic-proposal.pdf][pdf]]
 :end:
 
-** The sphere of spherical objects                                :inprogress:
+** The Bernstein-Sato \(b\)-function of the Vandermonde determinant
 :properties:
-:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: In progress.
-:slug: sphericals
+:with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
+:comment: Preprint (not for publication).
+:year: 2015
+:link: [[http://arxiv.org/abs/1503.01055][arXiv]]
 :end:
 
-** Categorical braid group actions                                      :code:
+
+
+* Code                                                                 :code:
+** Categorical braid group actions
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]]
 :comment: This sage code computes the braid group action on the triangulated category of complexes of projective modules over the zig-zag algebra of a quiver.
@@ -196,17 +212,26 @@
 :end:
 
 * Activities                                                       :activity:
-** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]]
-SCHEDULED: <2022-08-12 Fri>
+** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]
+SCHEDULED: <2022-11-28 Mon>
 :properties:
-:location: The University of Oregon
+:location: University of Sydney
 :category: presentation
 :end:
 
-** [[https://sites.google.com/view/quivers-in-physics][Quivers, representation theory, and physics]]
-SCHEDULED: <2022-09-07 Wed>
+** Lie groups seminar
+SCHEDULED: <2022-11-08 Mon>
 :properties:
-:location: The University of Cologne
+:shorttitle: MIT
+:location: Massachusetts Institute of Technology, online
+:category: presentation
+:end:
+
+** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]] :flow:
+SCHEDULED: <2022-08-12 Fri>
+:properties:
+:shorttitle: QUACKS II
+:location: The University of Oregon
 :category: presentation
 :end:
 
@@ -215,6 +240,7 @@ SCHEDULED: <2022-06-27 Mon>
 :properties:
 :location: The University of Queensland
 :category: presentation
+:link: [[file:assets/slides/2022-07-01-amsi.pdf][notes]]
 :end:
 
 ** [[http://www.birs.ca/events/2022/research-in-teams/22rit267][Geometric interpretation and visualization of multi-parameter persistent homology]]
@@ -233,18 +259,22 @@ SCHEDULED: <2022-05-06 Fri>
 :category: visit
 :end:
 
-** Algebra & discrete mathematics seminar
+** Algebra & discrete mathematics seminar :sphericals:
 SCHEDULED: <2022-05-02 Mon>
 :properties:
+:shorttitle: Davis
 :location: UC Davis, online
 :category: presentation
+:link: [[file:assets/slides/2022-05-02-davis.pdf][slides]]
 :end:
 
-** [[https://www.fd-seminar.xyz/][FD Seminar]]
+** [[https://www.fd-seminar.xyz/][FD Seminar]] :thurston:algorithm:
 SCHEDULED: <2022-04-28 Thu>
 :properties:
+:shorttitle: FD Seminar
 :location: online
 :category: presentation
+:link: [[file:assets/slides/2022-04-28-fdseminar.pdf][slides]]
 :end:
 
 ** [[http://women-in-ncalg-repthy.org/conferences/winart3-workshop/][Women in noncommutative algebra and representation theory workshop 3]]
@@ -647,7 +677,6 @@ SCHEDULED: <2011-09-01 Thu>
 SCHEDULED: <2021-11-19 Fri>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :display-date: 2021 Spring Semester     
 :end:
 
@@ -655,7 +684,6 @@ SCHEDULED: <2021-11-19 Fri>
 SCHEDULED: <2021-07-26 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :display-date: 2021 Semester 2
 :end:
 
@@ -663,7 +691,6 @@ SCHEDULED: <2021-07-26 Mon>
 SCHEDULED: <2021-01-04 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2021-01-04"
 :display-date: 2021 Summer Session
 :end:
@@ -672,7 +699,6 @@ SCHEDULED: <2021-01-04 Mon>
 SCHEDULED: <2020-11-23 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2020-11-23"
 :display-date: 2020 Spring Semester     
 :end:
@@ -681,7 +707,6 @@ SCHEDULED: <2020-11-23 Mon>
 SCHEDULED: <2020-02-24 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2020-02-24"
 :display-date: 2020 Semester 1
 :end:
@@ -690,7 +715,6 @@ SCHEDULED: <2020-02-24 Mon>
 SCHEDULED: <2020-02-24 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2020-02-24"
 :display-date: 2020 Semester 2
 :end:
@@ -699,7 +723,6 @@ SCHEDULED: <2020-02-24 Mon>
 SCHEDULED: <2019-02-25 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2019-02-25"
 :display-date: 2019 Semester 1
 :end:
@@ -708,7 +731,6 @@ SCHEDULED: <2019-02-25 Mon>
 SCHEDULED: <2018-12-01 Sat>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2018-12-01"
 :display-date: 2018–2019 Summer Session
 :end:
@@ -717,7 +739,6 @@ SCHEDULED: <2018-12-01 Sat>
 SCHEDULED: <2018-07-23 Mon>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2018-07-23"
 :display-date: 2018 Semester 2
 :end:
@@ -726,7 +747,6 @@ SCHEDULED: <2018-07-23 Mon>
 SCHEDULED: <2018-02-20 Tue>
 :properties:
 :location: Australian National University
-:shortlocation: ANU
 :date: "2018-02-20"
 :display-date: 2018 Semester 1
 :end:
@@ -735,7 +755,6 @@ SCHEDULED: <2018-02-20 Tue>
 SCHEDULED: <2017-08-14 Mon>
 :properties:
 :location: University of Georgia
-:shortlocation: UGA
 :date: "2017-08-14"
 :display-date: Fall 2017
 :end:
@@ -744,7 +763,6 @@ SCHEDULED: <2017-08-14 Mon>
 SCHEDULED: <2017-08-14 Mon>
 :properties:
 :location: University of Georgia
-:shortlocation: UGA
 :date: "2017-08-14"
 :display-date: Fall 2017
 :end:
@@ -753,7 +771,6 @@ SCHEDULED: <2017-08-14 Mon>
 SCHEDULED: <2017-01-05 Thu>
 :properties:
 :location: University of Georgia
-:shortlocation: UGA
 :date: "2017-01-05"
 :display-date: Spring 2017
 :end:
@@ -762,7 +779,6 @@ SCHEDULED: <2017-01-05 Thu>
 SCHEDULED: <2016-09-05 Mon>
 :properties:
 :location: University of Georgia
-:shortlocation: UGA
 :date: "2016-09-05"
 :display-date: Fall 2016
 :end:
@@ -771,7 +787,6 @@ SCHEDULED: <2016-09-05 Mon>
 SCHEDULED: <2015-09-01 Tue>
 :properties:
 :location: University of Chicago
-:shortlocation: UChicago
 :date: "2015-09-01"
 :display-date: 2015--2016
 :end:
@@ -789,7 +804,6 @@ SCHEDULED: <2015-07-05 Sun>
 SCHEDULED: <2014-09-01 Mon>
 :properties:
 :location: University of Chicago
-:shortlocation: UChicago
 :date: "2014-09-01"
 :display-date: 2014--2015
 :end:
@@ -798,7 +812,6 @@ SCHEDULED: <2014-09-01 Mon>
 SCHEDULED: <2014-06-01 Sun>
 :properties:
 :location: University of Chicago
-:shortlocation: UChicago
 :date: "2014-06-01"
 :display-date: Summer 2014
 :end:
@@ -807,7 +820,6 @@ SCHEDULED: <2014-06-01 Sun>
 SCHEDULED: <2013-09-01 Sun>
 :properties:
 :location: University of Chicago
-:shortlocation: UChicago
 :date: "2013-09-01"
 :display-date: 2013--2014
 :end:
@@ -825,7 +837,6 @@ SCHEDULED: <2013-07-01 Mon>
 SCHEDULED: <2012-09-01 Sat>
 :properties:
 :location: University of Chicago
-:shortlocation: UChicago
 :date: "2012-09-01"
 :display-date: 2012--2013
 :end:
@@ -843,7 +854,6 @@ SCHEDULED: <2012-07-01 Sun>
 SCHEDULED: <2011-09-01 Thu>
 :properties:
 :location: University of Chicago
-:shortlocation: UChicago
 :date: "2011-09-01"
 :display-date: 2011--2012
 :end:
