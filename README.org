@@ -28,6 +28,8 @@ Next set the options for ~org-publish-project-alist~, as documented [[https://or
 Currently I have the following projects.
 - The first one, called ~website~, contains all the content generated from org-mode files.
 - The second one, called ~assets~, copies over all the files in the [[file:content/assets/][assets]] directory.
+- The third one, called ~css~, copies over the css files from the [[file:content/css/][css]] directory.
+- The fourth one, called ~cv~, automatically builds the cv from the data file.
 The various publishing options are documented [[https://orgmode.org/manual/Publishing-options.html][here]].
 #+begin_src emacs-lisp :tangle "build.el"
   (setq org-publish-project-alist
