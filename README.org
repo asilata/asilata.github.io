@@ -259,8 +259,8 @@ Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org
       - name: Run latex
         uses: xu-cheng/latex-action@v2
         with:
-          working_directory: ./cv
-          root_file: cv.tex
+          work_in_root_file_directory: true
+          root_file: ./public/cv/cv.tex
 
       - name: Publish to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@4.1.4
