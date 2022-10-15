@@ -70,10 +70,8 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
            :recursive t
            :publishing-function org-publish-attachment)
           ("cv"
-           :base-directory "./content"
+           :base-directory "./content/cv"
            :publishing-directory "./public"
-           :exclude ".*"
-           :include "cv.org"
            :publishing-function org-latex-publish-to-pdf
            )
           )

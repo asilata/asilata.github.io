@@ -115,7 +115,7 @@
    (org-map-entries
     'pp-education-cv
     "education+LEVEL=2"
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
@@ -125,7 +125,7 @@
    (org-map-entries
     'pp-employment-cv
     "employment+LEVEL=2"
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
    
@@ -134,7 +134,7 @@
   (string-join (org-map-entries
                 'pp-research-output-cv
                 "paper+LEVEL=2"
-                '("data.org"))
+                '("../data.org"))
                "\n")
 #+end_src
 
@@ -144,7 +144,7 @@
    (org-map-entries
     'pp-award-cv
     "award+LEVEL=2"
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
@@ -155,7 +155,7 @@
    (org-map-entries
     'pp-course-cv
     "teaching+LEVEL=2+location=\"Australian National University\""
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
@@ -166,7 +166,7 @@
    (org-map-entries
     'pp-course-cv
     "teaching+LEVEL=2+location=\"University of Georgia\""
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
@@ -176,7 +176,7 @@
    (org-map-entries
     'pp-course-cv
     "teaching+LEVEL=2+location=\"University of Chicago\""
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
@@ -186,7 +186,7 @@
    (org-map-entries
     'pp-course-cv
     "teaching+LEVEL=2+location=\"Canada/USA Mathcamp\""
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
@@ -196,7 +196,7 @@
    (org-map-entries
     'pp-activity-cv
     "activity+LEVEL=2+category=\"presentation\""
-    '("data.org"))
+    '("../data.org"))
    "\n")
 #+end_src
 
