@@ -8,8 +8,7 @@
 #+latex_header_extra: \address{Mathematical Sciences Institute, The Australian National University}
 #+latex_header_extra: \email{asilata.bapat@anu.edu.au} \homepage{https://asilata.github.io} \phone{02 6125 7320}
 
-#+name: export-setup
-#+begin_src emacs-lisp :results silent :exports none
+#+begin_src emacs-lisp :results silent :exports results
   (setq-local org-latex-with-hyperref nil)
   (add-to-list 'org-latex-classes
                `("moderncv"
@@ -199,8 +198,3 @@
     '("../data.org"))
    "\n")
 #+end_src
-
-* Local variables                                                  :noexport:
-# Local variables:
-# eval: (add-hook 'org-export-before-processing-hook (lambda (be) (org-babel-ref-resolve "export-setup")) nil t)
-# End:
