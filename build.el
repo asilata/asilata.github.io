@@ -41,8 +41,8 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
          :publishing-function org-publish-attachment)
         ("cv"
          :base-directory "./content/cv"
-         :publishing-directory "./public"
-         :latex-hyperref-template "nil"
+         :publishing-directory "./public/cv"
+         :latex-hyperref-template nil
          :publishing-function org-latex-publish-to-latex
          )
         )
