@@ -71,8 +71,8 @@ The various publishing options are documented [[https://orgmode.org/manual/Publi
            :publishing-function org-publish-attachment)
           ("cv"
            :base-directory "./content/cv"
-           :publishing-directory "./public"
-           :latex-hyperref-template "nil"
+           :publishing-directory "./public/cv"
+           :latex-hyperref-template nil
            :publishing-function org-latex-publish-to-latex
            )
           )
