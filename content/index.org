@@ -23,7 +23,7 @@ Recently I have been thinking about Bridgeland stability conditions on triangula
 Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
 
 My papers and preprints are on my [[file:research.org][research page]].
-A CV is available [[file:cv.org][here (html)]].
+A CV is available [[file:cv/cv.pdf][here (pdf)]].
 
 ** Teaching
 I am teaching [[https://programsandcourses.anu.edu.au/2022/course/MATH2301][MATH2301]] (Games, Graphs, and Machines) in Semester 2, 2022. Course notes are available [[https://asilata.github.io/ggm/2022][here]]. Older teaching is listed on my [[file:teaching.org][teaching page]].
