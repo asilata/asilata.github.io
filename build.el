@@ -14,10 +14,10 @@
      ga('create', '{{ site.analytics_id}}', 'auto');
      ga('send', 'pageview');
     </script>")))
-      (ab/html-postamble-format
-       '(("en" "<footer>
+      (ab/html-postamble
+       "<footer>
     Page generated using %c. Last modified on %C. Source on <a href=\"https://github.com/asilata/asilata.github.io\">github</a>.
-    </footer>")))
+    </footer>")
       (ab/latex-classes
        '(("moderncv"
           "\\documentclass[a4paper]{moderncv}
@@ -44,7 +44,7 @@
          :html-head-include-scripts nil
          :html-head ,ab/html-head
          :html-head-extra ,ab/html-head-extra
-         :html-postamble-format ,ab/html-postamble-format
+         :html-postamble ,ab/html-postamble
          :html-preamble ab/make-html-preamble
          :section-numbers nil
          )
