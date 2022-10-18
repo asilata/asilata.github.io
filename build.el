@@ -7,7 +7,7 @@
          :base-directory "./content"
          :publishing-directory "./public"
          :recursive t
-         :exclude "data\\|stylesheet\\|cv"
+         :exclude "data"
          :publishing-function org-html-publish-to-html
          :with-broken-links t
          :with-creator t

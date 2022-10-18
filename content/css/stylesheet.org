@@ -1,6 +1,6 @@
 #+title: Stylesheet
 #+author: Asilata Bapat
-#+property: header-args:scss :tangle "css/stylesheet.scss"
+#+property: header-args:scss :tangle "stylesheet.scss"
 
 * Colours
 First we define some auxiliary [[https://sass-lang.com/documentation/at-rules/mixin][mixins]] to use later, such as for alternately coloured table rows.
@@ -373,5 +373,5 @@ Tangle the sass code from this file and then compile it to css.
 #+name: tangle-and-compile
 #+begin_src emacs-lisp :results silent :tangle no
   (org-babel-tangle)
-  (shell-command "cd css; sass stylesheet.scss stylesheet.css")
+  (shell-command "sass stylesheet.scss stylesheet.css")
 #+end_src
