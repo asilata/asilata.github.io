@@ -212,6 +212,20 @@
 :end:
 
 * Activities                                                       :activity:
+** [[https://www.maths.usyd.edu.au/u/catrep/#/][Categorification in representation theory]]
+SCHEDULED: <2023-02-06 Mon>
+:properties:
+:location: University of Sydney
+:category: other
+:end:
+
+** [[https://nmss.edu.au/][National Mathematics Summer School (NMSS) 2023]]
+SCHEDULED: <2023-01-08 Sun>
+:properties:
+:location: Australian National University
+:category: outreach
+:end:
+
 ** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]
 SCHEDULED: <2022-11-28 Mon>
 :properties:
@@ -225,6 +239,13 @@ SCHEDULED: <2022-11-08 Mon>
 :shorttitle: MIT
 :location: Massachusetts Institute of Technology, online
 :category: presentation
+:end:
+
+** Greenlight for Girls (g4g) Day 2022
+SCHEDULED: <2022-08-20 Sat>
+:properties:
+:location: Australian National University
+:category: outreach
 :end:
 
 ** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]] :flow:
@@ -329,6 +350,13 @@ SCHEDULED: <2021-12-08 Thu>
 :link: [[file:assets/slides/2021-12-08-austms.pdf][slides]]
 :end:
 
+** Special Session on Representation Theory, AustMS meeting 2021
+SCHEDULED: <2021-12-07 Tue>
+:properties:
+:location: online
+:category: other
+:end:
+
 ** [[https://emacsconf.org/2021/][EmacsConf 2021]]
 SCHEDULED: <2021-11-27 Sat>
 :properties:
@@ -336,6 +364,14 @@ SCHEDULED: <2021-11-27 Sat>
 :date: "2021-11-27"
 :category: presentation
 :link: [[https://youtu.be/1Ooi4KAd2FM][video]]
+:end:
+
+** [[https://sites.google.com/view/cmep][Canberra Maths Enrichment Program (CMEP)]]
+SCHEDULED: <2021-08-27 Fri>
+:properties:
+:location: Australian National University
+:category: outreach
+:display-date: Several occasions
 :end:
 
 ** [[https://sites.google.com/view/symposium-dits/][Dynamical Systems in Triangulated Categories and Surfaces (DiTS)]] :thurston:qrationals:
@@ -346,6 +382,13 @@ SCHEDULED: <2021-06-21 Mon>
 :date: "2021-06-21"
 :category: presentation
 :link: [[file:assets/slides/2021-06-21-dits.pdf][slides]], [[https://youtu.be/0qCHvPcZEmk][video]]
+:end:
+
+** WINGS Women in STEM initiative
+SCHEDULED: <2021-05-06 Thu>
+:properties:
+:location: Hawker College, Canberra
+:category: outreach
 :end:
 
 ** AMS special session on geometric and categorical methods in representation theory :thurston:
@@ -366,6 +409,13 @@ SCHEDULED: <2021-01-27 Wed>
 :date: "2021-01-27"
 :category: presentation
 :link: [[https://media.ed.ac.uk/playlist/dedicated/51612401/1_ekm4jzrk/1_k02igrw4][video]]
+:end:
+
+** National Youth Science Forum (NYSF) 2021
+SCHEDULED: <2021-01-14 Thu>
+:properties:
+:location: Australian National University
+:category: outreach
 :end:
 
 ** Algebra Seminar                                                 :thurston:
@@ -412,12 +462,26 @@ SCHEDULED: <2019-02-01 Fri>
 :category: presentation
 :end:
 
+** National Youth Science Forum (NYSF) 2019
+SCHEDULED: <2019-01-18 Fri>
+:properties:
+:location: Australian National University
+:category: outreach
+:end:
+
 ** Special session in Representation Theory, AustMS 2018
 SCHEDULED: <2018-12-07 Fri>
 :properties:
 :location: University of Adelaide
 :date: "2018-12-07"
 :category: presentation
+:end:
+
+** Maths in the Pub 2018
+SCHEDULED: <2018-11-20 Tue>
+:properties:
+:location: Smith's Alternative, Canberra
+:category: outreach
 :end:
 
 ** [[https://ssgrt2018.ist.ac.at/][Summer School on Geometric Representation Theory]]
@@ -626,6 +690,15 @@ SCHEDULED: <2015-05-05 Tue>
 :date: "2015-05-05"
 :category: presentation
 :end:
+
+** Max Planck Institute for Mathematics
+SCHEDULED: <2015-03-01 Sun>
+:properties:
+:location: Bonn
+:display-date: Winter quarter 2015
+:category: visit
+:end:
+
 
 ** Mathematics Seminar
 SCHEDULED: <2014-07-23 Wed>

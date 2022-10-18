@@ -24,6 +24,16 @@
    "\n")
 #+end_src
 
+** Outreach
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-activity
+    "activity+LEVEL=2+category=\"outreach\""
+    '("data.org"))
+   "\n")
+#+end_src
+
 ** Organization, etc
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
