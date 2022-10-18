@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  18 OCT 2022 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  18 OCT 2022 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -250,24 +250,433 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolorblue.sty
+Package: moderncvcolorblue 2022-02-21 v2.3.1 modern curriculum vitae and letter
+ color scheme: blue
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
+Package: moderncvstylebanking 2022-02-21 v2.3.1 modern curriculum vitae and let
+ter style scheme: banking
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
+Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)))
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconssymbols.sty
+Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons s
+elector
+
+
+Class moderncv Warning: "academicons requires xetex/luatex to work. Using alter
+natives.".
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
+Package: moderncviconsawesome 2022-02-21 v2.3.1 modern curriculum vitae icons: 
+awesome
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-hel
+per.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
+tawesome5
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
+)))) (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
+Package: moderncviconstikz 2022-02-21 v2.3.1 modern curriculum vitae and letter
+ icons: tickz
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.
+tex))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box57
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.
+tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen158
+\pgf@y=\dimen159
+\pgf@xa=\dimen160
+\pgf@ya=\dimen161
+\pgf@xb=\dimen162
+\pgf@yb=\dimen163
+\pgf@xc=\dimen164
+\pgf@yc=\dimen165
+\pgf@xd=\dimen166
+\pgf@yd=\dimen167
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count277
+\c@pgf@countb=\count278
+\c@pgf@countc=\count279
+\c@pgf@countd=\count280
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count281
+ (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.d
+ef
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
+.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count282
+\pgfsyssoftpath@bigbuffer@items=\count283
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
+.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen168
+\pgfmath@count=\count284
+\pgfmath@box=\box58
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.cod
+e.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonome
+tric.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.co
+de.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compariso
+n.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code
+.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.cod
+e.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code
+.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerar
+ithmetics.code.tex)))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
+ex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen169
+\pgf@picmaxx=\dimen170
+\pgf@picminy=\dimen171
+\pgf@picmaxy=\dimen172
+\pgf@pathminx=\dimen173
+\pgf@pathmaxx=\dimen174
+\pgf@pathminy=\dimen175
+\pgf@pathmaxy=\dimen176
+\pgf@xx=\dimen177
+\pgf@xy=\dimen178
+\pgf@yx=\dimen179
+\pgf@yy=\dimen180
+\pgf@zx=\dimen181
+\pgf@zy=\dimen182
+LaTeX Font Info:    Trying to load font information for OT1+qpl on input line 9
+26.
+ (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/ot1qpl.fd
+File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
+.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen183
+\pgf@path@lasty=\dimen184
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
+e.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen185
+\pgf@shorten@start@additional=\dimen186
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
+ex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count286
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
+code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen187
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
+ns.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen188
+\pgf@pt@y=\dimen189
+\pgf@pt@temp=\dimen190
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
+x
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.
+tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessin
+g.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
+ex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen191
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
+x
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen192
+\pgf@sys@shading@range@num=\count287
+\pgf@shadingcount=\count288
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
+x
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
+.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box62
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
+ex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.
+code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code
+.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box63
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
+5.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
+8.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.te
+x
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
+s.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count289
+\pgfplotmarksize=\dimen197
+)
+\tikz@lastx=\dimen198
+\tikz@lasty=\dimen199
+\tikz@lastxsaved=\dimen256
+\tikz@lastysaved=\dimen257
+\tikz@lastmovetox=\dimen258
+\tikz@lastmovetoy=\dimen259
+\tikzleveldistance=\dimen260
+\tikzsiblingdistance=\dimen261
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count290
+\tikznumberofchildren=\count291
+\tikznumberofcurrentchild=\count292
+\tikz@fig@count=\count293
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
+x
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count294
+\pgfmatrixcurrentcolumn=\count295
+\pgf@matrix@numberofcolumns=\count296
+)
+\tikz@expandcount=\count297
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+kzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))))
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvheadiii.sty
+Package: moderncvheadiii 2022-02-21 v2.3.1 modern curriculum vitae and letter h
+eader variant: 3
+\makeheaddetailsbox=\box68
+\makeheaddetailstempbox=\box69
+\makeheaddetailswidth=\skip71
+\makeheaddetailsboxwidth=\skip72
+\quotewidth=\skip73
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvbodyiii.sty
+Package: moderncvbodyiii 2022-02-21 v2.3.1 modern curriculum vitae and letter b
+ody variant: 3
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvskillmatrix.sty
+Package: moderncvskillmatrix 2022-02-21 v2.3.1 modern curriculum vitae and lett
+er skill matrix
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count298
+\multirow@dima=\skip75
+\bigstrutjot=\dimen262
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen263
+\dashlinegap=\dimen264
+\adl@box=\box70
+\adl@height=\dimen265
+\adl@heightsave=\dimen266
+\adl@depth=\dimen267
+\adl@depthsave=\dimen268
+\adl@finaldepth=\dimen269
+\adl@columns=\count299
+\adl@ncol=\count300
+\adl@currentcolumn=\count301
+\adl@currentcolumnsave=\count302
+\adl@totalheight=\count303
+\adl@totalheightsave=\count304
+\adl@dash=\count305
+\adl@gap=\count306
+\adl@cla=\count307
+\adl@clb=\count308
+\adl@everyvbox=\toks37
+\adl@LTpagetotal=\dimen270
+)
+\cvSkill@RectangleSize=\skip76
+\my@repeat@count=\count309
+\cvskill@width=\skip77
+\cvskill@descriptorwidth=\skip78
+\cvskill@experiencewidth=\skip79
+\skillmatrix@columnwidth=\skip80
+\skillmatrix@commentwidth=\skip81
+\skillmatrix@padding=\skip82
+\skillmatrix@hintscolumnwidth=\skip83
+\skillmatrix@bodylength=\skip84
+\cvskilllegend@leftdescriptorwidth=\skip85
+\cvskilllegend@rightdescriptorwidth=\skip86
+\skilllegend@hintscolumnwidth=\skip87
+\skilllegend@padding=\skip88
+\skilllegend@bodylength=\skip89
+\separatorrulewidth=\skip90
+)
+\hintscolumnwidth=\skip91
+\separatorcolumnwidth=\skip92
+\maincolumnwidth=\skip93
+\doubleitemcolumnwidth=\skip94
+\listitemsymbolwidth=\skip95
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 87.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+\listitemcolumnwidth=\skip96
+\listdoubleitemcolumnwidth=\skip97
+\cvitemwithcommentmainbox=\box71
+\cvitemwithcommentmainlength=\skip98
+\cvitemwithcommentcommentlength=\skip99
+))
 (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count277
-\Gm@cntv=\count278
-\c@Gm@tempcnt=\count279
-\Gm@bindingoffset=\dimen156
-\Gm@wd@mp=\dimen157
-\Gm@odd@mp=\dimen158
-\Gm@even@mp=\dimen159
-\Gm@layoutwidth=\dimen160
-\Gm@layoutheight=\dimen161
-\Gm@layouthoffset=\dimen162
-\Gm@layoutvoffset=\dimen163
-\Gm@dimlist=\toks25
+\Gm@cnth=\count310
+\Gm@cntv=\count311
+\c@Gm@tempcnt=\count312
+\Gm@bindingoffset=\dimen271
+\Gm@wd@mp=\dimen272
+\Gm@odd@mp=\dimen273
+\Gm@even@mp=\dimen274
+\Gm@layoutwidth=\dimen275
+\Gm@layoutheight=\dimen276
+\Gm@layouthoffset=\dimen277
+\Gm@layoutvoffset=\dimen278
+\Gm@dimlist=\toks38
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mathdesign.sty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
@@ -428,10 +837,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count280
+\XKV@depth=\count313
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
@@ -459,7 +868,7 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Info: Redefining \bold on input line 510.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip71
+\rulethickness=\skip100
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -471,415 +880,6 @@ File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 112.
-))
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolorblue.sty
-Package: moderncvcolorblue 2022-02-21 v2.3.1 modern curriculum vitae and letter
- color scheme: blue
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
-Package: moderncvstylebanking 2022-02-21 v2.3.1 modern curriculum vitae and let
-ter style scheme: banking
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
-Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)))
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconssymbols.sty
-Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons s
-elector
-
-
-Class moderncv Warning: "academicons requires xetex/luatex to work. Using alter
-natives.".
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
-Package: moderncviconsawesome 2022-02-21 v2.3.1 modern curriculum vitae icons: 
-awesome
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-hel
-per.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
-tawesome5
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
-)))) (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
-Package: moderncviconstikz 2022-02-21 v2.3.1 modern curriculum vitae and letter
- icons: tickz
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen164
-\pgfutil@tempdimb=\dimen165
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.
-tex))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.
-tex
-\pgfkeys@tmptoks=\toks31
-))
-\pgf@x=\dimen166
-\pgf@y=\dimen167
-\pgf@xa=\dimen168
-\pgf@ya=\dimen169
-\pgf@xb=\dimen170
-\pgf@yb=\dimen171
-\pgf@xc=\dimen172
-\pgf@yc=\dimen173
-\pgf@xd=\dimen174
-\pgf@yd=\dimen175
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count281
-\c@pgf@countb=\count282
-\c@pgf@countc=\count283
-\c@pgf@countd=\count284
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count285
- (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.d
-ef
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
-.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count286
-\pgfsyssoftpath@bigbuffer@items=\count287
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
-.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen176
-\pgfmath@count=\count288
-\pgfmath@box=\box58
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.cod
-e.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonome
-tric.code.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.co
-de.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compariso
-n.code.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code
-.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.cod
-e.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code
-.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerar
-ithmetics.code.tex)))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count289
-))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
-ex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen177
-\pgf@picmaxx=\dimen178
-\pgf@picminy=\dimen179
-\pgf@picmaxy=\dimen180
-\pgf@pathminx=\dimen181
-\pgf@pathmaxx=\dimen182
-\pgf@pathminy=\dimen183
-\pgf@pathmaxy=\dimen184
-\pgf@xx=\dimen185
-\pgf@xy=\dimen186
-\pgf@yx=\dimen187
-\pgf@yy=\dimen188
-\pgf@zx=\dimen189
-\pgf@zy=\dimen190
-LaTeX Font Info:    Trying to load font information for T1+qpl on input line 92
-6.
- (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
-File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
-.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen191
-\pgf@path@lasty=\dimen192
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
-e.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen193
-\pgf@shorten@start@additional=\dimen194
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
-ex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count290
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
-code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen195
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
-ns.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen196
-\pgf@pt@y=\dimen197
-\pgf@pt@temp=\dimen198
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
-x
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.
-tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessin
-g.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
-ex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen199
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
-x
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count291
-\pgf@shadingcount=\count292
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
-x
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
-.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box62
-))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
-ex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.
-code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code
-.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
-x
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box63
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
-5.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen257
-\pgf@nodesepend=\dimen258
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
-8.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen259
-\pgffor@skip=\dimen260
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
-))
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.te
-x
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
-s.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count293
-\pgfplotmarksize=\dimen261
-)
-\tikz@lastx=\dimen262
-\tikz@lasty=\dimen263
-\tikz@lastxsaved=\dimen264
-\tikz@lastysaved=\dimen265
-\tikz@lastmovetox=\dimen266
-\tikz@lastmovetoy=\dimen267
-\tikzleveldistance=\dimen268
-\tikzsiblingdistance=\dimen269
-\tikz@figbox=\box64
-\tikz@figbox@bg=\box65
-\tikz@tempbox=\box66
-\tikz@tempbox@bg=\box67
-\tikztreelevel=\count294
-\tikznumberofchildren=\count295
-\tikznumberofcurrentchild=\count296
-\tikz@fig@count=\count297
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
-x
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count298
-\pgfmatrixcurrentcolumn=\count299
-\pgf@matrix@numberofcolumns=\count300
-)
-\tikz@expandcount=\count301
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
-kzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))))
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvheadiii.sty
-Package: moderncvheadiii 2022-02-21 v2.3.1 modern curriculum vitae and letter h
-eader variant: 3
-\makeheaddetailsbox=\box68
-\makeheaddetailstempbox=\box69
-\makeheaddetailswidth=\skip72
-\makeheaddetailsboxwidth=\skip73
-\quotewidth=\skip74
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvbodyiii.sty
-Package: moderncvbodyiii 2022-02-21 v2.3.1 modern curriculum vitae and letter b
-ody variant: 3
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvskillmatrix.sty
-Package: moderncvskillmatrix 2022-02-21 v2.3.1 modern curriculum vitae and lett
-er skill matrix
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip75
-\multirow@cntb=\count302
-\multirow@dima=\skip76
-\bigstrutjot=\dimen270
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/arydshln/arydshln.sty
-Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen271
-\dashlinegap=\dimen272
-\adl@box=\box70
-\adl@height=\dimen273
-\adl@heightsave=\dimen274
-\adl@depth=\dimen275
-\adl@depthsave=\dimen276
-\adl@finaldepth=\dimen277
-\adl@columns=\count303
-\adl@ncol=\count304
-\adl@currentcolumn=\count305
-\adl@currentcolumnsave=\count306
-\adl@totalheight=\count307
-\adl@totalheightsave=\count308
-\adl@dash=\count309
-\adl@gap=\count310
-\adl@cla=\count311
-\adl@clb=\count312
-\adl@everyvbox=\toks40
-\adl@LTpagetotal=\dimen278
-)
-\cvSkill@RectangleSize=\skip77
-\my@repeat@count=\count313
-\cvskill@width=\skip78
-\cvskill@descriptorwidth=\skip79
-\cvskill@experiencewidth=\skip80
-\skillmatrix@columnwidth=\skip81
-\skillmatrix@commentwidth=\skip82
-\skillmatrix@padding=\skip83
-\skillmatrix@hintscolumnwidth=\skip84
-\skillmatrix@bodylength=\skip85
-\cvskilllegend@leftdescriptorwidth=\skip86
-\cvskilllegend@rightdescriptorwidth=\skip87
-\skilllegend@hintscolumnwidth=\skip88
-\skilllegend@padding=\skip89
-\skilllegend@bodylength=\skip90
-\separatorrulewidth=\skip91
-)
-\hintscolumnwidth=\skip92
-\separatorcolumnwidth=\skip93
-\maincolumnwidth=\skip94
-\doubleitemcolumnwidth=\skip95
-\listitemsymbolwidth=\skip96
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 87.
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-\listitemcolumnwidth=\skip97
-\listdoubleitemcolumnwidth=\skip98
-\cvitemwithcommentmainbox=\box71
-\cvitemwithcommentmainlength=\skip99
-\cvitemwithcommentcommentlength=\skip100
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
@@ -1082,8 +1082,9 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+(/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-bch.cfg
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1133,24 +1134,51 @@ Package hyperref Info: Link coloring OFF on input line 13.
 \openout4 = `cv.out'.
 
 \pagenumberwidth=\skip102
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 13.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 23.88496pt on input line 16.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 23.88496pt on input line 16.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 16.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 16.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 1
-6.
+LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line
+ 16.
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
-File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
+File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
+LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 16.
+Package microtype Info: Character `texttwelveudash ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textthreequartersemdash ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textasteriskcentered ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textlbrackdbl ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textrbrackdbl ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `texttildelow ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textcelsius ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
 nput line 16.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-(/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-bch.cfg
-File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
-
-)
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 16.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -1244,34 +1272,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 13.82408pt on input line 17.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 13.82408pt on input line 17.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 19.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 31.
 [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 66.
 
-LaTeX Font Warning: Font shape `T1/qpl/sb/n' undefined
-(Font)              using `T1/qpl/b/n' instead on input line 66.
 
+LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
+(Font)              using `T1/mdbch/b/n' instead on input line 66.
+
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 66.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 66.
 
 Underfull \hbox (badness 10000) detected at line 66
-\T1/qpl/m/n/8 .
+\T1/mdbch/m/n/8 .
  []
 
 
-LaTeX Font Warning: Font shape `T1/qpl/sb/n' undefined
-(Font)              using `T1/qpl/b/n' instead on input line 82.
+LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
+(Font)              using `T1/mdbch/b/n' instead on input line 82.
 
 
 Underfull \hbox (badness 10000) detected at line 82
-\T1/qpl/m/n/8 .
+\T1/mdbch/m/n/8 .
  []
 
 
-LaTeX Font Warning: Font shape `T1/qpl/sb/n' undefined
-(Font)              using `T1/qpl/b/n' instead on input line 91.
+LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
+(Font)              using `T1/mdbch/b/n' instead on input line 91.
 
 
 Underfull \hbox (badness 10000) detected at line 91
-\T1/qpl/m/n/8 .
+\T1/mdbch/m/n/8 .
  []
 
 
@@ -1287,12 +1330,12 @@ Package hyperref Warning: Suppressing link with empty target on input line 97.
 Package hyperref Warning: Suppressing link with empty target on input line 98.
 
 
-LaTeX Font Warning: Font shape `T1/qpl/sb/n' undefined
-(Font)              using `T1/qpl/b/n' instead on input line 102.
+LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
+(Font)              using `T1/mdbch/b/n' instead on input line 102.
 
 
 Underfull \hbox (badness 10000) detected at line 102
-\T1/qpl/m/n/8 .
+\T1/mdbch/m/n/8 .
  []
 
 [2] [3] (./cv.aux)
@@ -1300,30 +1343,29 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: CDF0494578D44340ABFE124EFFDFA58D;1388.
  ) 
 Here is how much of TeX's memory you used:
- 28615 strings out of 475071
- 541538 string characters out of 5780912
- 871065 words of memory out of 5000000
- 49407 multiletter control sequences out of 15000+600000
- 524084 words of font info for 114 fonts, out of 8000000 for 9000
+ 28682 strings out of 475071
+ 542034 string characters out of 5780912
+ 869672 words of memory out of 5000000
+ 49365 multiletter control sequences out of 15000+600000
+ 526713 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,122p,999b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/opt/texliv
-e/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/texlive/tex
-dir/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/opt/texlive/texdir/texmf-dis
-t/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/texlive/texdir/texmf-dist/fon
-ts/enc/dvips/tex-gyre/q-ts1.enc}{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips
-/fontawesome5/fa5free2.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/f
-ontawesome5/FontAwesome5Free-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/
-type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/texlive/texdir/texmf
--dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/texlive/texdir/texmf-dist/f
-onts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive/texdir/texmf-dist/fonts/t
-ype1/public/tex-gyre/qplb.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publi
-c/tex-gyre/qplr.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/tex-gyre
-/qplri.pfb>
-Output written on cv.pdf (3 pages, 259381 bytes).
+ 129i,12n,122p,999b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/o
+pt/texlive/texdir/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/opt/texlive/tex
+dir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/texlive/texdir/t
+exmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}</opt/texlive/texdir/texmf-
+dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/texlive
+/texdir/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><
+/opt/texlive/texdir/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></opt/te
+xlive/texdir/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/texlive/t
+exdir/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive/texdir/
+texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></opt/texlive/texdi
+r/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></opt/texlive/tex
+dir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb>
+Output written on cv.pdf (3 pages, 131304 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
+ 162 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams
  14 named destinations out of 1000 (max. 500000)
- 28253 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 73821 words of extra memory for PDF output out of 74296 (max. 10000000)
 
