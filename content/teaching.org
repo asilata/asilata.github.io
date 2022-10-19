@@ -3,6 +3,21 @@
 #+startup: noptag content
 
 * {{{title}}}
+#+begin_src emacs-lisp :results silent :exports results
+  (defun pp-course ()
+    "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (display-date (org-entry-get nil "display-date"))
+          (comment (org-entry-get nil "comment"))
+          )
+      (format "- *%s*: %s %s"
+              display-date
+              title
+              (if (or (not comment) (string-equal comment ""))
+                  ""
+                comment))
+      ))
+#+end_src
 
 ** Australian National University
 #+begin_src emacs-lisp :results value raw :exports results
