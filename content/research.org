@@ -3,7 +3,7 @@
 #+startup: noptag content
 
 * {{{title}}}
-#+begin_src emacs-lisp :results silent :exports resu
+#+begin_src emacs-lisp :results silent :exports results
   (defun pp-short-talk ()
     (let ((shorttitle (org-entry-get nil "shorttitle"))
           (date (encode-time (org-parse-time-string (org-entry-get nil "SCHEDULED"))))
