@@ -233,8 +233,8 @@ SCHEDULED: <2022-11-28 Mon>
 :category: presentation
 :end:
 
-** Lie groups seminar
-SCHEDULED: <2022-11-08 Mon>
+** [[https://math.mit.edu/lg/][Lie groups seminar]]
+SCHEDULED: <2022-11-23 Wed>
 :properties:
 :shorttitle: MIT
 :location: Massachusetts Institute of Technology, online
