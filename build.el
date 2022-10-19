@@ -79,19 +79,13 @@
 
 (defun ab/make-navbar ()
   (let ((lst '("Home" "Teaching" "Research" "Activities"))
-        ;; (title (cadar (org-collect-keywords '("TITLE"))))
-        )
+        (title (cadar (org-collect-keywords '("TITLE")))))
     (concat "<ul>\n"
             (string-join
-             (mapcar (lambda (x) (ab/make-nav-item x)) lst) "\n")
+             (mapcar (lambda (x) (ab/make-nav-item x title)) lst) "\n")
             "\n</ul>")))
 
-(defun ab/make-nav-item (str)
-  (let ((slug (if (string-equal str "Home") "index" (downcase str))))
-    (format "<li><a href=\"%s.html\">%s</a></li>"
-            slug
-            str)))  
-(defun ab/make-nav-item-fancy (str title)
+(defun ab/make-nav-item (str title)
   (let ((slug (if (string-equal str "Home") "index" (downcase str))))
     (format "<li><a href=\"%s.html\"%s>%s</a></li>"
             slug

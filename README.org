@@ -119,21 +119,15 @@ The above function calls ~ab/make-navbar~, which we define as follows.
 #+begin_src emacs-lisp :tangle "build.el"
   (defun ab/make-navbar ()
     (let ((lst '("Home" "Teaching" "Research" "Activities"))
-          ;; (title (cadar (org-collect-keywords '("TITLE"))))
-          )
+          (title (cadar (org-collect-keywords '("TITLE")))))
       (concat "<ul>\n"
               (string-join
-               (mapcar (lambda (x) (ab/make-nav-item x)) lst) "\n")
+               (mapcar (lambda (x) (ab/make-nav-item x title)) lst) "\n")
               "\n</ul>")))
 #+end_src
 In turn, the above function calls ~ab/make-nav-item~.
 #+begin_src emacs-lisp :tangle "build.el"
-  (defun ab/make-nav-item (str)
-    (let ((slug (if (string-equal str "Home") "index" (downcase str))))
-      (format "<li><a href=\"%s.html\">%s</a></li>"
-              slug
-              str)))  
-  (defun ab/make-nav-item-fancy (str title)
+  (defun ab/make-nav-item (str title)
     (let ((slug (if (string-equal str "Home") "index" (downcase str))))
       (format "<li><a href=\"%s.html\"%s>%s</a></li>"
               slug
@@ -157,8 +151,7 @@ We also create a shell script to run the above lisp file.
         -l build.el
 #+end_src
 
-* TODO Building on Github
-/This is working, but missing some fringe functionality./
+* Building on Github
 Once we have set up the tools to build the website locally, we can now use them to build the site automatically on Github.
 Put the following code in ~.github/workflows/build.yml~.
 Inspired by [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][this post]] and [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][this post]].
