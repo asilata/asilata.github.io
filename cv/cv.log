@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  19 OCT 2022 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  25 OCT 2022 01:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1284,57 +1284,58 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 66.
+(Font)              scaled to size 11.52008pt on input line 68.
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 66.
+(Font)              using `T1/mdbch/b/n' instead on input line 68.
 
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 66.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 66.
+(Font)              scaled to size 7.68005pt on input line 68.
 
-Underfull \hbox (badness 10000) detected at line 66
+Underfull \hbox (badness 10000) detected at line 68
 \T1/mdbch/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 82.
+(Font)              using `T1/mdbch/b/n' instead on input line 84.
 
 
-Underfull \hbox (badness 10000) detected at line 82
+Underfull \hbox (badness 10000) detected at line 84
 \T1/mdbch/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 91.
+(Font)              using `T1/mdbch/b/n' instead on input line 93.
 
 
-Underfull \hbox (badness 10000) detected at line 91
+Underfull \hbox (badness 10000) detected at line 93
 \T1/mdbch/m/n/8 .
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 97.
+Package hyperref Warning: Suppressing link with empty target on input line 99.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 97.
+Package hyperref Warning: Suppressing link with empty target on input line 99.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 97.
+Package hyperref Warning: Suppressing link with empty target on input line 99.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 98.
+Package hyperref Warning: Suppressing link with empty target on input line 100.
+
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 102.
+(Font)              using `T1/mdbch/b/n' instead on input line 104.
 
 
-Underfull \hbox (badness 10000) detected at line 102
+Underfull \hbox (badness 10000) detected at line 104
 \T1/mdbch/m/n/8 .
  []
 
@@ -1343,13 +1344,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: CDF0494578D44340ABFE124EFFDFA58D;1388.
  ) 
 Here is how much of TeX's memory you used:
- 28682 strings out of 475071
- 542034 string characters out of 5780912
- 869672 words of memory out of 5000000
+ 28686 strings out of 475071
+ 542078 string characters out of 5780912
+ 869671 words of memory out of 5000000
  49365 multiletter control sequences out of 15000+600000
- 526713 words of font info for 187 fonts, out of 8000000 for 9000
+ 526948 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,122p,999b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,122p,999b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/o
 pt/texlive/texdir/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/opt/texlive/tex
 dir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/texlive/texdir/t
@@ -1362,10 +1363,10 @@ exdir/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive/texdir/
 texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></opt/texlive/texdi
 r/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></opt/texlive/tex
 dir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb>
-Output written on cv.pdf (3 pages, 131304 bytes).
+Output written on cv.pdf (3 pages, 131342 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  14 named destinations out of 1000 (max. 500000)
  73821 words of extra memory for PDF output out of 74296 (max. 10000000)
 
