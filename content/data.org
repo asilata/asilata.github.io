@@ -147,7 +147,7 @@
 ** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Submitted.
+:comment: To appear in Mathematische Zeitschrift.
 :year: 2020
 :slug: algorithm
 :link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
@@ -438,6 +438,13 @@ SCHEDULED: <2020-02-10 Mon>
 :date: "2020-02-10"
 :category: presentation
 :link: [[file:assets/slides/bapat-mooloolaba-2020.pdf][slides]]
+:end:
+
+** Derived Days workshop 2020
+SCHEDULED: <2020-01-29 Wed>
+:properties:
+:location: University of Sydney
+:category: presentation
 :end:
 
 ** [[https://sites.google.com/site/ausreptheory/workshop-2019][Triangulated Categories in Geometry and Representation Theory]]
