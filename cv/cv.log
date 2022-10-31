@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  25 OCT 2022 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  31 OCT 2022 05:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1363,7 +1363,7 @@ exdir/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive/texdir/
 texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></opt/texlive/texdi
 r/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></opt/texlive/tex
 dir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb>
-Output written on cv.pdf (3 pages, 131342 bytes).
+Output written on cv.pdf (3 pages, 131521 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  141 compressed objects within 2 object streams
