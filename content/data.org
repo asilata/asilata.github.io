@@ -228,19 +228,22 @@ SCHEDULED: <2023-01-08 Sun>
 :category: outreach
 :end:
 
-** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]
+** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]                           :qrationals:
 SCHEDULED: <2022-11-28 Mon>
 :properties:
 :location: University of Sydney
+:shorttitle: Sydney
 :category: presentation
+:link: [[file:assets/slides/2022-11-29-sydney.pdf][slides]]
 :end:
 
-** [[https://math.mit.edu/lg/][Lie groups seminar]]
+** [[https://math.mit.edu/lg/][Lie groups seminar]]                                    :qrationals:
 SCHEDULED: <2022-11-23 Wed>
 :properties:
 :shorttitle: MIT
 :location: Massachusetts Institute of Technology, online
 :category: presentation
+:link: [[file:assets/slides/2022-11-24-mit.pdf][slides]]
 :end:
 
 ** Greenlight for Girls (g4g) Day 2022
