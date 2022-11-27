@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1667793961 "cv.tex" "cv.pdf" "cv" 1667793962
+["pdflatex"] 1669544253 "cv.tex" "cv.pdf" "cv" 1669544254
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -228,9 +228,9 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1667266568 4609054 6dbf1df48b9a44882cfb75b26bca3b91 ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1667266629 3058921 f65a837cc32f28d06020bf9901c28c0c ""
   "/opt/texlive/texdir/texmf.cnf" 1667266561 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "cv.aux" 1667793962 2108 e4cef66ea1d487599ef8c327394a8272 "pdflatex"
-  "cv.out" 1667793962 1388 cdf0494578d44340abfe124effdfa58d "pdflatex"
-  "cv.tex" 1667793957 11958 1b8c31a4eacb296370da5d5e881f4148 ""
+  "cv.aux" 1669544254 2108 030366d2702cc0d70a2c736d38e20681 "pdflatex"
+  "cv.out" 1669544254 1388 cdf0494578d44340abfe124effdfa58d "pdflatex"
+  "cv.tex" 1669544250 11945 228d7d9b8e81e23f5967cfc23eadc16b ""
   (generated)
   "cv.aux"
   "cv.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.1)  7 NOV 2022 04:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.1)  27 NOV 2022 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1346,7 +1346,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  28686 strings out of 475066
  542072 string characters out of 5780777
- 869689 words of memory out of 5000000
+ 869690 words of memory out of 5000000
  49370 multiletter control sequences out of 15000+600000
  526948 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1363,7 +1363,7 @@ exdir/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive/texdir/
 texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></opt/texlive/texdi
 r/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></opt/texlive/tex
 dir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb>
-Output written on cv.pdf (3 pages, 131521 bytes).
+Output written on cv.pdf (3 pages, 131527 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  141 compressed objects within 2 object streams
