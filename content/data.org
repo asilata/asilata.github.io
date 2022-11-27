@@ -346,7 +346,7 @@ SCHEDULED: <2022-02-18 Fri>
 :link: [[file:assets/slides/2022-02-18-icerm.pdf][slides]]
 :end:
 
-** Special session on representation theory, [[https://austms.org.au/event/austms-2021/][AustMS 2021]] :sphericals:
+** Special session on Topology, [[https://austms.org.au/event/austms-2021/][AustMS 2021]]                       :sphericals:
 SCHEDULED: <2021-12-08 Thu>
 :properties:
 :shorttitle: AustMS
