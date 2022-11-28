@@ -229,7 +229,7 @@ SCHEDULED: <2023-01-08 Sun>
 :end:
 
 ** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]                           :qrationals:
-SCHEDULED: <2022-11-28 Mon>
+SCHEDULED: <2022-11-29 Tue>
 :properties:
 :location: University of Sydney
 :shorttitle: Sydney
