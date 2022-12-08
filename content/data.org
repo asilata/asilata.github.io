@@ -110,6 +110,15 @@
 :end:
 
 * Papers                                                              :paper:
+** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
+:properties:
+:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Mathematische Zeitschrift 303, 13 (2023).
+:year: 2023
+:slug: algorithm
+:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]], [[https://doi.org/10.1007/s00209-022-03172-8][journal]]
+:end:
+
 ** Computing the matching distance of 2-parameter persistence modules from critical values
 :properties:
 :with: [[https://sites.google.com/view/robynkayebrooks/home][Robyn Brooks]], [[http://personale.unimore.it/Rubrica/Dettaglio/clandi][Claudia Landi]], [[https://people.epfl.ch/celia.hacker/?lang=en][Celia Hacker]], [[https://www.maths.ox.ac.uk/people/barbara.mahler][Barbara Mahler]], Elisabeth Stephenson
@@ -144,20 +153,11 @@
 :link: [[file:assets/papers/a2-compactification.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
 :end:
 
-** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
-:properties:
-:with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: To appear in Mathematische Zeitschrift.
-:year: 2020
-:slug: algorithm
-:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]]
-:end:
-
 ** Recollement for perverse sheaves on real hyperplane arrangements
 :properties:
 :slug: recollement
 :comment: Journal of Algebra, 568 (2021), pp. 61--90
-:year: 2018
+:year: 2021
 :link: [[file:assets/papers/recollements-2018.pdf][pdf]], [[https://arxiv.org/abs/1810.13126][arXiv]], [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
 :end:
 
