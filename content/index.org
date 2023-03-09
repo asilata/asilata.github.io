@@ -26,7 +26,7 @@ My papers and preprints are on my [[file:research.org][research page]].
 A CV is available [[file:cv/cv.pdf][here (pdf)]].
 
 ** Teaching
-I am teaching [[https://programsandcourses.anu.edu.au/2022/course/MATH2301][MATH2301]] (Games, Graphs, and Machines) in Semester 2, 2022. Course notes are available [[https://asilata.github.io/ggm/2022][here]]. Older teaching is listed on my [[file:teaching.org][teaching page]].
+I am not teaching in Semester 1 of 2023. Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
 #+begin_src emacs-lisp :results silent :exports results

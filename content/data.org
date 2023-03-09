@@ -138,7 +138,7 @@
 ** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
 :properties:
 :with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Submitted.
+:comment: To appear in Forum of Mathematics, Sigma.
 :year: 2022
 :slug: qrationals
 :link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
