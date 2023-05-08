@@ -6,7 +6,7 @@
 #+latex_header_extra: \usepackage[margin=1.5cm]{geometry} \usepackage[charter]{mathdesign}
 #+latex_header_extra: \firstname{Asilata}\familyname{Bapat} \title{Curriculum Vitae}
 #+latex_header_extra: \address{Mathematical Sciences Institute, The Australian National University}
-#+latex_header_extra: \email{asilata.bapat@anu.edu.au} \homepage{https://asilata.github.io} \phone{02 6125 7320}
+#+latex_header_extra: \email{asilata.bapat@anu.edu.au} \homepage{asilata.github.io} \phone{02 6125 7320}
 
 #+begin_src emacs-lisp :results silent :exports results
   ;; Some helper functions
