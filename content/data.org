@@ -110,6 +110,15 @@
 :end:
 
 * Papers                                                              :paper:
+** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
+:properties:
+:with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
+:comment: Forum of Mathematics, Sigma, 11, e47 (2023).
+:year: 2023
+:slug: qrationals
+:link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
+:end:
+
 ** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
@@ -133,15 +142,6 @@
 :comment: Research in Computational Topology 2 (2022), pp. 27--62
 :year: 2022
 :link: [[https://arxiv.org/abs/2011.14967][arXiv]], [[http://dx.doi.org/10.1007/978-3-030-95519-9_2][journal]]
-:end:
-
-** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
-:properties:
-:with: Louis Becker, [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: To appear in Forum of Mathematics, Sigma.
-:year: 2022
-:slug: qrationals
-:link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
 
 ** A Thurston compactification of the space of stability conditions
