@@ -758,6 +758,20 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Teaching                                                         :teaching:
+** Games, Graphs, and Machines ([[https://asilata.github.io/ggm/][MATH2301]])
+SCHEDULED: <2023-07-24 Mon>
+:properties:
+:location: Australian National University
+:display-date: 2023 Semester 2
+:end:
+
+** Games, Graphs, and Machines ([[https://asilata.github.io/ggm/][MATH2301]])
+SCHEDULED: <2022-07-25 Mon>
+:properties:
+:location: Australian National University
+:display-date: 2022 Semester 2
+:end:
+
 ** Mathematics and Applications 2 ([[https://programsandcourses.anu.edu.au/course/MATH1014][MATH1014]])
 SCHEDULED: <2021-11-19 Fri>
 :properties:
