@@ -13,15 +13,16 @@
           (location (org-entry-get nil "location"))
           (links (org-entry-get nil "link"))
           (comment (org-entry-get nil "comment")))
-      (format "- *%s*: %s%s%s%s%s"
+      (format "- *%s%s*: %s%s%s%s%s"
               (if display-date display-date
                 (org-format-time-string "%b %Y" scheduled))
+              (if (time-less-p (current-time) scheduled) " (upcoming)" "")
               title
               (if location (concat ", " location) "")
               (if with (concat ", with " with) "")
               (if comment (format " (%s)" comment) "")
               (if links (format " (%s)" links) ""))
-              ))
+      ))
 #+end_src
 
 ** Talks and presentations
