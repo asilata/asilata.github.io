@@ -214,6 +214,21 @@
 :end:
 
 * Activities                                                       :activity:
+** Winterbraids
+SCHEDULED: <2024-02-06 Tue>
+:properties:
+:location: Montpellier
+:category: presentation
+:comment: mini-course
+:end:
+
+** [[https://www.newton.ac.uk/event/emgw02/][Applied and computational algebraic geometry]]
+SCHEDULED: <2024-01-22 Mon>
+:properties:
+:location: Isaac Newton Institute, University of Cambridge
+:category: presentation
+:end:
+
 ** [[https://www.maths.usyd.edu.au/u/catrep/#/][Categorification in representation theory]]
 SCHEDULED: <2023-02-06 Mon>
 :properties:
