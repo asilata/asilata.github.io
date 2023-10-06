@@ -6,6 +6,7 @@
 [[file:assets/asilata-bapat.jpg]]
 
 #+begin_nil
+Lecturer\\
 [[http://maths.anu.edu.au/][Mathematical Sciences Institute]]\\
 The Australian National University\\
 Canberra, ACT, 2601, Australia
