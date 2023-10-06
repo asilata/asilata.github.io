@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  27 SEP 2023 01:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.1)  6 OCT 2023 06:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -123,7 +123,7 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count190
 \l__pdf_internal_box=\box53
 ))
-Package: xparse 2023-02-02 L3 Experimental document command parser
+Package: xparse 2023-08-29 L3 Experimental document command parser
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
@@ -285,7 +285,7 @@ awesome
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-hel
 per.sty
@@ -1350,10 +1350,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: CDF0494578D44340ABFE124EFFDFA58D;1388.
  ) 
 Here is how much of TeX's memory you used:
- 28644 strings out of 474934
- 534000 string characters out of 5761814
- 1942807 words of memory out of 5000000
- 49479 multiletter control sequences out of 15000+600000
+ 28644 strings out of 474928
+ 534000 string characters out of 5761545
+ 1942791 words of memory out of 5000000
+ 49481 multiletter control sequences out of 15000+600000
  615758 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,129p,999b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
