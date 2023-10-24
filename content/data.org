@@ -214,7 +214,7 @@
 :end:
 
 * Activities                                                       :activity:
-** Winterbraids
+** [[https://winterbraids-xiii.sciencesconf.org/][Winterbraids]]
 SCHEDULED: <2024-02-06 Tue>
 :properties:
 :location: Montpellier
