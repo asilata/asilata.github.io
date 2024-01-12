@@ -29,7 +29,15 @@
 * Employment                                                     :employment:
 ** Australian National University (ANU)
 :properties:
-:date: 2018--
+:date: 2024--
+:job: Senior Lecturer (Level C)
+:department: Mathematical Sciences Institute
+:location: Canberra
+:end:
+
+** Australian National University (ANU)
+:properties:
+:date: 2018--2023
 :job: Lecturer (Level B)
 :department: Mathematical Sciences Institute
 :location: Canberra
@@ -41,6 +49,28 @@
 :job: Assistant Professor (Limited Term)
 :department: Department of Mathematics
 :location: Athens, GA
+:end:
+
+* Grants :grant:
+** The geometry of braids and triangulated categories
+:properties:
+:date: 2024--2026
+:comment: ARC /DECRA/ ($468000), sole PI
+:location: Australian National University
+:end:
+
+** Stability conditions: their topology and applications
+:properties:
+:date: 2024--2026
+:comment: ARC /Discovery Project/ grant ($419421), jointly held with Anand Deopurkar and Anthony M. Licata
+:location: Australian National University
+:end:
+
+** AMS-Simons travel grant
+:properties:
+:date: 2016--2018
+:comment: Grant of USD 4000 over two years, to be used for research travel
+:location: University of Georgia
 :end:
 
 * Academic awards                                                     :award:

@@ -6,7 +6,7 @@
 [[file:assets/asilata-bapat.jpg]]
 
 #+begin_nil
-Lecturer\\
+Senior Lecturer & ARC DECRA Fellow\\
 [[http://maths.anu.edu.au/][Mathematical Sciences Institute]]\\
 The Australian National University\\
 Canberra, ACT, 2601, Australia
@@ -27,7 +27,7 @@ My papers and preprints are on my [[file:research.org][research page]].
 A CV is available [[file:cv/cv.pdf][here (pdf)]].
 
 ** Teaching
-In Semester 2 of 2023, I am teaching [[https://programsandcourses.anu.edu.au/course/MATH2301][MATH2301]] (Games, Graphs, and Machines).
+I am not teaching in Semester 1 of 2024.
 Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
