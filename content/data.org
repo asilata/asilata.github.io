@@ -55,22 +55,27 @@
 ** The geometry of braids and triangulated categories
 :properties:
 :date: 2024--2026
-:comment: ARC /DECRA/ ($468000), sole PI
-:location: Australian National University
+:description: ARC DECRA grant DE240100447
+:comment: Sole PI.
+:amount: AUD 468000
+:location: ANU
 :end:
 
 ** Stability conditions: their topology and applications
 :properties:
 :date: 2024--2026
-:comment: ARC /Discovery Project/ grant ($419421), jointly held with Anand Deopurkar and Anthony M. Licata
-:location: Australian National University
+:description: ARC Discovery Project grant DP240101084
+:comment: Jointly held with Anand Deopurkar and Anthony M. Licata.
+:amount: AUD 419421
+:location: ANU
 :end:
 
 ** AMS-Simons travel grant
 :properties:
 :date: 2016--2018
-:comment: Grant of USD 4000 over two years, to be used for research travel
-:location: University of Georgia
+:description: Grant for research travel
+:amount: USD 4000
+:location: UGA
 :end:
 
 * Academic awards                                                     :award:

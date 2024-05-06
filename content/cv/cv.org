@@ -62,6 +62,22 @@
       (format "- %s" title)
       ))
 
+  (defun pp-grant-cv ()
+    "Pretty-print the current award item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (location (org-entry-get nil "location"))
+          (description (org-entry-get nil "description"))          
+          (comment (org-entry-get nil "comment"))
+          (date (org-entry-get nil "date")))
+      (format "\\cventry{%s}{%s}{%s}{%s}{}{%s}"
+              (if date date)
+              (if description description)
+              (if title title)
+              (if location location)
+              (if comment comment "")
+              )
+      ))
+
   (defun pp-course-cv ()
   "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
   (let ((title (org-entry-get nil "ITEM"))
@@ -125,7 +141,17 @@
                "\n")
 #+end_src
 
-* Academic awards
+* Grants
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-grant-cv
+    "grant+LEVEL=2"
+    '("../data.org"))
+   "\n")
+#+end_src
+
+* Academic and teaching awards
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
