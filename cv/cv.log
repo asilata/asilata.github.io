@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.1)  22 JAN 2024 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  6 MAY 2024 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-12-11>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2022-02-21 v2.3.1 modern curriculum vitae and letter d
 ocument class
@@ -15,7 +15,7 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count187
+\etb@tempcnta=\count188
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
@@ -43,7 +43,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
@@ -57,7 +57,7 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 )
 \everycr=\toks18
 \minrowclearance=\skip50
-\rownum=\count188
+\rownum=\count189
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
@@ -103,33 +103,33 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/tweaklist.sty)
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count189
-\calc@Bcount=\count190
+\calc@Acount=\count190
+\calc@Bcount=\count191
 \calc@Adimen=\dimen144
 \calc@Bdimen=\dimen145
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count191
+\calc@Ccount=\count192
 \calc@Cskip=\skip62
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-12-11 L3 programming layer (loader) 
+Package: expl3 2024-03-14 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count192
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box53
 ))
-Package: xparse 2023-10-10 L3 Experimental document command parser
+Package: xparse 2024-03-14 L3 Experimental document command parser
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks20
 \MT@tempbox=\box54
-\MT@count=\count193
+\MT@count=\count194
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks21
@@ -137,7 +137,7 @@ LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen146
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count194
+\MT@listname@count=\count195
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
@@ -153,17 +153,17 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcollection.sty
 Package: moderncvcollection 2022-02-21 v2.3.1 moderncv collections
-\c@collection@iterator=\count195
+\c@collection@iterator=\count196
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
 Package: moderncvcompatibility 2022-02-21 v2.3.1 modern curriculum vitae and le
 tter compatibility patches
 )
-\c@collection@phones@count=\count196
-\c@collection@socials@count=\count197
-\c@cvcolumnscounter=\count198
-\c@cvcolumnsautowidthcounter=\count199
-\c@tmpiteratorcounter=\count266
+\c@collection@phones@count=\count197
+\c@collection@socials@count=\count198
+\c@cvcolumnscounter=\count199
+\c@cvcolumnsautowidthcounter=\count266
+\c@tmpiteratorcounter=\count267
 \cvcolumnsdummywidth=\skip64
 \cvcolumnswidth=\skip65
 \cvcolumnsautowidth=\skip66
@@ -190,14 +190,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count267
+\inf@bad=\count268
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count268
-\leftroot@=\count269
+\uproot@=\count269
+\leftroot@=\count270
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count270
-\DOTSCASE@=\count271
+\classnum@=\count271
+\DOTSCASE@=\count272
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -210,20 +210,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen149
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count272
+\macc@depth=\count273
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count273
+\c@MaxMatrixCols=\count274
 \dotsspace@=\muskip17
-\c@parentequation=\count274
-\dspbrk@lvl=\count275
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
 \tag@help=\toks23
-\row@=\count276
-\column@=\count277
-\maxfields@=\count278
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
 \andhelp@=\toks24
 \eqnshift@=\dimen150
 \alignsep@=\dimen151
@@ -285,7 +285,7 @@ awesome
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2024-03-14 LaTeX2e option processing using LaTeX3 keys
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-hel
 per.sty
@@ -339,14 +339,14 @@ d.code.tex
 \pgf@yd=\dimen167
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count279
-\c@pgf@countb=\count280
-\c@pgf@countc=\count281
-\c@pgf@countd=\count282
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count283
+\pgf@sys@id@count=\count284
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -363,8 +363,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
 .tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count284
-\pgfsyssoftpath@bigbuffer@items=\count285
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
 .tex
@@ -377,7 +377,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen168
-\pgfmath@count=\count286
+\pgfmath@count=\count287
 \pgfmath@box=\box58
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
@@ -403,7 +403,7 @@ e.tex)
 ithmetics.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count287
+\c@pgfmathroundto@lastzeros=\count288
 ))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
@@ -446,7 +446,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box59
 \pgf@hbox=\box60
 \pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count288
+\pgf@picture@serial@count=\count289
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
 code.tex
@@ -481,8 +481,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 x
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen192
-\pgf@sys@shading@range@num=\count289
-\pgf@shadingcount=\count290
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
 x
@@ -544,7 +544,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 s.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count291
+\pgf@plot@mark@count=\count292
 \pgfplotmarksize=\dimen197
 )
 \tikz@lastx=\dimen198
@@ -559,19 +559,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box65
 \tikz@tempbox=\box66
 \tikz@tempbox@bg=\box67
-\tikztreelevel=\count292
-\tikznumberofchildren=\count293
-\tikznumberofcurrentchild=\count294
-\tikz@fig@count=\count295
+\tikztreelevel=\count293
+\tikznumberofchildren=\count294
+\tikznumberofcurrentchild=\count295
+\tikz@fig@count=\count296
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
 x
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count296
-\pgfmatrixcurrentcolumn=\count297
-\pgf@matrix@numberofcolumns=\count298
+\pgfmatrixcurrentrow=\count297
+\pgfmatrixcurrentcolumn=\count298
+\pgf@matrix@numberofcolumns=\count299
 )
-\tikz@expandcount=\count299
+\tikz@expandcount=\count300
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 kzlibrarytopaths.code.tex
@@ -597,7 +597,7 @@ er skill matrix
 (/opt/texlive/texdir/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip75
-\multirow@cntb=\count300
+\multirow@cntb=\count301
 \multirow@dima=\skip76
 \bigstrutjot=\dimen262
 )
@@ -611,21 +611,21 @@ Package: arydshln 2019/02/21 v1.76
 \adl@depth=\dimen267
 \adl@depthsave=\dimen268
 \adl@finaldepth=\dimen269
-\adl@columns=\count301
-\adl@ncol=\count302
-\adl@currentcolumn=\count303
-\adl@currentcolumnsave=\count304
-\adl@totalheight=\count305
-\adl@totalheightsave=\count306
-\adl@dash=\count307
-\adl@gap=\count308
-\adl@cla=\count309
-\adl@clb=\count310
+\adl@columns=\count302
+\adl@ncol=\count303
+\adl@currentcolumn=\count304
+\adl@currentcolumnsave=\count305
+\adl@totalheight=\count306
+\adl@totalheightsave=\count307
+\adl@dash=\count308
+\adl@gap=\count309
+\adl@cla=\count310
+\adl@clb=\count311
 \adl@everyvbox=\toks39
 \adl@LTpagetotal=\dimen270
 )
 \cvSkill@RectangleSize=\skip77
-\my@repeat@count=\count311
+\my@repeat@count=\count312
 \cvskill@width=\skip78
 \cvskill@descriptorwidth=\skip79
 \cvskill@experiencewidth=\skip80
@@ -662,9 +662,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count312
-\Gm@cntv=\count313
-\c@Gm@tempcnt=\count314
+\Gm@cnth=\count313
+\Gm@cntv=\count314
+\c@Gm@tempcnt=\count315
 \Gm@bindingoffset=\dimen271
 \Gm@wd@mp=\dimen272
 \Gm@odd@mp=\dimen273
@@ -837,7 +837,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks41
 \XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count315
+\XKV@depth=\count316
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
@@ -879,11 +879,8 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 112.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
-(/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
 (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -893,15 +890,16 @@ Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
@@ -915,36 +913,36 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/opt/texlive/texdir/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count316
+\c@section@level=\count317
 )
 \@linkdim=\dimen279
-\Hy@linkcounter=\count317
-\Hy@pagecounter=\count318
+\Hy@linkcounter=\count318
+\Hy@pagecounter=\count319
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count319
+\Hy@SavedSpaceFactor=\count320
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4064.
-Package hyperref Info: Hyper figures OFF on input line 4181.
-Package hyperref Info: Link nesting OFF on input line 4186.
-Package hyperref Info: Hyper index ON on input line 4189.
-Package hyperref Info: Plain pages OFF on input line 4196.
-Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Option `unicode' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count320
-LaTeX Info: Redefining \url on input line 4786.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count321
+LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen280
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
@@ -954,37 +952,37 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count321
+\Fld@menulength=\count322
 \Field@Width=\dimen281
 \Fld@charsize=\dimen282
-Package hyperref Info: Hyper figures OFF on input line 6065.
-Package hyperref Info: Link nesting OFF on input line 6070.
-Package hyperref Info: Hyper index ON on input line 6073.
-Package hyperref Info: backreferencing OFF on input line 6080.
-Package hyperref Info: Link coloring OFF on input line 6085.
-Package hyperref Info: Link coloring with OCG OFF on input line 6090.
-Package hyperref Info: PDF/A mode OFF on input line 6095.
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count322
-\c@Item=\count323
-\c@Hfootnote=\count324
+\Hy@abspage=\count323
+\c@Item=\count324
+\c@Hfootnote=\count325
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count325
-\c@bookmark@seq@number=\count326
+\Fld@listcount=\count326
+\c@bookmark@seq@number=\count327
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1039,16 +1037,16 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
+\scratchcounter=\count328
 \scratchdimen=\dimen283
 \scratchbox=\box72
-\nofMPsegments=\count328
-\nofMParguments=\count329
+\nofMPsegments=\count329
+\nofMParguments=\count330
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count330
+\MPscratchCnt=\count331
 \MPscratchDim=\dimen284
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
 \everyMPtoPDFconversion=\toks44
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1282,80 +1280,80 @@ dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/texlive/texdir/texmf-dist/
 fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/texlive/texdir/texmf-dist/fonts
 /enc/dvips/fontawesome5/fa5free0.enc}]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 69.
+(Font)              scaled to size 11.52008pt on input line 75.
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 69.
+(Font)              using `T1/mdbch/b/n' instead on input line 75.
 
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 69.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 69.
+(Font)              scaled to size 7.68005pt on input line 75.
 
-Underfull \hbox (badness 10000) detected at line 69
+Underfull \hbox (badness 10000) detected at line 75
 \T1/mdbch/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 87.
+(Font)              using `T1/mdbch/b/n' instead on input line 93.
 
 
-Underfull \hbox (badness 10000) detected at line 87
+Underfull \hbox (badness 10000) detected at line 93
 \T1/mdbch/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 96.
+(Font)              using `T1/mdbch/b/n' instead on input line 102.
 
 
-Underfull \hbox (badness 10000) detected at line 96
+Underfull \hbox (badness 10000) detected at line 102
 \T1/mdbch/m/n/8 .
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 102.
+Package hyperref Warning: Suppressing link with empty target on input line 108.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 102.
+Package hyperref Warning: Suppressing link with empty target on input line 108.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 102.
+Package hyperref Warning: Suppressing link with empty target on input line 108.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 103.
+Package hyperref Warning: Suppressing link with empty target on input line 109.
 
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 107.
+(Font)              using `T1/mdbch/b/n' instead on input line 113.
 
 
-Underfull \hbox (badness 10000) detected at line 107
+Underfull \hbox (badness 10000) detected at line 113
 \T1/mdbch/m/n/8 .
  []
 
 [2] [3] (./cv.aux)
  ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-12-11>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: CDF0494578D44340ABFE124EFFDFA58D;1388.
+(rerunfilecheck)             Checksum: 8D96BEB3581C59731D50DB6048B496D8;1534.
  ) 
 Here is how much of TeX's memory you used:
- 28705 strings out of 474175
- 536350 string characters out of 5747682
- 1949457 words of memory out of 5000000
- 50294 multiletter control sequences out of 15000+600000
+ 28662 strings out of 474104
+ 535200 string characters out of 5745485
+ 1950493 words of memory out of 5000000
+ 50325 multiletter control sequences out of 15000+600000
  615758 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,129p,999b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,129p,999b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5F
 ree-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Free-Solid.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstre
@@ -1365,10 +1363,10 @@ i8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/m
 d-chr8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chri8t.pfb>
-Output written on cv.pdf (3 pages, 132034 bytes).
+Output written on cv.pdf (3 pages, 135363 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 73821 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 73829 words of extra memory for PDF output out of 74296 (max. 10000000)
 
