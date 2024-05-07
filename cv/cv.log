@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  6 MAY 2024 01:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  7 MAY 2024 04:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1280,49 +1280,41 @@ dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/texlive/texdir/texmf-dist/
 fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/texlive/texdir/texmf-dist/fonts
 /enc/dvips/fontawesome5/fa5free0.enc}]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 75.
+(Font)              scaled to size 11.52008pt on input line 76.
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 75.
+(Font)              using `T1/mdbch/b/n' instead on input line 76.
 
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 75.
+(Font)              scaled to size 11.52008pt on input line 76.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 75.
+(Font)              scaled to size 7.68005pt on input line 76.
 
-Underfull \hbox (badness 10000) detected at line 75
+Underfull \hbox (badness 10000) detected at line 76
 \T1/mdbch/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 93.
+(Font)              using `T1/mdbch/b/n' instead on input line 94.
 
 
-Underfull \hbox (badness 10000) detected at line 93
+Underfull \hbox (badness 10000) detected at line 94
 \T1/mdbch/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 102.
+(Font)              using `T1/mdbch/b/n' instead on input line 103.
 
 
-Underfull \hbox (badness 10000) detected at line 102
+Underfull \hbox (badness 10000) detected at line 103
 \T1/mdbch/m/n/8 .
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 108.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 108.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 108.
+Package hyperref Warning: Suppressing link with empty target on input line 109.
 
 
 
@@ -1330,11 +1322,19 @@ Package hyperref Warning: Suppressing link with empty target on input line 109.
 
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 109.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 110.
+
+
+
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 113.
+(Font)              using `T1/mdbch/b/n' instead on input line 114.
 
 
-Underfull \hbox (badness 10000) detected at line 113
+Underfull \hbox (badness 10000) detected at line 114
 \T1/mdbch/m/n/8 .
  []
 
@@ -1353,7 +1353,7 @@ Here is how much of TeX's memory you used:
  50325 multiletter control sequences out of 15000+600000
  615758 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,129p,999b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,129p,999b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5F
 ree-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Free-Solid.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstre
@@ -1363,7 +1363,7 @@ i8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/m
 d-chr8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chri8t.pfb>
-Output written on cv.pdf (3 pages, 135363 bytes).
+Output written on cv.pdf (3 pages, 135756 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
