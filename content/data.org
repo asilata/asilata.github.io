@@ -56,7 +56,6 @@
 :properties:
 :date: 2024--2026
 :description: ARC DECRA grant DE240100447
-:comment: Sole PI.
 :amount: AUD 468000
 :location: ANU
 :end:
@@ -69,6 +68,14 @@
 :amount: AUD 419421
 :location: ANU
 :end:
+
+** Anne Penfold street award
+:properties:
+:date: 2023
+:description: AustMS grant to support family responsibilites during research travel
+:comment: 
+:amount: AUD 750
+:location: ANU
 
 ** AMS-Simons travel grant
 :properties:

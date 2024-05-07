@@ -68,10 +68,11 @@
           (location (org-entry-get nil "location"))
           (description (org-entry-get nil "description"))          
           (comment (org-entry-get nil "comment"))
-          (date (org-entry-get nil "date")))
+          (date (org-entry-get nil "date"))
+          (amount (org-entry-get nil "amount")))
       (format "\\cventry{%s}{%s}{%s}{%s}{}{%s}"
               (if date date)
-              (if description description)
+              (if description (concat description (if amount (concat " (" amount ")") "")))
               (if title title)
               (if location location)
               (if comment comment "")
