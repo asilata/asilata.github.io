@@ -69,14 +69,6 @@
 :location: ANU
 :end:
 
-** Anne Penfold street award
-:properties:
-:date: 2023
-:description: AustMS grant to support family responsibilites during research travel
-:comment: 
-:amount: AUD 750
-:location: ANU
-
 ** AMS-Simons travel grant
 :properties:
 :date: 2016--2018
@@ -85,7 +77,12 @@
 :location: UGA
 :end:
 
-* Academic awards                                                     :award:
+* Awards                                                              :award:
+** Anne Penfold street award, 2023
+:properties:
+:longcomment: AustMS grant of AUD 750 to support family responsibilites during research travel.
+:end:
+
 ** Dean's Commendation for Excellence in Education (for Teaching Excellence), ANU, 2021.
 :properties:
 :longcomment: College award at ANU for excellence in teaching.
@@ -94,7 +91,7 @@
 ** Nadine Kowalsky Fellowship, University of Chicago, 2016.
 :properties:
 :longcomment: Departmental award at the University of Chicago for excellent research towards the PhD dissertation. Awarded USD 4500 and teaching leave for one quarter.
-
+:end:
 
 ** Jerry Rao Fellowship, University of Chicago, 2014--2015.
 :properties:
