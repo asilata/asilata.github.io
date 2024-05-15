@@ -1,5 +1,5 @@
 #+title: Curriculum Vitae
-#+options: toc:nil
+#+options: toc:nil num:nil
 #+latex_class: moderncv
 #+latex_class_options: [a4paper]
 #+latex_header: \moderncvtheme{banking}
@@ -8,10 +8,15 @@
 #+latex_header_extra: \address{Mathematical Sciences Institute, The Australian National University}
 #+latex_header_extra: \email{asilata.bapat@anu.edu.au} \homepage{asilata.github.io} \phone{02 6125 7320}
 
+#+macro: backend-settings (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) (setq-local latex-export t) (setq-local latex-export nil)))
+
+* Setup                                                            :noexport:
+{{{backend-settings}}}
+
 #+begin_src emacs-lisp :results silent :exports results
   ;; Some helper functions
-  (defun pp-education-cv ()
-    "Pretty-print the current education item. This function is called when mapping over entries in the data.org file."
+  (defun pp-education-cv-latex ()
+    "Pretty-print the current education item (latex style). This function is called when mapping over entries in the data.org file."
     (let ((uni (org-entry-get nil "ITEM"))
           (date (org-entry-get nil "date"))
           (degree (org-entry-get nil "degree"))
@@ -25,7 +30,22 @@
               (if comment comment ""))
       ))
 
-  (defun pp-employment-cv ()
+  (defun pp-education-cv ()
+    "Pretty-print the current education item. This function is called when mapping over entries in the data.org file."
+    (let ((uni (org-entry-get nil "ITEM"))
+          (date (org-entry-get nil "date"))
+          (degree (org-entry-get nil "degree"))
+          (location (org-entry-get nil "location"))          
+          (comment (org-entry-get nil "comment")))
+      (format "- *%s*: %s %s, %s %s"
+              (if date date)
+              (if degree degree)
+              (if uni uni)
+              (if location location)
+              (if comment (concat "\\\\\n  " comment) ""))
+      ))
+
+  (defun pp-employment-cv-latex ()
     "Pretty-print the current employment item. This function is called when mapping over entries in the data.org file."
     (let ((uni (org-entry-get nil "ITEM"))
           (date (org-entry-get nil "date"))
@@ -38,6 +58,22 @@
               (if uni uni)
               (if location location)
               (if department department))
+      ))
+
+  (defun pp-employment-cv ()
+    "Pretty-print the current employment item. This function is called when mapping over entries in the data.org file."
+    (let ((uni (org-entry-get nil "ITEM"))
+          (date (org-entry-get nil "date"))
+          (job (org-entry-get nil "job"))
+          (department (org-entry-get nil "department"))          
+          (location (org-entry-get nil "location")))
+      (format "- *%s*: %s, %s, %s, %s"
+              (if date date)
+              (if job job)
+              (if department department)                
+              (if uni uni)
+              (if location location)
+              )
       ))
 
   (defun pp-research-output-cv ()
@@ -62,7 +98,7 @@
       (format "- %s" title)
       ))
 
-  (defun pp-grant-cv ()
+  (defun pp-grant-cv-latex ()
     "Pretty-print the current award item. This function is called when mapping over entries in the data.org file."
     (let ((title (org-entry-get nil "ITEM"))
           (location (org-entry-get nil "location"))
@@ -79,19 +115,36 @@
               )
       ))
 
+  (defun pp-grant-cv ()
+    "Pretty-print the current award item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (location (org-entry-get nil "location"))
+          (description (org-entry-get nil "description"))          
+          (comment (org-entry-get nil "comment"))
+          (date (org-entry-get nil "date"))
+          (amount (org-entry-get nil "amount")))
+      (format "- *%s*: /%s/, %s, %s%s"
+              (if date date)
+              (if title title)
+              (if description (concat description (if amount (concat " (" amount ")") "")))
+              (if location location)
+              (if comment (concat "\\\\\n  " comment) "")
+              )
+      ))
+
   (defun pp-course-cv ()
-  "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
-  (let ((title (org-entry-get nil "ITEM"))
-        (display-date (org-entry-get nil "display-date"))
-        (comment (org-entry-get nil "comment"))
-        )
-    (format "- *%s*: %s %s"
-            display-date
-            title
-            (if (or (not comment) (string-equal comment ""))
-                ""
-              comment))
-    ))
+    "Pretty-print the current course item. This function is called when mapping over entries in the data.org file."
+    (let ((title (org-entry-get nil "ITEM"))
+          (display-date (org-entry-get nil "display-date"))
+          (comment (org-entry-get nil "comment"))
+          )
+      (format "- *%s*: %s %s"
+              display-date
+              title
+              (if (or (not comment) (string-equal comment ""))
+                  ""
+                comment))
+      ))
 
   (defun pp-activity-cv ()
     "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
@@ -110,14 +163,14 @@
               (if with (concat ", with " with) "")
               (if comment (format " (%s)" comment) "")
               )
-              ))
+      ))
 #+end_src
 
 * Education
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
-    'pp-education-cv
+    (if latex-export 'pp-education-cv-latex 'pp-education-cv)
     "education+LEVEL=2"
     '("../data.org"))
    "\n")
@@ -127,7 +180,7 @@
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
-    'pp-employment-cv
+    (if latex-export 'pp-employment-cv-latex 'pp-employment-cv)
     "employment+LEVEL=2"
     '("../data.org"))
    "\n")
@@ -146,7 +199,7 @@
 #+begin_src emacs-lisp :results value raw :exports results
   (string-join
    (org-map-entries
-    'pp-grant-cv
+    (if latex-export 'pp-grant-cv-latex 'pp-grant-cv)
     "grant+LEVEL=2"
     '("../data.org"))
    "\n")

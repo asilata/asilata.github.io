@@ -29,7 +29,7 @@
 * Employment                                                     :employment:
 ** Australian National University (ANU)
 :properties:
-:date: 2024--
+:date: 2024--present
 :job: Senior Lecturer (Level C)
 :department: Mathematical Sciences Institute
 :location: Canberra
