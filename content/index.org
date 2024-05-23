@@ -62,7 +62,5 @@ Older teaching is listed on my [[file:teaching.org][teaching page]].
    "\n")
 #+end_src
 
-I +am+ was at one point rewriting the MSI LaTeX templates for exams using [[https://orgmode.org/worg/org-contrib/babel/][org-babel]]. It is very much a work in progress, but you can view the source code (at your own risk) in [[https://github.com/asilata/msi-exam-template/][the Github repository]].
-
 Older activities are listed on my [[file:activities.org][activities page]].
 
