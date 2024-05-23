@@ -253,6 +253,25 @@
 :end:
 
 * Activities                                                       :activity:
+
+** Algebra Seminar :qrationals:wiggly:sphericals:
+SCHEDULED: <2024-05-24 Fri>
+:properties:
+:shorttitle: Sydney
+:location: University of Sydney
+:category: presentation
+:link: [[file:assets/slides/2024-05-24-sydney.pdf][notes]]
+:end:
+
+** Geometry and Dynamics Seminar :qrationals:
+SCHEDULED: <2024-05-15 Wed>
+:properties:
+:shorttitle: BIMSA-YMSC
+:location: Tsinghua University, online
+:category: presentation
+:link: [[file:assets/slides/2024-05-15-tsinghua.pdf][slides]]
+:end:
+
 ** [[https://winterbraids-xiii.sciencesconf.org/][Winterbraids]]
 SCHEDULED: <2024-02-06 Tue>
 :properties:
