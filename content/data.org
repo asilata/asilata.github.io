@@ -253,13 +253,20 @@
 :end:
 
 * Activities                                                       :activity:
+** Special session on Algebra and Representation Theory
+SCHEDULED: <2024-10-01 Tue>
+:properties:
+:location: SMRI, University of Sydney
+:type: other
+:comment: co-organised with Bregje Pauwels
+:end:
 
 ** Algebra Seminar :qrationals:wiggly:sphericals:
 SCHEDULED: <2024-05-24 Fri>
 :properties:
 :shorttitle: Sydney
 :location: University of Sydney
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2024-05-24-sydney.pdf][notes]]
 :end:
 
@@ -268,7 +275,7 @@ SCHEDULED: <2024-05-15 Wed>
 :properties:
 :shorttitle: BIMSA-YMSC
 :location: Tsinghua University, online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2024-05-15-tsinghua.pdf][slides]]
 :end:
 
@@ -276,7 +283,7 @@ SCHEDULED: <2024-05-15 Wed>
 SCHEDULED: <2024-02-06 Tue>
 :properties:
 :location: Montpellier
-:category: presentation
+:type: presentation
 :comment: mini-course
 :end:
 
@@ -285,7 +292,7 @@ SCHEDULED: <2024-01-23 Mon>
 :properties:
 :location: Isaac Newton Institute, University of Cambridge
 :shorttitle: INI Cambridge
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2024-01-23-ini.pdf][notes]]
 :end:
 
@@ -293,15 +300,16 @@ SCHEDULED: <2024-01-23 Mon>
 SCHEDULED: <2023-02-06 Mon>
 :properties:
 :location: University of Sydney
-:category: other
+:type: other
 :comment: did not attend due to personal reasons
+:with: Andrew Mathas, Daniel Tubbenhauer, Oded Yacobi
 :end:
 
 ** [[https://nmss.edu.au/][National Mathematics Summer School (NMSS) 2023]]
 SCHEDULED: <2023-01-08 Sun>
 :properties:
 :location: Australian National University
-:category: outreach
+:type: outreach
 :end:
 
 ** [[https://www.maths.usyd.edu.au/u/kevinc/TensorCat.html][Tensor categories in Sydney]]                           :qrationals:
@@ -309,7 +317,7 @@ SCHEDULED: <2022-11-29 Tue>
 :properties:
 :location: University of Sydney
 :shorttitle: Sydney
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-11-29-sydney.pdf][slides]]
 :end:
 
@@ -318,7 +326,7 @@ SCHEDULED: <2022-11-23 Wed>
 :properties:
 :shorttitle: MIT
 :location: Massachusetts Institute of Technology, online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-11-24-mit.pdf][slides]]
 :end:
 
@@ -326,7 +334,7 @@ SCHEDULED: <2022-11-23 Wed>
 SCHEDULED: <2022-08-20 Sat>
 :properties:
 :location: Australian National University
-:category: outreach
+:type: outreach
 :end:
 
 ** [[https://pages.uoregon.edu/belias/QUACKSII/index.html][QUACKS II]] :flow:
@@ -334,14 +342,14 @@ SCHEDULED: <2022-08-12 Fri>
 :properties:
 :shorttitle: QUACKS II
 :location: The University of Oregon
-:category: presentation
+:type: presentation
 :end:
 
 ** [[https://ws.amsi.org.au/][AMSI winter school 2022]]
 SCHEDULED: <2022-06-27 Mon>
 :properties:
 :location: The University of Queensland
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-07-01-amsi.pdf][notes]]
 :end:
 
@@ -349,7 +357,7 @@ SCHEDULED: <2022-06-27 Mon>
 SCHEDULED: <2022-06-19 Sun>
 :properties:
 :location: Banff International Research Station
-:category: visit
+:type: visit
 :end:
 
 ** [[https://icerm.brown.edu/programs/sp-s22/][Braids]]
@@ -358,7 +366,7 @@ SCHEDULED: <2022-05-06 Fri>
 :location: ICERM, Brown University
 :date: "2022-02-01"
 :display-date: Spring semester 2022
-:category: visit
+:type: visit
 :end:
 
 ** Algebra & discrete mathematics seminar :sphericals:
@@ -366,7 +374,7 @@ SCHEDULED: <2022-05-02 Mon>
 :properties:
 :shorttitle: Davis
 :location: UC Davis, online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-05-02-davis.pdf][slides]]
 :end:
 
@@ -375,7 +383,7 @@ SCHEDULED: <2022-04-28 Thu>
 :properties:
 :shorttitle: FD Seminar
 :location: online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-04-28-fdseminar.pdf][slides]]
 :end:
 
@@ -383,7 +391,7 @@ SCHEDULED: <2022-04-28 Thu>
 SCHEDULED: <2022-04-08 Fri>
 :properties:
 :location: Banff International Research Station
-:category: visit
+:type: visit
 :end:
 
 ** [[https://sites.google.com/view/lagoonwebinar/home][LAGOON webinar]]                                      :sphericals:
@@ -391,7 +399,7 @@ SCHEDULED: <2022-03-31 Thu>
 :properties:
 :shorttitle: LAGOON
 :location: online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-03-31-lagoon.pdf][slides]]
 :end:
 
@@ -400,7 +408,7 @@ SCHEDULED: <2022-03-28 Mon 08:00>
 :properties:
 :shorttitle: Paris
 :location: online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-03-28-paris.pdf][slides]]
 :end:
 
@@ -409,7 +417,7 @@ SCHEDULED: <2022-02-24 Thu>
 :properties:
 :shorttitle: GPRT seminar
 :location: Northeastern University
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-02-24-neu-gprt.pdf][notes]]
 :end:
 
@@ -418,7 +426,7 @@ SCHEDULED: <2022-02-18 Fri>
 :properties:
 :shorttitle: ICERM
 :location: ICERM, Brown University
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2022-02-18-icerm.pdf][slides]]
 :end:
 
@@ -427,7 +435,7 @@ SCHEDULED: <2021-12-08 Thu>
 :properties:
 :shorttitle: AustMS
 :location: online
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2021-12-08-austms.pdf][slides]]
 :end:
 
@@ -435,7 +443,7 @@ SCHEDULED: <2021-12-08 Thu>
 SCHEDULED: <2021-12-07 Tue>
 :properties:
 :location: online
-:category: other
+:type: other
 :end:
 
 ** [[https://emacsconf.org/2021/][EmacsConf 2021]]
@@ -443,7 +451,7 @@ SCHEDULED: <2021-11-27 Sat>
 :properties:
 :location: online
 :date: "2021-11-27"
-:category: presentation
+:type: presentation
 :link: [[https://youtu.be/1Ooi4KAd2FM][video]]
 :end:
 
@@ -451,7 +459,7 @@ SCHEDULED: <2021-11-27 Sat>
 SCHEDULED: <2021-08-27 Fri>
 :properties:
 :location: Australian National University
-:category: outreach
+:type: outreach
 :display-date: Several occasions
 :end:
 
@@ -461,7 +469,7 @@ SCHEDULED: <2021-06-21 Mon>
 :shorttitle: DiTS
 :location: online
 :date: "2021-06-21"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2021-06-21-dits.pdf][slides]], [[https://youtu.be/0qCHvPcZEmk][video]]
 :end:
 
@@ -469,7 +477,7 @@ SCHEDULED: <2021-06-21 Mon>
 SCHEDULED: <2021-05-06 Thu>
 :properties:
 :location: Hawker College, Canberra
-:category: outreach
+:type: outreach
 :end:
 
 ** AMS special session on geometric and categorical methods in representation theory :thurston:
@@ -478,7 +486,7 @@ SCHEDULED: <2021-05-01 Sat>
 :shorttitle: AMS special session
 :location: online
 :date: "2021-05-01"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2021-05-01-ams-sectional.pdf][slides]]
 :end:
 
@@ -488,7 +496,7 @@ SCHEDULED: <2021-01-27 Wed>
 :shorttitle: RepNet
 :location: online
 :date: "2021-01-27"
-:category: presentation
+:type: presentation
 :link: [[https://media.ed.ac.uk/playlist/dedicated/51612401/1_ekm4jzrk/1_k02igrw4][video]]
 :end:
 
@@ -496,7 +504,7 @@ SCHEDULED: <2021-01-27 Wed>
 SCHEDULED: <2021-01-14 Thu>
 :properties:
 :location: Australian National University
-:category: outreach
+:type: outreach
 :end:
 
 ** Algebra Seminar                                                 :thurston:
@@ -505,7 +513,7 @@ SCHEDULED: <2020-11-30 Mon>
 :shorttitle: UGA
 :location: University of Georgia
 :date: "2020-11-30"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2020-11-30-uga.pdf][slides]]
 :end:
 
@@ -515,7 +523,7 @@ SCHEDULED: <2020-02-10 Mon>
 :shorttitle: Mooloolaba
 :location: Mooloolaba, Queensland
 :date: "2020-02-10"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/bapat-mooloolaba-2020.pdf][slides]]
 :end:
 
@@ -523,7 +531,7 @@ SCHEDULED: <2020-02-10 Mon>
 SCHEDULED: <2020-01-29 Wed>
 :properties:
 :location: University of Sydney
-:category: presentation
+:type: presentation
 :end:
 
 ** [[https://sites.google.com/site/ausreptheory/workshop-2019][Triangulated Categories in Geometry and Representation Theory]]
@@ -531,7 +539,7 @@ SCHEDULED: <2019-06-24 Mon>
 :properties:
 :location: University of Sydney
 :date: "2019-06-24"
-:category: presentation
+:type: presentation
 :end:
 
 ** [[https://genderinstitute.anu.edu.au/women-mathematics-one-day-meeting-anu][Women of Mathematics: a one-day meeting at the ANU]]
@@ -539,7 +547,7 @@ SCHEDULED: <2019-02-27 Wed>
 :properties:
 :location: Australian National University
 :date: "2019-02-27"
-:category: presentation
+:type: presentation
 :end:
 
 ** Pure Mathematics Seminar
@@ -547,14 +555,14 @@ SCHEDULED: <2019-02-01 Fri>
 :properties:
 :location: University of Queensland
 :date: "2019-02-01"
-:category: presentation
+:type: presentation
 :end:
 
 ** National Youth Science Forum (NYSF) 2019
 SCHEDULED: <2019-01-18 Fri>
 :properties:
 :location: Australian National University
-:category: outreach
+:type: outreach
 :end:
 
 ** Special session in Representation Theory, AustMS 2018
@@ -562,14 +570,14 @@ SCHEDULED: <2018-12-07 Fri>
 :properties:
 :location: University of Adelaide
 :date: "2018-12-07"
-:category: presentation
+:type: presentation
 :end:
 
 ** Maths in the Pub 2018
 SCHEDULED: <2018-11-20 Tue>
 :properties:
 :location: Smith's Alternative, Canberra
-:category: outreach
+:type: outreach
 :end:
 
 ** [[https://ssgrt2018.ist.ac.at/][Summer School on Geometric Representation Theory]]
@@ -578,7 +586,7 @@ SCHEDULED: <2018-07-09 Mon>
 :date: "2018-07-09"
 :display-date: Jul 2018
 :current: false
-:category: other
+:type: other
 :location: IST Austria
 :with: Iordan Ganev, Maitreyee Kulkarni, Jacob Matherne
 :end:
@@ -588,7 +596,7 @@ SCHEDULED: <2018-07-03 Tue>
 :properties:
 :location: Indian Institute of Science
 :date: "2018-07-03"
-:category: *presentatio:end:
+:type: *presentatio:end:
 
 ** Pure mathematics seminar                                     :recollement:
 SCHEDULED: <2018-05-25 Fri>
@@ -596,7 +604,7 @@ SCHEDULED: <2018-05-25 Fri>
 :shorttitle: Melbourne
 :location: University of Melbourne
 :date: "2018-05-25"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2018-May-25-Melbourne.pdf][notes]]
 :end:
 
@@ -605,7 +613,7 @@ SCHEDULED: <2017-12-04 Mon>
 :properties:
 :location: University of Sydney
 :date: "2017-12-04"
-:category: presentation
+:type: presentation
 :comment: poster
 :end:
 
@@ -617,7 +625,7 @@ SCHEDULED: <2017-12-01 Fri>
 :display-date: 2016-2017
 :with: Chun-Ju Lai, Paul Sobaje
 :location: University of Georgia
-:category: other
+:type: other
 :end:
 
 ** Workshop on Topics in Algebraic Geometry
@@ -625,7 +633,7 @@ SCHEDULED: <2017-11-03 Fri>
 :properties:
 :location: University of North Carolina at Chapel Hill
 :date: "2017-11-03"
-:category: presentation
+:type: presentation
 :end:
 
 ** Canada/USA Mathcamp 2017
@@ -633,7 +641,7 @@ SCHEDULED: <2017-07-31 Mon>
 :properties:
 :location: University of Puget Sound
 :date: "2017-07-31"
-:category: presentation
+:type: presentation
 :end:
 
 ** Geometric representation theory seminar
@@ -641,7 +649,7 @@ SCHEDULED: <2017-03-30 Thu>
 :properties:
 :location: University of Toronto
 :date: "2017-03-30"
-:category: presentation
+:type: presentation
 :end:
 
 ** Algebraic Geometry, Arithmetic Geometry, and Commutative Algebra Seminar
@@ -649,7 +657,7 @@ SCHEDULED: <2017-03-24 Fri>
 :properties:
 :location: University of South Carolina
 :date: "2017-03-24"
-:category: presentation
+:type: presentation
 :end:
 
 ** Special session on Geometric Methods in Representation Theory, AMS Southeastern Spring Sectional Meeting :torus:
@@ -658,7 +666,7 @@ SCHEDULED: <2017-03-10 Fri>
 :shorttitle: AMS special session
 :location: Charleston
 :date: "2017-03-10"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2017-special-session-talk.pdf][slides]]
 :end:
 
@@ -668,7 +676,7 @@ SCHEDULED: <2017-01-07 Sat>
 :shorttitle: JMM
 :location: Atlanta
 :date: "2017-01-07"
-:category: presentation
+:type: presentation
 :link: [[file:assets/slides/2017-jmm-talk.pdf][slides]]
 :end:
 
@@ -677,7 +685,7 @@ SCHEDULED: <2016-12-20 Tue>
 :properties:
 :location: Indian Institute of Science Education and Research, Pune
 :date: "2016-12-20"
-:category: presentation
+:type: presentation
 :end:
 
 ** Algebra Seminar
@@ -685,7 +693,7 @@ SCHEDULED: <2016-11-14 Mon>
 :properties:
 :location: University of Georgia
 :date: "2016-11-14"
-:category: presentation
+:type: presentation
 :end:
 
 ** Algebra Seminar
@@ -693,7 +701,7 @@ SCHEDULED: <2016-09-12 Mon>
 :properties:
 :location: University of Georgia
 :date: "2016-09-12"
-:category: presentation
+:type: presentation
 :end:
 
 ** Young Women in Representation Theory
@@ -701,7 +709,7 @@ SCHEDULED: <2016-06-25 Sat>
 :properties:
 :location: University of Bonn
 :date: "2016-06-25"
-:category: presentation
+:type: presentation
 :end:
 
 ** Algebraic Geometry Seminar
@@ -709,7 +717,7 @@ SCHEDULED: <2016-02-09 Tue>
 :properties:
 :location: Ohio State University
 :date: "2016-02-09"
-:category: presentation
+:type: presentation
 :end:
 
 ** Algebra Seminar
@@ -717,7 +725,7 @@ SCHEDULED: <2016-01-25 Mon>
 :properties:
 :location: University of Alberta
 :date: "2016-01-25"
-:category: presentation
+:type: presentation
 :end:
 
 ** AlGeCom 12
@@ -725,7 +733,7 @@ SCHEDULED: <2015-10-24 Sat>
 :properties:
 :location: University of Michigan
 :date: "2015-10-24"
-:category: presentation
+:type: presentation
 :comment: poster
 :end:
 
@@ -734,7 +742,7 @@ SCHEDULED: <2015-10-03 Sat>
 :properties:
 :location: Loyola University
 :date: "2015-10-03"
-:category: presentation
+:type: presentation
 :comment: poster
 :end:
 
@@ -743,7 +751,7 @@ SCHEDULED: <2015-09-30 Wed>
 :properties:
 :location: University of Notre Dame
 :date: "2015-09-30"
-:category: presentation
+:type: presentation
 :end:
 
 ** Academic coordinator of [[http://mathcamp.org/2015][Canada/USA Mathcamp 2015]]
@@ -751,7 +759,7 @@ SCHEDULED: <2015-07-05 Sun>
 :properties:
 :date: "2015-07-05"
 :display-date: Summer 2015
-:category: other
+:type: other
 :with: Ruthi Hortsch
 :end:
 
@@ -760,7 +768,7 @@ SCHEDULED: <2015-05-11 Mon>
 :properties:
 :location: University of Bonn
 :date: "2015-05-11"
-:category: presentation
+:type: presentation
 :end:
 
 ** Number Theory and Algebraic Geometry Seminar
@@ -768,7 +776,7 @@ SCHEDULED: <2015-05-07 Thu>
 :properties:
 :location: Katholieke Universiteit Leuven
 :date: "2015-05-07"
-:category: presentation
+:type: presentation
 :end:
 
 ** Oberseminar Algebra, Mathematisches Institut
@@ -776,7 +784,7 @@ SCHEDULED: <2015-05-05 Tue>
 :properties:
 :location: University of Cologne
 :date: "2015-05-05"
-:category: presentation
+:type: presentation
 :end:
 
 ** Max Planck Institute for Mathematics
@@ -784,7 +792,7 @@ SCHEDULED: <2015-03-01 Sun>
 :properties:
 :location: Bonn
 :display-date: Winter quarter 2015
-:category: visit
+:type: visit
 :end:
 
 
@@ -793,7 +801,7 @@ SCHEDULED: <2014-07-23 Wed>
 :properties:
 :location: Indian Institute of Science Education and Research, Pune
 :date: "2014-07-23"
-:category: presentation
+:type: presentation
 :end:
 
 ** Summer school on quiver Hecke algebras
@@ -801,7 +809,7 @@ SCHEDULED: <2014-06-19 Thu>
 :properties:
 :location: IESC Cargèse
 :date: "2014-06-19"
-:category: presentation
+:type: presentation
 :comment: expository
 :end:
 
@@ -810,7 +818,7 @@ SCHEDULED: <2014-05-05 Mon>
 :properties:
 :location: Austin
 :date: "2014-05-05"
-:category: presentation
+:type: presentation
 :comment: expository
 :end:
 
@@ -819,7 +827,7 @@ SCHEDULED: <2012-09-01 Sat>
 :properties:
 :date: "2012-09-01"
 :display-date: 2012--2014
-:category: other
+:type: other
 :location: University of Chicago
 :end:
 
@@ -830,7 +838,7 @@ SCHEDULED: <2011-09-01 Thu>
 :display-date: 2011--2012
 :with: Simion Filip
 :location: University of Chicago
-:category: other
+:type: other
 :end:
 
 * Teaching                                                         :teaching:

@@ -30,7 +30,7 @@
   (string-join
    (org-map-entries
     'pp-activity
-    "activity+LEVEL=2+category=\"presentation\""
+    "activity+LEVEL=2+type=\"presentation\""
     '("data.org"))
    "\n")
 #+end_src
@@ -40,7 +40,7 @@
   (string-join
    (org-map-entries
     'pp-activity
-    "activity+LEVEL=2+category=\"visit\""
+    "activity+LEVEL=2+type=\"visit\""
     '("data.org"))
    "\n")
 #+end_src
@@ -50,7 +50,7 @@
   (string-join
    (org-map-entries
     'pp-activity
-    "activity+LEVEL=2+category=\"outreach\""
+    "activity+LEVEL=2+type=\"outreach\""
     '("data.org"))
    "\n")
 #+end_src
@@ -60,7 +60,7 @@
   (string-join
    (org-map-entries
     'pp-activity
-    "activity+LEVEL=2+category=\"other\""
+    "activity+LEVEL=2+type=\"other\""
     '("data.org"))
    "\n")
 #+end_src
