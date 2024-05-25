@@ -52,13 +52,29 @@
          :publishing-directory "./public/css"
          :recursive t
          :publishing-function org-publish-attachment)
-        ("cv"
+        ("cv-pdf"
          :base-directory "./content/cv"
          :publishing-directory "./public/cv"
          :latex-hyperref-template nil
          :latex-classes ,ab/latex-classes
          :publishing-function org-latex-publish-to-latex
          )
+        ("cv-html"
+         :base-directory "./content/cv"
+         :publishing-directory "./public"
+         :publishing-function org-html-publish-to-html
+         :with-broken-links t
+         :with-creator t
+         :with-title nil
+         :with-toc nil
+         :html-head-include-default-style nil
+         :html-head-include-scripts nil
+         :html-head ,ab/html-head
+         :html-head-extra ,ab/html-head-extra
+         :html-postamble ,ab/html-postamble
+         :html-preamble ab/make-html-preamble
+         :section-numbers nil
+         )          
         )
       ))
 

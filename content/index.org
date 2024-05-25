@@ -24,7 +24,7 @@ Recently I have been thinking about Bridgeland stability conditions on triangula
 Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
 
 My papers and preprints are on my [[file:research.org][research page]].
-A CV is available [[file:cv/cv.pdf][here (pdf)]].
+A CV is available [[file:cv.html][here (html)]] and [[file:cv/cv.pdf][here (pdf)]].
 
 ** Teaching
 I am not teaching in Semester 1 of 2024.
