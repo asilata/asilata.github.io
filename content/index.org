@@ -27,7 +27,7 @@ My papers and preprints are on my [[file:research.org][research page]].
 A CV is available [[file:cv.html][here (html)]] and [[file:cv/cv.pdf][here (pdf)]].
 
 ** Teaching
-I am not teaching in Semester 1 of 2024.
+In Semester 2 of 2024, I am teaching Algebra 3: Advanced Topics in Algebra (MATH3354/MATH6216).
 Older teaching is listed on my [[file:teaching.org][teaching page]].
 
 ** Current and upcoming activities
