@@ -134,6 +134,13 @@
 :end:
   
 * Work in progress                                               :inprogress:
+** Wigglyhedra
+:properties:
+:with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
+:comment: In progress.
+:slug: wiggly
+:end:
+
 ** A contracting flow on the stability manifold in type \(A\)
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
