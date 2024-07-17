@@ -193,6 +193,8 @@ footer {
 
 .bibliography table tbody > tr:nth-child(odd), .classplan table tbody > tr:nth-child(odd) {
   background: #e6e6e2; }
+.bibliography tbody > tr:nth-child(odd), .classplan tbody > tr:nth-child(odd) {
+  background: #e6e6e2; }
 
 .infotable table {
   background: #e6e6e2; }
@@ -255,6 +257,8 @@ footer {
     background: #fff; }
 
   .bibliography table tbody > tr:nth-child(odd), .classplan table tbody > tr:nth-child(odd) {
+    background: #fff; }
+  .bibliography tbody > tr:nth-child(odd), .classplan tbody > tr:nth-child(odd) {
     background: #fff; }
 
   .infotable table {
