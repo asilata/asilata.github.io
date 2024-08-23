@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.1)  17 JUL 2024 06:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.1)  23 AUG 2024 06:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,7 +8,7 @@ entering extended mode
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncv.cls
-Document Class: moderncv 2022-02-21 v2.3.1 modern curriculum vitae and letter d
+Document Class: moderncv 2024-07-18 v2.4.1 modern curriculum vitae and letter d
 ocument class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
@@ -43,7 +43,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
@@ -65,6 +65,9 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 (/opt/texlive/texdir/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -88,8 +91,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \Gin@req@width=\dimen144
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
-
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
+rs
 \f@nch@headwidth=\skip52
 \f@nch@O@elh=\skip53
 \f@nch@O@erh=\skip54
@@ -152,11 +155,11 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcollection.sty
-Package: moderncvcollection 2022-02-21 v2.3.1 moderncv collections
+Package: moderncvcollection 2024-07-18 v2.4.1 moderncv collections
 \c@collection@iterator=\count268
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
-Package: moderncvcompatibility 2022-02-21 v2.3.1 modern curriculum vitae and le
+Package: moderncvcompatibility 2024-07-18 v2.4.1 modern curriculum vitae and le
 tter compatibility patches
 )
 \c@collection@phones@count=\count269
@@ -250,11 +253,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolorblue.sty
-Package: moderncvcolorblue 2022-02-21 v2.3.1 modern curriculum vitae and letter
+Package: moderncvcolorblue 2024-07-18 v2.4.1 modern curriculum vitae and letter
  color scheme: blue
-)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolors.tex))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
-Package: moderncvstylebanking 2022-02-21 v2.3.1 modern curriculum vitae and let
+Package: moderncvstylebanking 2024-07-18 v2.4.1 modern curriculum vitae and let
 ter style scheme: banking
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
@@ -274,11 +278,10 @@ Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons s
 elector
 
 
-Class moderncv Warning: "academicons requires xetex/luatex to work. Using alter
-natives.".
+moderncv: academicons requires XeTeX/LuaTeX to work. Using alternatives.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
-Package: moderncviconsawesome 2022-02-21 v2.3.1 modern curriculum vitae icons: 
+Package: moderncviconsawesome 2024-07-18 v2.4.1 modern curriculum vitae icons: 
 awesome
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
@@ -293,8 +296,9 @@ Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
 tawesome5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
-)))) (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
-Package: moderncviconstikz 2022-02-21 v2.3.1 modern curriculum vitae and letter
+))) (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolors.tex))
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
+Package: moderncviconstikz 2024-07-18 v2.4.1 modern curriculum vitae and letter
  icons: tickz
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -423,10 +427,10 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen181
 \pgf@zx=\dimen182
 \pgf@zy=\dimen183
-LaTeX Font Info:    Trying to load font information for OT1+qpl on input line 9
-26.
- (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/ot1qpl.fd
-File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
+LaTeX Font Info:    Trying to load font information for T1+qpl on input line 92
+6.
+ (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
+File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 ))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
 .code.tex
@@ -578,7 +582,7 @@ kzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvheadiii.sty
-Package: moderncvheadiii 2022-02-21 v2.3.1 modern curriculum vitae and letter h
+Package: moderncvheadiii 2024-07-18 v2.4.1 modern curriculum vitae and letter h
 eader variant: 3
 \makeheaddetailsbox=\box69
 \makeheaddetailstempbox=\box70
@@ -587,11 +591,11 @@ eader variant: 3
 \quotewidth=\skip75
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvbodyiii.sty
-Package: moderncvbodyiii 2022-02-21 v2.3.1 modern curriculum vitae and letter b
+Package: moderncvbodyiii 2024-07-18 v2.4.1 modern curriculum vitae and letter b
 ody variant: 3
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvskillmatrix.sty
-Package: moderncvskillmatrix 2022-02-21 v2.3.1 modern curriculum vitae and lett
+Package: moderncvskillmatrix 2024-07-18 v2.4.1 modern curriculum vitae and lett
 er skill matrix
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/multirow/multirow.sty
@@ -624,7 +628,7 @@ Package: arydshln 2019/02/21 v1.76
 \adl@everyvbox=\toks39
 \adl@LTpagetotal=\dimen271
 )
-\cvSkill@RectangleSize=\skip78
+\cvSkill@ShapeSize=\skip78
 \my@repeat@count=\count318
 \cvskill@width=\skip79
 \cvskill@descriptorwidth=\skip80
@@ -645,16 +649,18 @@ Package: arydshln 2019/02/21 v1.76
 \separatorcolumnwidth=\skip94
 \maincolumnwidth=\skip95
 \doubleitemcolumnwidth=\skip96
-\listitemsymbolwidth=\skip97
+\tripleitemcolumnwidth=\skip97
+\listitemsymbolwidth=\skip98
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 87.
+nput line 89.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-\listitemcolumnwidth=\skip98
-\listdoubleitemcolumnwidth=\skip99
+\listitemcolumnwidth=\skip99
+\listdoubleitemcolumnwidth=\skip100
+\listitemsymbolspace=\skip101
 \cvitemwithcommentmainbox=\box72
-\cvitemwithcommentmainlength=\skip100
-\cvitemwithcommentcommentlength=\skip101
+\cvitemwithcommentmainlength=\skip102
+\cvitemwithcommentcommentlength=\skip103
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -803,25 +809,25 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/mdbch/b/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/mdbch/m/n --> OT1/mdbch/m/n on input line 131.
+(Font)                  OT1/mdbch/m/n --> T1/mdbch/m/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/mdbch/b/n on input line 132.
+(Font)                  OT1/cmr/bx/n --> T1/mdbch/b/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/mdbch/m/it on input line 133.
+(Font)                  OT1/cmr/m/it --> T1/mdbch/m/it on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 134.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 135.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 135.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/mdbch/b/n --> OT1/mdbch/b/n on input line 137.
+(Font)                  OT1/mdbch/b/n --> T1/mdbch/b/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/mdbch/b/n on input line 138.
+(Font)                  OT1/cmr/bx/n --> T1/mdbch/b/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/mdbch/b/it on input line 139.
+(Font)                  OT1/cmr/bx/it --> T1/mdbch/b/it on input line 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/b/n on input line 140.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/b/n on input line 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 141.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/b/n on input line 141.
 \symlettersupright=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
 (Font)                  OML/mdbch/m/n --> OML/mdbch/b/n on input line 144.
@@ -840,13 +846,13 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@depth=\count322
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
- 186.
+LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 
+186.
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
-File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
+File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 186.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 449.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 450.
@@ -865,21 +871,13 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Info: Redefining \bold on input line 510.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip102
+\rulethickness=\skip104
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 
-116.
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
-File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
-)
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 116.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -920,7 +918,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@pagecounter=\count325
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -930,7 +928,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 \Hy@SavedSpaceFactor=\count326
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -975,7 +973,7 @@ package with kernel methods
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-05-23 v7.01i Hyperref driver for pdfTeX
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
@@ -994,7 +992,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip103
+\Hy@SectionHShift=\skip105
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 13.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 13.
@@ -1126,7 +1124,7 @@ Package hyperref Info: Link coloring OFF on input line 13.
 \@outlinefile=\write4
 \openout4 = `cv.out'.
 
-\pagenumberwidth=\skip104
+\pagenumberwidth=\skip106
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 10.51207pt on input line 13.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -1172,6 +1170,14 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
 nput line 16.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
+ 16.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 16.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 16.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -1260,11 +1266,6 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 16.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 16.
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-
- []
-
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 13.82408pt on input line 17.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
@@ -1354,13 +1355,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 8D96BEB3581C59731D50DB6048B496D8;1534.
  ) 
 Here is how much of TeX's memory you used:
- 28749 strings out of 473584
- 536466 string characters out of 5730347
- 1949905 words of memory out of 5000000
- 50940 multiletter control sequences out of 15000+600000
- 615283 words of font info for 192 fonts, out of 8000000 for 9000
+ 28859 strings out of 473584
+ 538495 string characters out of 5730347
+ 1951905 words of memory out of 5000000
+ 51034 multiletter control sequences out of 15000+600000
+ 616571 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,13n,129p,999b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,129p,999b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5F
 ree-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Free-Solid.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstre
@@ -1368,11 +1369,12 @@ a/charter/bchb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstrea/chart
 er/bchr8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstrea/charter/bchr
 i8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/m
-d-chri8t.pfb>
-Output written on cv.pdf (3 pages, 128986 bytes).
+d-chr8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch
+/md-chri8t.pfb>
+Output written on cv.pdf (3 pages, 135812 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
  15 named destinations out of 1000 (max. 500000)
  73829 words of extra memory for PDF output out of 74296 (max. 10000000)
 
