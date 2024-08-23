@@ -134,6 +134,12 @@
 :end:
   
 * Work in progress                                               :inprogress:
+** Some remarks about the faithfulness of the Burau representation of Artin--Tits groups
+:properties:
+:with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
+:comment: In progress.
+:end:
+
 ** A contracting flow on the stability manifold in type \(A\)
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
