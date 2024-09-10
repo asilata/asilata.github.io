@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1724394212.08764 "cv.tex" "cv.pdf" "cv" 1724394213.14878 0
+["pdflatex"] 1725934329.69068 "cv.tex" "cv.pdf" "cv" 1725934330.73832 0
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -164,9 +164,9 @@
   "/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1716410060 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
-  "/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty" 1717617347 6565 9112779ee7624275fd04efaf61c82420 ""
-  "/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1716410060 4674 7ee0778deacb92a25a58270fc8ec2920 ""
-  "/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1716410060 9327 090c6c81eff433de1562ec6a5b1b31ee ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty" 1724879191 6565 433202089ba6cc213cc39b66dbcea832 ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1724879202 4674 22943918cc84173478a588d6efbc800b ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1724879202 9783 ab4bee47700c04aadedb8da27591b0ab ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mathdesign.sty" 1377991452 9111 d865fc87f99dbc5273fb00f1d7091d76 ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mdacmr.fd" 1153697689 579 116e648415099e5e059da594ef56c9f0 ""
@@ -224,12 +224,12 @@
   "/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1655411236 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1719785820 42007 0b741a3c21a5ca32b40e3846e75b3548 ""
-  "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1722474973 5483414 0b115d117df898a2c542bd2ab788bde2 ""
-  "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1722475079 8239360 52c017b4a06d23e72b6dfa0feceeed1a ""
-  "/opt/texlive/texdir/texmf.cnf" 1722474967 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "cv.aux" 1724394212.98446 1869 346f902225a6d4b9d4b2114dee8f0b0c "pdflatex"
-  "cv.out" 1724394212.98446 1534 8d96beb3581c59731d50db6048b496d8 "pdflatex"
-  "cv.tex" 1724394208.44446 13386 b1730fd6c1d7c324ca496e583dc15aae ""
+  "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1725154016 5498198 18d2f2130fc3a934e45e9cb933790218 ""
+  "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1725154107 8239363 00d752ac1338d9828b5fb95708cf473b ""
+  "/opt/texlive/texdir/texmf.cnf" 1725154010 555 bd60ff59e4d560b42d96b004436f91d3 ""
+  "cv.aux" 1725934330.58568 1869 9fb621290e6b94131d274bafb43346b2 "pdflatex"
+  "cv.out" 1725934330.58568 1534 8d96beb3581c59731d50db6048b496d8 "pdflatex"
+  "cv.tex" 1725934326.35773 13569 ba0c0e0cdcd338b9fad2cf625d822965 ""
   (generated)
   "cv.aux"
   "cv.log"
