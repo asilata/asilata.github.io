@@ -153,6 +153,7 @@
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
 :comment: Preprint.
+:link: [[file:assets/papers/bapat-queffelec-2024.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
 :end:
 
 ** Wigglyhedra
