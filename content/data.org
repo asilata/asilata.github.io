@@ -268,6 +268,15 @@
 :end:
 
 * Activities                                                       :activity:
+** [[https://maths.anu.edu.au/news-events/events/cnrs-irl-famsi-research-talks][CNRS IRL FAMSI colloquium]] :unfaithful:
+SCHEDULED: <2024-11-04 Mon 14:00-14:30>
+:properties:
+:shorttitle: IRL colloquium
+:location: ANU
+:type: presentation
+:link: [[file:assets/slides/2024-11-05-irl-colloquium.pdf][slides]]
+:end:
+
 ** Special session on Algebra and Representation Theory
 SCHEDULED: <2024-10-01 Tue>
 :properties:
