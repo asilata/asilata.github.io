@@ -152,14 +152,14 @@
 ** Some remarks about the faithfulness of the Burau representation of Artin--Tits groups
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
-:comment: Preprint.
+:comment: Preprint (submitted).
 :link: [[file:assets/papers/bapat-queffelec-2024.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
 :end:
 
 ** Wigglyhedra
 :properties:
 :with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
-:comment: Preprint.
+:comment: Preprint (submitted).
 :slug: wiggly
 :link: [[file:assets/papers/wigglyhedra.pdf][pdf]], [[https://arxiv.org/abs/2407.11632][arXiv]]
 :end:
@@ -201,7 +201,7 @@
 ** A Thurston compactification of the space of stability conditions
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Submitted.
+:comment: Preprint (submitted).
 :slug: thurston
 :year: 2020
 :link: [[file:assets/papers/a2-compactification.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
