@@ -149,6 +149,13 @@
 :end:
 
 * Papers                                                              :paper:
+** MatrixNet: Learning over symmetry groups using learned group representations
+:properties:
+:with: Lucas Laird, Circe Hsu, [[https://www.robinwalters.com/][Robin Walters]]
+:comment: Conference on Neural Information Processing Systems (NeurIPS) 2024
+:link: [[https://arxiv.org/pdf/2501.09571][arXiv]], [[https://github.com/lucas-laird/MatrixNet][code]], [[https://neurips.cc/virtual/2024/poster/94510][conference]]
+:end:
+
 ** Some remarks about the faithfulness of the Burau representation of Artin--Tits groups
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
@@ -159,7 +166,7 @@
 ** Wigglyhedra
 :properties:
 :with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
-:comment: Preprint (submitted).
+:comment: To appear in Mathematische Zeitschrift.
 :slug: wiggly
 :link: [[file:assets/papers/wigglyhedra.pdf][pdf]], [[https://arxiv.org/abs/2407.11632][arXiv]]
 :end:
@@ -218,7 +225,7 @@
 ** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
 :properties:
 :slug: bfunctions
-:with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
+:with: [[http://www.robinwalters.com/][Robin Walters]]
 :comment: Mathematical Research Letters 24 (2017), no. 4, 947--954
 :year: 2017
 :link: [[file:assets/papers/bapat-walters-2015.pdf][pdf]], [[http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1][journal]]
@@ -251,7 +258,7 @@
 
 ** The Bernstein-Sato \(b\)-function of the Vandermonde determinant
 :properties:
-:with: [[http://mathserver.neu.edu/~robin/][Robin Walters]]
+:with: [[http://www.robinwalters.com/][Robin Walters]]
 :comment: Preprint (not for publication).
 :year: 2015
 :link: [[http://arxiv.org/abs/1503.01055][arXiv]]
@@ -866,6 +873,13 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Teaching                                                         :teaching:
+** Algebra 3: Advanced Topics in Algebra (MATH3354/MATH6216)
+SCHEDULED: <2024-07-24 Wed>
+:properties:
+:location: Australian National University
+:display-date: 2024 Semester 2
+:end:
+
 ** Games, Graphs, and Machines ([[https://asilata.github.io/ggm/][MATH2301]])
 SCHEDULED: <2023-07-24 Mon>
 :properties:
