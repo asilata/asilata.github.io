@@ -18,19 +18,20 @@ Canberra, ACT, 2601, Australia
 #+end_intro
 
 ** Research interests and background
-My research focuses on problems in representation theory and algebraic geometry. 
-I am particularly interested in the topology, geometry, and combinatorics of spaces naturally arising from representation theory.
-Recently I have been thinking about Bridgeland stability conditions on triangulated categories, and associated braid group actions.
-Specific topics of interest include Bridgeland stability conditions, perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
+I am interested in the topology, geometry, and combinatorics of spaces and categories that arise from representation theory.
+I currently think about Bridgeland stability conditions on triangulated categories and categorical braid group actions. 
+Other topics of interest include perverse sheaves, hyperplane arrangements, and Bernstein--Sato polynomials.
 
 My papers and preprints are on my [[file:research.org][research page]].
 A CV is available [[file:cv.html][here (html)]] and [[file:cv/cv.pdf][here (pdf)]].
 
-** Teaching
-I am not teaching in Semester 1 of 2025.
-Older teaching is listed on my [[file:teaching.org][teaching page]].
-
 ** Current and upcoming activities
+My professional activities include [[file:research.org][doing research]] and [[file:activities.org][presenting research work]], [[file:teaching.org][teaching classes]], and [[file:supervision.org][supervising students]].
+
+#+begin_src emacs-lisp :results value raw :exports results
+(string-join (org-map-entries (lambda () (concat "*** " (org-get-heading) "\n" (org-get-entry))) "current+LEVEL=2-status=\"past\"" '("data.org")) "\n")
+#+end_src
+
 #+begin_src emacs-lisp :results silent :exports results
   (defun pp-activity ()
     "Pretty-print the current activity item. This function is called when mapping over entries in the data.org file."
@@ -53,14 +54,15 @@ Older teaching is listed on my [[file:teaching.org][teaching page]].
 #+end_src
 
 #+begin_src emacs-lisp :results value raw :exports results :session
-  (string-join
-   (reverse
-    (org-map-entries
-    'pp-activity
-    "activity+LEVEL=2+SCHEDULED>=\"<now>\""
-    '("data.org")))
-   "\n")
+    (let ((current-events (string-join
+     (reverse
+      (org-map-entries
+      'pp-activity
+      "activity+LEVEL=2+SCHEDULED>=\"<now>\""
+      '("data.org")))
+     "\n")))
+      (if (string= "" current-events) ""
+        (concat "*** Travel/presentations\n" current-events)))
 #+end_src
 
-Older activities are listed on my [[file:activities.org][activities page]].
 

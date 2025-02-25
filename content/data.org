@@ -37,6 +37,22 @@
 
 ** Australian National University (ANU)
 :properties:
+:date: 2024--2027
+:job: Australian Research Council DECRA Fellow
+:department: Mathematical Sciences Institute
+:location: Canberra
+:end:
+
+** Australian National University (ANU)
+:properties:
+:date: 2024--2026
+:job: Tuckwell Fellow
+:department: Tuckwell Scholarship Program
+:location: Canberra
+:end:
+
+** Australian National University (ANU)
+:properties:
 :date: 2018--2023
 :job: Lecturer (Level B)
 :department: Mathematical Sciences Institute
@@ -275,6 +291,14 @@
 :end:
 
 * Activities                                                       :activity:
+** ICTS workshop on Geometric Structures and Stability
+SCHEDULED: <2026-02-16 Mon 14:00-14:30>
+:properties:
+:shorttitle: ICTS
+:location: ICTS
+:type: presentation
+:end:
+
 ** [[https://maths.anu.edu.au/news-events/events/cnrs-irl-famsi-research-talks][CNRS IRL FAMSI colloquium]] :unfaithful:
 SCHEDULED: <2024-11-04 Mon 14:00-14:30>
 :properties:
@@ -1078,3 +1102,63 @@ SCHEDULED: <2011-09-01 Thu>
 :date: "2011-09-01"
 :display-date: 2011--2012
 :end:
+
+* Supervision :supervision:
+** Yangda Bei
+:properties:
+:type: honours
+:year-finishing: 2025
+:comment: Co-supervised with Leonardo Maltoni.
+:end:
+
+** Tom Gell
+:properties:
+:type: honours
+:year-finishing: 2024
+:end:
+
+** Kieran Lelis
+:properties:
+:type: honours
+:year-finishing: 2024
+:end:
+
+** Isabel Longbottom
+:properties:
+:type: honours
+:year-finishing: 2022
+:end:
+
+** Martin Skilleter
+:properties:
+:type: honours
+:year-finishing: 2022
+:comment: Co-supervised with Uri Onn.
+:end:
+
+** Louis Becker
+:properties:
+:type: honours
+:year-finishing: 2021
+:comment: University Medal 2021.
+:end:
+
+** Fan Xu
+:properties:
+:type: masters
+:year-finishing: 2021
+:end:
+
+* Current :current:
+** Semester 1, 2025
+- Supervising Yangda Bei's honours project with Leonardo Maltoni.
+- Attending the course on Stacks and Moduli taught by Svetlana Makarova.
+- Organising/attending the Thursday working seminar, also known as CATS.
+- Mentoring Tuckwell Scholars.
+- Gave a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
+
+** Semester 2, 2024
+:properties:
+:status: past
+:end:
+
