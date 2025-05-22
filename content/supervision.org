@@ -9,13 +9,17 @@
     (let ((name (org-entry-get nil "ITEM"))
           (year (org-entry-get nil "year-finishing"))
           (comment (org-entry-get nil "comment"))
+          (accolade (org-entry-get nil "accolade"))
           )
-      (format "- %s (%s)%s"
+      (format "- %s (%s)%s%s"
               name
               year
               (if (or (not comment) (string-equal comment ""))
+                  "."
+                (concat ", " comment))
+              (if (or (not accolade) (string-equal accolade ""))
                   ""
-                (concat ". /" comment "/")))
+                (concat " /" accolade "/")))
       ))
 #+end_src
 
@@ -29,12 +33,23 @@
    "\n")
 #+end_src
 
-#+RESULTS:
-- *Yangda Bei (2025):* Jointly supervised with Leonardo Maltoni
-- *Tom Gell (2024)*
-- *Kieran Lelis (2024)*
-- *Isabel Longbottom (2022)*
-- *Martin Skilleter (2022):* Jointly supervised with Uri Onn
-- *Louis Becker (2021):* University Medal 2021
+** Masters
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-student
+    "supervision+LEVEL=2+type=\"masters\""
+    '("data.org"))
+   "\n")
+#+end_src
 
+** Vacation scholars
+#+begin_src emacs-lisp :results value raw :exports results
+  (string-join
+   (org-map-entries
+    'pp-student
+    "supervision+LEVEL=2+type=\"vacation\""
+    '("data.org"))
+   "\n")
+#+end_src
 

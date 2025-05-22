@@ -299,6 +299,27 @@ SCHEDULED: <2026-02-16 Mon 14:00-14:30>
 :type: presentation
 :end:
 
+** [[https://www.ub.edu/comb/CGGC25/][Combinatorial Geometries and Geometric Combinatorics]]
+SCHEDULED: <2025-11-08 Sat>
+:properties:
+:location: Centre de Recerca Matemàtica, Barcelona
+:type: visit
+:end:
+
+** [[https://www.unsw.edu.au/science/our-schools/maths/engage-with-us/high-school-students-and-teachers/do-the-maths-flagship-annual-event][Do The Maths 2025]]
+SCHEDULED: <2025-06-25 Wed>
+:properties:
+:location: University of New South Wales (UNSW), Sydney
+:type: presentation
+:end:
+
+** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
+SCHEDULED: <2025-05-13 Tue 18:30>
+:properties:
+:location: Smith's Alternative
+:type: outreach
+:end:
+
 ** [[https://maths.anu.edu.au/news-events/events/cnrs-irl-famsi-research-talks][CNRS IRL FAMSI colloquium]] :unfaithful:
 SCHEDULED: <2024-11-04 Mon 14:00-14:30>
 :properties:
@@ -1108,7 +1129,7 @@ SCHEDULED: <2011-09-01 Thu>
 :properties:
 :type: honours
 :year-finishing: 2025
-:comment: Co-supervised with Leonardo Maltoni.
+:comment: co-supervised with Leonardo Maltoni.
 :end:
 
 ** Tom Gell
@@ -1133,14 +1154,14 @@ SCHEDULED: <2011-09-01 Thu>
 :properties:
 :type: honours
 :year-finishing: 2022
-:comment: Co-supervised with Uri Onn.
+:comment: co-supervised with Uri Onn.
 :end:
 
 ** Louis Becker
 :properties:
 :type: honours
 :year-finishing: 2021
-:comment: University Medal 2021.
+:accolade: University Medal 2021.
 :end:
 
 ** Fan Xu
@@ -1149,12 +1170,40 @@ SCHEDULED: <2011-09-01 Thu>
 :year-finishing: 2021
 :end:
 
+** Tanisha Talekar
+:properties:
+:type: vacation
+:year-finishing: 2024
+:comment: co-supervised with Anthony Licata.
+:end:
+
+** Nripendra Kumar Deb
+:properties:
+:type: vacation
+:year-finishing: 2024
+:comment: co-supervised with Anthony Licata.
+:end:
+
+** Sambit Senapati
+:properties:
+:type: vacation
+:year-finishing: 2019
+:comment: co-supervised with Anthony Licata.
+:end:
+
+** Sean Carroll
+:properties:
+:type: vacation
+:year-finishing: 2018
+:comment: co-supervised with Anand Deopurkar.
+:end:
+
 * Current :current:
 ** Semester 1, 2025
 - Supervising Yangda Bei's honours project with Leonardo Maltoni.
-- Attending the course on Stacks and Moduli taught by Svetlana Makarova.
+- Attending the course [[https://sites.google.com/view/murmuno/teaching/2025-semester-1-stacks-and-moduli][Stacks and Moduli Theory]] taught by Svetlana Makarova.
 - Organising/attending the Thursday working seminar, also known as CATS.
-- Mentoring Tuckwell Scholars.
+- Attending the conference [[https://www.maths.usyd.edu.au/u/repdown/#/][Representation theory down under]] at the Sydney Mathematical Research Institute.
 - Gave a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
 
 ** Semester 2, 2024

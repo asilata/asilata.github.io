@@ -6,7 +6,7 @@
 [[file:assets/asilata-bapat.jpg]]
 
 #+begin_nil
-Senior Lecturer & ARC DECRA Fellow\\
+Senior Lecturer, ARC DECRA Fellow, and Tuckwell Fellow\\
 [[http://maths.anu.edu.au/][Mathematical Sciences Institute]]\\
 The Australian National University\\
 Canberra, ACT, 2601, Australia
@@ -19,14 +19,20 @@ Canberra, ACT, 2601, Australia
 
 ** Research interests and background
 I am interested in the topology, geometry, and combinatorics of spaces and categories that arise from representation theory.
-I currently think about Bridgeland stability conditions on triangulated categories and categorical braid group actions. 
+I am currently thinking about Bridgeland stability conditions on triangulated categories and categorical braid group actions.
 Other topics of interest include perverse sheaves, hyperplane arrangements, and Bernstein--Sato polynomials.
+More broadly, I enjoy mathematical topics that are rooted in explicit examples.
+
+Before coming to ANU, I was a postdoctoral researcher at the University of Georgia, supervised by William Graham.
+I got my PhD from the University of Chicago, supervised by Victor Ginzburg.
+I have an undergraduate degree in Mathematics with Computer Science from the Massachusetts Institute of Technology.
 
 My papers and preprints are on my [[file:research.org][research page]].
 A CV is available [[file:cv.html][here (html)]] and [[file:cv/cv.pdf][here (pdf)]].
 
 ** Current and upcoming activities
-My professional activities include [[file:research.org][doing research]] and [[file:activities.org][presenting research work]], [[file:teaching.org][teaching classes]], and [[file:supervision.org][supervising students]].
+My professional activities include [[file:research.org][doing research]] and [[file:activities.org][presenting research work]], [[file:teaching.org][teaching classes]], [[file:supervision.org][supervising students]], and mentoring [[https://tuckwell.anu.edu.au/][Tuckwell scholars]].
+Selected current and upcoming activities are listed below.
 
 #+begin_src emacs-lisp :results value raw :exports results
 (string-join (org-map-entries (lambda () (concat "*** " (org-get-heading) "\n" (org-get-entry))) "current+LEVEL=2-status=\"past\"" '("data.org")) "\n")
@@ -62,7 +68,7 @@ My professional activities include [[file:research.org][doing research]] and [[f
       '("data.org")))
      "\n")))
       (if (string= "" current-events) ""
-        (concat "*** Travel/presentations\n" current-events)))
+        (concat "*** Presentations and research travel\n" current-events)))
 #+end_src
 
 
