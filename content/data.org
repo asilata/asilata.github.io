@@ -310,7 +310,7 @@ SCHEDULED: <2025-11-08 Sat>
 SCHEDULED: <2025-06-25 Wed>
 :properties:
 :location: University of New South Wales (UNSW), Sydney
-:type: presentation
+:type: outreach
 :end:
 
 ** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
@@ -1204,7 +1204,8 @@ SCHEDULED: <2011-09-01 Thu>
 - Attending the course [[https://sites.google.com/view/murmuno/teaching/2025-semester-1-stacks-and-moduli][Stacks and Moduli Theory]] taught by Svetlana Makarova.
 - Organising/attending the Thursday working seminar, also known as CATS.
 - Attending the conference [[https://www.maths.usyd.edu.au/u/repdown/#/][Representation theory down under]] at the Sydney Mathematical Research Institute.
-- Gave a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
+- Giving a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
+- Supervising Prognadipto Majumder's FRT project with Ian Le.
 
 ** Semester 2, 2024
 :properties:
