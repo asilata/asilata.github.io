@@ -165,6 +165,15 @@
 :end:
 
 * Papers                                                              :paper:
+** Wigglyhedra
+:properties:
+:with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
+:comment: Mathematische Zeitschrift 310, No. 3, Paper No. 54 (2025).
+:year: 2025
+:slug: wiggly
+:link: [[file:assets/papers/2025-bapat-pilaud-wiggly.pdf][pdf]], [[https://arxiv.org/abs/2407.11632][arXiv]]
+:end:
+
 ** MatrixNet: Learning over symmetry groups using learned group representations
 :properties:
 :with: Lucas Laird, Circe Hsu, [[https://www.robinwalters.com/][Robin Walters]]
@@ -176,15 +185,7 @@
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
 :comment: Preprint (submitted).
-:link: [[file:assets/papers/bapat-queffelec-2024.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
-:end:
-
-** Wigglyhedra
-:properties:
-:with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
-:comment: To appear in Mathematische Zeitschrift.
-:slug: wiggly
-:link: [[file:assets/papers/wigglyhedra.pdf][pdf]], [[https://arxiv.org/abs/2407.11632][arXiv]]
+:link: [[file:assets/papers/2024-bapat-queffelec-unfaithful.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
 :end:
 
 ** \(q\)-deformed rational numbers and the 2-Calabi--Yau category of type \(A_{2}\)
@@ -193,16 +194,16 @@
 :comment: Forum of Mathematics, Sigma, 11, e47 (2023).
 :year: 2023
 :slug: qrationals
-:link: [[file:assets/papers/qrationals-2022.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
+:link: [[file:assets/papers/2022-bapat-becker-licata-qrationals.pdf][pdf]], [[https://arxiv.org/abs/2202.07613][arXiv]]
 :end:
 
 ** Spherical objects and stability conditions on 2-Calabi--Yau quiver categories
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Mathematische Zeitschrift 303, 13 (2023).
+:comment: Mathematische Zeitschrift 303, No. 1, Paper No. 13 (2023). We are extremely grateful to Edmund Heng for pointing out an error in the statement of Lemma 4.5 of the published version. The error has been corrected in the pdf file linked here.
 :year: 2023
 :slug: algorithm
-:link: [[file:assets/papers/stability-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]], [[https://doi.org/10.1007/s00209-022-03172-8][journal]]
+:link: [[file:assets/papers/2023-bapat-deopurkar-licata-algorithm.pdf][pdf]], [[https://arxiv.org/abs/2108.09155][arXiv]], [[https://doi.org/10.1007/s00209-022-03172-8][journal]]
 :end:
 
 ** Computing the matching distance of 2-parameter persistence modules from critical values
@@ -227,7 +228,7 @@
 :comment: Preprint (submitted).
 :slug: thurston
 :year: 2020
-:link: [[file:assets/papers/a2-compactification.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
+:link: [[file:assets/papers/2023-bapat-deopurkar-licata-thurston.pdf][pdf]], [[https://arxiv.org/abs/2011.07908][arXiv]]
 :end:
 
 ** Recollement for perverse sheaves on real hyperplane arrangements
@@ -235,7 +236,7 @@
 :slug: recollement
 :comment: Journal of Algebra, 568 (2021), pp. 61--90
 :year: 2021
-:link: [[file:assets/papers/recollements-2018.pdf][pdf]], [[https://arxiv.org/abs/1810.13126][arXiv]], [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
+:link: [[file:assets/papers/2018-bapat-recollements.pdf][pdf]], [[https://arxiv.org/abs/1810.13126][arXiv]], [[https://dx.doi.org/10.1016/j.jalgebra.2020.09.044][journal]]
 :end:
 
 ** The strong topological monodromy conjecture for Coxeter hyperplane arrangements
@@ -244,7 +245,7 @@
 :with: [[http://www.robinwalters.com/][Robin Walters]]
 :comment: Mathematical Research Letters 24 (2017), no. 4, 947--954
 :year: 2017
-:link: [[file:assets/papers/bapat-walters-2015.pdf][pdf]], [[http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1][journal]]
+:link: [[file:assets/papers/2015-bapat-walters-bfunctions.pdf][pdf]], [[http://dx.doi.org/10.4310/MRL.2017.v24.n4.a1][journal]]
 :end:    
 
 ** Torus actions and tensor products of intersection cohomology
@@ -252,7 +253,7 @@
 :slug: torus
 :comment: Pacific Journal of Mathematics 276 (2015), pp. 19--34
 :year: 2015
-:link: [[file:assets/papers/bapat-2015.pdf][pdf]], [[http://arxiv.org/abs/1309.0859][arXiv]], [[http://dx.doi.org/10.2140/pjm.2015.276.19][journal]]
+:link: [[file:assets/papers/2015-bapat-torus.pdf][pdf]], [[http://arxiv.org/abs/1309.0859][arXiv]], [[http://dx.doi.org/10.2140/pjm.2015.276.19][journal]]
 :end:
 
 ** Lower central series of free algebras in symmetric tensor categories
@@ -260,9 +261,8 @@
 :with: [[http://www.maths.ed.ac.uk/~djordan/][David Jordan]]
 :comment: Journal of Algebra, 373 (2013), pp. 299--311
 :year: 2013
-:link: [[file:assets/papers/bapat-jordan-2013.pdf][pdf]], [[http://arxiv.org/abs/1001.1375][arXiv]], [[http://dx.doi.org/10.1016/j.jalgebra.2012.10.001][journal]]
+:link: [[file:assets/papers/2013-bapat-jordan-symmetric.pdf][pdf]], [[http://arxiv.org/abs/1001.1375][arXiv]], [[http://dx.doi.org/10.1016/j.jalgebra.2012.10.001][journal]]
 :end:
-
 
 * Not for publication                                                   :nfp:
 ** Equivariant cohomology and the localization theorem
@@ -310,7 +310,7 @@ SCHEDULED: <2025-11-08 Sat>
 SCHEDULED: <2025-06-25 Wed>
 :properties:
 :location: University of New South Wales (UNSW), Sydney
-:type: presentation
+:type: outreach
 :end:
 
 ** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
@@ -1211,6 +1211,7 @@ SCHEDULED: <2011-09-01 Thu>
 - Attending the course [[https://sites.google.com/view/murmuno/teaching/2025-semester-1-stacks-and-moduli][Stacks and Moduli Theory]] taught by Svetlana Makarova.
 - Organising/attending the Thursday working seminar, also known as CATS.
 - Attending the conference [[https://www.maths.usyd.edu.au/u/repdown/#/][Representation theory down under]] at the Sydney Mathematical Research Institute.
-- Gave a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
+- Giving a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
+- Supervising Prognadipto Majumder's FRT project with Ian Le.
 
 
