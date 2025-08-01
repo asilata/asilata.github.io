@@ -65,3 +65,7 @@
    "\n")
 #+end_src
 
+** Other
+#+begin_src emacs-lisp :results value raw :exports results
+(string-join (org-map-entries (lambda () (concat "*** " (org-get-heading) "\n" (org-get-entry))) "current+LEVEL=2" '("data.org")) "\n")
+#+end_src

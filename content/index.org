@@ -33,6 +33,7 @@ A CV is available [[file:cv.html][here (html)]] and [[file:cv/cv.pdf][here (pdf)
 ** Current and upcoming activities
 My professional activities include [[file:research.org][doing research]] and [[file:activities.org][presenting research work]], [[file:teaching.org][teaching classes]], [[file:supervision.org][supervising students]], and mentoring [[https://tuckwell.anu.edu.au/][Tuckwell scholars]].
 Selected current and upcoming activities are listed below.
+Archives are available under [[file:activities.org][activities]].
 
 #+begin_src emacs-lisp :results value raw :exports results
 (string-join (org-map-entries (lambda () (concat "*** " (org-get-heading) "\n" (org-get-entry))) "current+LEVEL=2-status=\"past\"" '("data.org")) "\n")

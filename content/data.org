@@ -185,6 +185,7 @@
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
 :comment: Preprint (submitted).
+:slug: unfaithful
 :link: [[file:assets/papers/2024-bapat-queffelec-unfaithful.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
 :end:
 
@@ -291,11 +292,19 @@
 :end:
 
 * Activities                                                       :activity:
+** Symplectic theory meets representation theory
+SCHEDULED: <2026-04-20 Mon>
+:properties:
+:shorttitle: Cambridge
+:location: University of Cambridge
+:type: presentation
+:end:
+
 ** ICTS workshop on Geometric Structures and Stability
 SCHEDULED: <2026-02-16 Mon 14:00-14:30>
 :properties:
 :shorttitle: ICTS
-:location: ICTS
+:location: ICTS Bengaluru
 :type: presentation
 :end:
 
@@ -1170,6 +1179,20 @@ SCHEDULED: <2011-09-01 Thu>
 :year-finishing: 2021
 :end:
 
+** Prognadipto Majumder
+:properties:
+:type: vacation
+:year-finishing: 2025
+:comment: co-supervised with Ian Le.
+:end:
+
+** Roshini S V
+:properties:
+:type: vacation
+:year-finishing: 2025
+:comment: co-supervised with Anand Deopurkar.
+:end:
+
 ** Tanisha Talekar
 :properties:
 :type: vacation
@@ -1197,11 +1220,11 @@ SCHEDULED: <2011-09-01 Thu>
 :year-finishing: 2018
 :comment: co-supervised with Anand Deopurkar.
 :end:
-
 * Current :current:
 ** Semester 2, 2025
 - Supervising Yangda Bei's honours project with Leonardo Maltoni.
-- Coordinating the Simon Marais Mathematics Competition at ANU with Yun Kuen (Marco) Cheung. Get in touch if you want to register!
+- Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]]. Get in touch if you want to register!
+- Coordinating/attending problem-solving sessions for SMMC.
 
 ** Semester 1, 2025
 :properties:
@@ -1213,5 +1236,6 @@ SCHEDULED: <2011-09-01 Thu>
 - Attending the conference [[https://www.maths.usyd.edu.au/u/repdown/#/][Representation theory down under]] at the Sydney Mathematical Research Institute.
 - Giving a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
 - Supervising Prognadipto Majumder's FRT project with Ian Le.
+- Supervising Roshini SV's FRT project with Anand Deopurkar.
 
 
