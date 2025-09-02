@@ -322,6 +322,14 @@ SCHEDULED: <2025-06-25 Wed>
 :type: outreach
 :end:
 
+** UNSW Pure Maths Seminar :qrationals:
+SCHEDULED: <2025-06-24 Tue>
+:properties:
+:location: University of New South Wales (UNSW), Sydney
+:shorttitle: UNSW
+:type: presentation
+:end:
+
 ** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
 SCHEDULED: <2025-05-13 Tue 18:30>
 :properties:
@@ -1225,6 +1233,7 @@ SCHEDULED: <2011-09-01 Thu>
 - Supervising Yangda Bei's honours project with Leonardo Maltoni.
 - Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]]. Get in touch if you want to register!
 - Coordinating/attending problem-solving sessions for SMMC.
+- Participating in a seminar on Bridgeland stability conditions.
 
 ** Semester 1, 2025
 :properties:
