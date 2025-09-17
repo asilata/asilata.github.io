@@ -157,14 +157,16 @@
 :slug: flow
 :end:
 
+
+* Papers                                                              :paper:
 ** The sphere of spherical objects
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: In progress.
+:comment: Preprint.
 :slug: sphericals
+:link: [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]]
 :end:
 
-* Papers                                                              :paper:
 ** Wigglyhedra
 :properties:
 :with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
