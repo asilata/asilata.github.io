@@ -159,12 +159,12 @@
 
 
 * Papers                                                              :paper:
-** The sphere of spherical objects
+** A sphere of spherical objects
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
 :comment: Preprint.
 :slug: sphericals
-:link: [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]]
+:link: [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]], [[https://arxiv.org/abs/2509.13912][arXiv]]
 :end:
 
 ** Wigglyhedra
@@ -1236,6 +1236,7 @@ SCHEDULED: <2011-09-01 Thu>
 - Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]]. Get in touch if you want to register!
 - Coordinating/attending problem-solving sessions for SMMC.
 - Participating in a seminar on Bridgeland stability conditions.
+- Posted a preprint titled "A sphere of spherical objects", available as a [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]] and also on the [[https://arxiv.org/abs/2509.13912][arXiv]].
 
 ** Semester 1, 2025
 :properties:
