@@ -150,13 +150,18 @@
 :end:
   
 * Work in progress                                               :inprogress:
+** Additive friezes
+:properties:
+:with: Véronique Bazier-Matte, Eleonore Faber, Kunda Kambaso, Bethany Marsh, Yadira Valdivieso
+:comment: In progress.
+:end:
+
 ** A contracting flow on the stability manifold in type \(A\)
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
 :comment: In progress.
 :slug: flow
 :end:
-
 
 * Papers                                                              :paper:
 ** A sphere of spherical objects
@@ -294,6 +299,13 @@
 :end:
 
 * Activities                                                       :activity:
+** Kioloa workshop
+SCHEDULED: <2025-12-01 Mon>
+:properties:
+:location: ANU Kioloa Campus
+:type: other
+:comment: co-organised with Anthony Licata, James Tener, Oded Yacobi
+:end:
 ** Symplectic theory meets representation theory
 SCHEDULED: <2026-04-20 Mon>
 :properties:
@@ -1144,6 +1156,12 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Supervision :supervision:
+** Tanisha Talekar
+:properties:
+:type: phd
+:year-finishing: (expected 2029)
+:end:
+
 ** Yangda Bei
 :properties:
 :type: honours
@@ -1236,7 +1254,11 @@ SCHEDULED: <2011-09-01 Thu>
 - Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]]. Get in touch if you want to register!
 - Coordinating/attending problem-solving sessions for SMMC.
 - Participating in a seminar on Bridgeland stability conditions.
+- Participating in a seminar on Hochschild (co)homology.
 - Posted a preprint titled "A sphere of spherical objects", available as a [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]] and also on the [[https://arxiv.org/abs/2509.13912][arXiv]].
+- Supervising Tanisha Talekar's PhD project.
+- Organising an end-of-year MSI picnic at Black Mountain Peninsula Park!
+- Organising a workshop at Kioloa with Tony Licata, James Tener, Oded Yacobi.
 
 ** Semester 1, 2025
 :properties:
