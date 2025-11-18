@@ -275,12 +275,17 @@
 ** The Bernstein-Sato \(b\)-function of the Vandermonde determinant
 :properties:
 :with: [[http://www.robinwalters.com/][Robin Walters]]
-:comment: Preprint (not for publication).
+:comment: Preprint (not for publication). Parts of this paper were published as the paper titled "The strong topological monodromy conjecture for Coxeter hyperplane arrangements".
 :year: 2015
 :link: [[http://arxiv.org/abs/1503.01055][arXiv]]
 :end:
 
-
+** The lower central series quotients of a free associative superalgebra
+:properties:
+:comment: Final paper for undergraduate research project (SPUR), mentored by David Jordan. An expanded version of this document was later published as "Lower central series of free algebras in symmetric tensor categories".
+:year: 2015
+:link: [[file:assets/papers/2009-bapat-lcq.pdf][pdf]]
+:end:
 
 * Code                                                                 :code:
 ** Categorical braid group actions
@@ -311,6 +316,15 @@ SCHEDULED: <2025-06-25 Wed>
 :properties:
 :location: University of New South Wales (UNSW), Sydney
 :type: outreach
+:end:
+
+** UNSW pure maths seminar :qrationals:
+SCHEDULED: <2025-06-24 Tue 12:00-13:00>
+:properties:
+:shorttitle: UNSW
+:location: UNSW
+:type: presentation
+:link: [[file:assets/slides/2025-06-24-unsw.pdf][slides]]
 :end:
 
 ** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
