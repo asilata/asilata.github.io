@@ -304,13 +304,6 @@
 :end:
 
 * Activities                                                       :activity:
-** Kioloa workshop
-SCHEDULED: <2025-12-01 Mon>
-:properties:
-:location: ANU Kioloa Campus
-:type: other
-:comment: co-organised with Anthony Licata, James Tener, Oded Yacobi
-:end:
 ** Symplectic theory meets representation theory
 SCHEDULED: <2026-04-20 Mon>
 :properties:
@@ -325,6 +318,22 @@ SCHEDULED: <2026-02-16 Mon 14:00-14:30>
 :shorttitle: ICTS
 :location: ICTS Bengaluru
 :type: presentation
+:end:
+
+** Kioloa workshop
+SCHEDULED: <2025-12-01 Mon>
+:properties:
+:location: ANU Kioloa Campus
+:type: other
+:comment: co-organised with Anthony Licata, James Tener, Oded Yacobi
+:end:
+** Combinatorial Geometries and Geometric Combinatorics IRP Seminar :sphericals:wiggly:
+SCHEDULED: <2025-11-18 Tue>
+:properties:
+:shorttitle: Barcelona
+:location: Centre de Recerca Matemàtica, Barcelona
+:type: presentation
+:link: [[file:assets/slides/2025-11-18-crm.pdf][notes]]
 :end:
 
 ** [[https://www.crm.cat/irp-mdm-112025/][Combinatorial Geometries and Geometric Combinatorics]]
@@ -348,6 +357,7 @@ SCHEDULED: <2025-06-24 Tue 12:00-13:00>
 :location: UNSW
 :type: presentation
 :link: [[file:assets/slides/2025-06-24-unsw.pdf][slides]]
+:end:
 
 ** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
 SCHEDULED: <2025-05-13 Tue 18:30>
