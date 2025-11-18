@@ -150,6 +150,12 @@
 :end:
   
 * Work in progress                                               :inprogress:
+** Additive friezes
+:properties:
+:with: Véronique Bazier-Matte, Eleonore Faber, Kunda Kambaso, Bethany Marsh, Yadira Valdivieso
+:comment: In progress.
+:end:
+
 ** A contracting flow on the stability manifold in type \(A\)
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
@@ -157,14 +163,15 @@
 :slug: flow
 :end:
 
-** The sphere of spherical objects
+* Papers                                                              :paper:
+** A sphere of spherical objects
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: In progress.
+:comment: Preprint.
 :slug: sphericals
+:link: [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]], [[https://arxiv.org/abs/2509.13912][arXiv]]
 :end:
 
-* Papers                                                              :paper:
 ** Wigglyhedra
 :properties:
 :with: [[https://www.lix.polytechnique.fr/~pilaud/][Vincent Pilaud]]
@@ -185,6 +192,7 @@
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
 :comment: Preprint (submitted).
+:slug: unfaithful
 :link: [[file:assets/papers/2024-bapat-queffelec-unfaithful.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
 :end:
 
@@ -296,15 +304,30 @@
 :end:
 
 * Activities                                                       :activity:
-** ICTS workshop on Geometric Structures and Stability
-SCHEDULED: <2026-02-16 Mon 14:00-14:30>
+** Kioloa workshop
+SCHEDULED: <2025-12-01 Mon>
 :properties:
-:shorttitle: ICTS
-:location: ICTS
+:location: ANU Kioloa Campus
+:type: other
+:comment: co-organised with Anthony Licata, James Tener, Oded Yacobi
+:end:
+** Symplectic theory meets representation theory
+SCHEDULED: <2026-04-20 Mon>
+:properties:
+:shorttitle: Cambridge
+:location: University of Cambridge
 :type: presentation
 :end:
 
-** [[https://www.ub.edu/comb/CGGC25/][Combinatorial Geometries and Geometric Combinatorics]]
+** [[https://www.icts.res.in/program/stability][ICTS workshop on Geometric Structures and Stability]]
+SCHEDULED: <2026-02-16 Mon 14:00-14:30>
+:properties:
+:shorttitle: ICTS
+:location: ICTS Bengaluru
+:type: presentation
+:end:
+
+** [[https://www.crm.cat/irp-mdm-112025/][Combinatorial Geometries and Geometric Combinatorics]]
 SCHEDULED: <2025-11-08 Sat>
 :properties:
 :location: Centre de Recerca Matemàtica, Barcelona
@@ -325,7 +348,6 @@ SCHEDULED: <2025-06-24 Tue 12:00-13:00>
 :location: UNSW
 :type: presentation
 :link: [[file:assets/slides/2025-06-24-unsw.pdf][slides]]
-:end:
 
 ** [[https://maths.anu.edu.au/news-events/events/maths-pub-2025-phil-dooley][Maths in the Pub 2025]]
 SCHEDULED: <2025-05-13 Tue 18:30>
@@ -1139,6 +1161,12 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Supervision :supervision:
+** Tanisha Talekar
+:properties:
+:type: phd
+:year-finishing: (expected 2029)
+:end:
+
 ** Yangda Bei
 :properties:
 :type: honours
@@ -1184,6 +1212,20 @@ SCHEDULED: <2011-09-01 Thu>
 :year-finishing: 2021
 :end:
 
+** Prognadipto Majumder
+:properties:
+:type: vacation
+:year-finishing: 2025
+:comment: co-supervised with Ian Le.
+:end:
+
+** Roshini S V
+:properties:
+:type: vacation
+:year-finishing: 2025
+:comment: co-supervised with Anand Deopurkar.
+:end:
+
 ** Tanisha Talekar
 :properties:
 :type: vacation
@@ -1211,18 +1253,28 @@ SCHEDULED: <2011-09-01 Thu>
 :year-finishing: 2018
 :comment: co-supervised with Anand Deopurkar.
 :end:
-
 * Current :current:
+** Semester 2, 2025
+- Supervising Yangda Bei's honours project with Leonardo Maltoni.
+- Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]]. Get in touch if you want to register!
+- Coordinating/attending problem-solving sessions for SMMC.
+- Participating in a seminar on Bridgeland stability conditions.
+- Participating in a seminar on Hochschild (co)homology.
+- Posted a preprint titled "A sphere of spherical objects", available as a [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]] and also on the [[https://arxiv.org/abs/2509.13912][arXiv]].
+- Supervising Tanisha Talekar's PhD project.
+- Organising an end-of-year MSI picnic at Black Mountain Peninsula Park!
+- Organising a workshop at Kioloa with Tony Licata, James Tener, Oded Yacobi.
+
 ** Semester 1, 2025
+:properties:
+:status: past
+:end:
 - Supervising Yangda Bei's honours project with Leonardo Maltoni.
 - Attending the course [[https://sites.google.com/view/murmuno/teaching/2025-semester-1-stacks-and-moduli][Stacks and Moduli Theory]] taught by Svetlana Makarova.
 - Organising/attending the Thursday working seminar, also known as CATS.
 - Attending the conference [[https://www.maths.usyd.edu.au/u/repdown/#/][Representation theory down under]] at the Sydney Mathematical Research Institute.
 - Giving a talk to the ANU Maths Society about Temperley--Lieb algebras and diagrammatics.
 - Supervising Prognadipto Majumder's FRT project with Ian Le.
+- Supervising Roshini SV's FRT project with Anand Deopurkar.
 
-** Semester 2, 2024
-:properties:
-:status: past
-:end:
 
