@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.2)  18 NOV 2025 09:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  9 FEB 2026 01:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-29>
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2024-07-18 v2.4.1 modern curriculum vitae and letter d
 ocument class
@@ -14,7 +14,7 @@ ocument class
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
@@ -46,7 +46,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen148
 \ar@mcellbox=\box53
 \extrarowheight=\dimen149
@@ -67,7 +67,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -125,13 +125,13 @@ LaTeX Info: Redefining \addtolength on input line 87.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2025-12-29 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 ))
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
@@ -182,7 +182,7 @@ tter compatibility patches
 \bibindent=\skip74
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip75
 
 For additional information on amsmath, use the `?' option.
@@ -246,8 +246,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip76
 \multlinetaggap=\skip77
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -296,7 +296,7 @@ awesome
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-hel
 per.sty
@@ -846,12 +846,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks42
 \XKV@tempa@toks=\toks43
+\XKV@tempb@toks=\toks44
 )
 \XKV@depth=\count337
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -884,7 +885,7 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip109
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -1040,12 +1041,12 @@ LaTeX Font Info:    ... okay on input line 13.
 \scratchbox=\box73
 \nofMPsegments=\count350
 \nofMParguments=\count351
-\everyMPshowfont=\toks44
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count352
 \MPscratchDim=\dimen292
 \MPnumerator=\count353
 \makeMPintoPDFobject=\count354
-\everyMPtoPDFconversion=\toks45
+\everyMPtoPDFconversion=\toks46
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1275,7 +1276,6 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 26.
 
-
 [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive
@@ -1317,8 +1317,6 @@ Underfull \hbox (badness 10000) detected at line 116
 \T1/mdbch/m/n/8 .
  []
 
-
-
 [2]
 
 Package hyperref Warning: Suppressing link with empty target on input line 122.
@@ -1345,26 +1343,22 @@ Underfull \hbox (badness 10000) detected at line 127
 \T1/mdbch/m/n/8 .
  []
 
-
-
-[3]
-
-[4] (./cv.aux)
+[3] [4] (./cv.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 8D96BEB3581C59731D50DB6048B496D8;1534.
  ) 
 Here is how much of TeX's memory you used:
- 29034 strings out of 467748
- 541784 string characters out of 5429049
- 943652 words of memory out of 5000000
- 56990 multiletter control sequences out of 15000+600000
+ 29043 strings out of 467538
+ 541972 string characters out of 5421637
+ 948242 words of memory out of 5000000
+ 57208 multiletter control sequences out of 15000+600000
  687850 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,129p,999b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,136p,999b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5F
 ree-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Free-Solid.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstre
