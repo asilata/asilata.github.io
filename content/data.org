@@ -68,6 +68,12 @@
 :end:
 
 * Grants :grant:
+** Catégories, Géométrie, Tresses (CaGeT)
+:properties:
+:date: 2026--2030
+:description: ANR
+:comment: Partner investigator on grant led by Hoel Queffelec. Other members are Agnes Gadbled, Thomas Gobet, Thomas Haettel, Anthony Licata, Luis Paris, Anne-Laure Thiel,   Emmanuel Wagner, Bert Wiest.
+:end:
 ** The geometry of braids and triangulated categories
 :properties:
 :date: 2024--2026

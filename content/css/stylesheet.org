@@ -200,6 +200,9 @@ Style headings, lists, and figures.
       font-family: $title-font, serif;
       font-weight:lighter;
   }
+  h3 {
+      counter-reset: reversed(paper);
+  }
   ul {
       padding-left: 1em;
   }
@@ -248,6 +251,11 @@ Now style individual divs.
       p {
           padding: 0em;
           margin: 0.5em 0em;
+      }
+      
+      p:first-child::before{
+          counter-increment: paper -1;
+          content: counter(paper) ". ";
       }      
   }
 
