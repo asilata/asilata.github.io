@@ -1249,7 +1249,14 @@ SCHEDULED: <2011-09-01 Thu>
 :comment: co-supervised with Anand Deopurkar.
 :end:
 * Current :current:
+** Semester 1, 2026
+- Supervising Tanisha Talekar's PhD project.
+- Supervising Akihiro Katsuta's Honours project.
+  
 ** Semester 2, 2025
+:properties:
+:status: past
+:end:
 - Supervising Yangda Bei's honours project with Leonardo Maltoni.
 - Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]]. Get in touch if you want to register!
 - Coordinating/attending problem-solving sessions for SMMC.
