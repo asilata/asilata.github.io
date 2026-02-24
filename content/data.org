@@ -156,6 +156,12 @@
 :end:
   
 * Work in progress                                               :inprogress:
+** Wigglyhedra for planar point sets
+:properties:
+:with: David Alcántara, Marguerite Bin, Natasha Crepeau, Hoi Luk, Vincent Pilaud, Francisco Santos
+:comment: In progress.
+:end:
+
 ** Additive friezes
 :properties:
 :with: Véronique Bazier-Matte, Eleonore Faber, Kunda Kambaso, Bethany Marsh, Yadira Valdivieso
@@ -173,7 +179,7 @@
 ** A sphere of spherical objects
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
-:comment: Preprint.
+:comment: Preprint (submitted)
 :slug: sphericals
 :link: [[file:assets/papers/2025-bapat-deopurkar-licata-sphericals.pdf][pdf]], [[https://arxiv.org/abs/2509.13912][arXiv]]
 :end:
@@ -197,7 +203,7 @@
 ** Some remarks about the faithfulness of the Burau representation of Artin--Tits groups
 :properties:
 :with: [[https://imag.umontpellier.fr/~queffelec/][Hoel Queffelec]]
-:comment: Preprint (submitted).
+:comment: Groups, Geometry, and Dynamics (accepted, to appear).
 :slug: unfaithful
 :link: [[file:assets/papers/2024-bapat-queffelec-unfaithful.pdf][pdf]], [[https://arxiv.org/abs/2409.00144][arXiv]]
 :end:
@@ -302,6 +308,13 @@
 :end:
 
 * Code                                                                 :code:
+** Burau faithfulness
+:properties:
+:with: Hoel Queffelec
+:comment: This sage code attempts to find counterexamples to the faithfulness of the Burau representation in various types. 
+:link: [[https://github.com/asilata/burau-faithfulness][github]]
+:end:
+
 ** Categorical braid group actions
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]]
@@ -310,7 +323,14 @@
 :end:
 
 * Activities                                                       :activity:
-** Symplectic theory meets representation theory
+** Women in Maths at Western Sydney
+SCHEDULED: <2026-03-27 Fri>
+:properties:
+:location: Western Sydney University
+:type: outreach
+:end:
+
+** [[https://sites.google.com/cam.ac.uk/st-meets-rt-april-2026/home][Symplectic topology meets representation theory]]
 SCHEDULED: <2026-04-20 Mon>
 :properties:
 :shorttitle: Cambridge
@@ -318,8 +338,8 @@ SCHEDULED: <2026-04-20 Mon>
 :type: presentation
 :end:
 
-** [[https://www.icts.res.in/program/stability][ICTS workshop on Geometric Structures and Stability]]
-SCHEDULED: <2026-02-16 Mon 14:00-14:30>
+** [[https://www.icts.res.in/program/stability][ICTS workshop on Geometric Structures and Stability]]        :sphericals:
+SCHEDULED: <2026-02-27 Fri>
 :properties:
 :shorttitle: ICTS
 :location: ICTS Bengaluru
@@ -970,6 +990,13 @@ SCHEDULED: <2011-09-01 Thu>
 :end:
 
 * Teaching                                                         :teaching:
+** Coxeter groups reading course (special topics course)
+SCHEDULED: <2026-02-23 Mon>
+:properties:
+:location: Australian National University
+:display-date: 2026 Semester 1
+:end:
+
 ** Algebra 3: Advanced Topics in Algebra (MATH3354/MATH6216)
 SCHEDULED: <2024-07-24 Wed>
 :properties:
@@ -1273,6 +1300,8 @@ SCHEDULED: <2011-09-01 Thu>
 ** Semester 1, 2026
 - Supervising Tanisha Talekar's PhD project.
 - Supervising Akihiro Katsuta's Honours project.
+- Teaching a reading course on Coxeter groups.
+- Participating in a working seminar on mapping class groups and Artin--Tits groups.
   
 ** Semester 2, 2025
 :properties:
