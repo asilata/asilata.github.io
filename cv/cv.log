@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  10 FEB 2026 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  24 FEB 2026 04:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1301,33 +1301,25 @@ Underfull \hbox (badness 10000) detected at line 89
 
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 108.
+(Font)              using `T1/mdbch/b/n' instead on input line 109.
 
 
-Underfull \hbox (badness 10000) detected at line 108
+Underfull \hbox (badness 10000) detected at line 109
 \T1/mdbch/m/n/8 .
  []
 
 [2]
 
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 117.
+(Font)              using `T1/mdbch/b/n' instead on input line 118.
 
 
-Underfull \hbox (badness 10000) detected at line 117
+Underfull \hbox (badness 10000) detected at line 118
 \T1/mdbch/m/n/8 .
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 123.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 123.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 123.
+Package hyperref Warning: Suppressing link with empty target on input line 124.
 
 
 
@@ -1335,11 +1327,19 @@ Package hyperref Warning: Suppressing link with empty target on input line 124.
 
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 124.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 125.
+
+
+
 LaTeX Font Warning: Font shape `T1/mdbch/sb/n' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 128.
+(Font)              using `T1/mdbch/b/n' instead on input line 129.
 
 
-Underfull \hbox (badness 10000) detected at line 128
+Underfull \hbox (badness 10000) detected at line 129
 \T1/mdbch/m/n/8 .
  []
 
@@ -1354,11 +1354,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  29047 strings out of 467538
  542016 string characters out of 5421637
- 948241 words of memory out of 5000000
+ 947241 words of memory out of 5000000
  57208 multiletter control sequences out of 15000+600000
  688085 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,136p,999b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,136p,999b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5F
 ree-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Free-Solid.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstre
@@ -1368,10 +1368,10 @@ i8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/m
 d-chr8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chri8t.pfb>
-Output written on cv.pdf (4 pages, 138839 bytes).
+Output written on cv.pdf (4 pages, 138940 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 184 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 500000)
  73829 words of extra memory for PDF output out of 74296 (max. 10000000)
 
