@@ -190,7 +190,7 @@
 :comment: Mathematische Zeitschrift 310, No. 3, Paper No. 54 (2025).
 :year: 2025
 :slug: wiggly
-:link: [[file:assets/papers/2025-bapat-pilaud-wiggly.pdf][pdf]], [[https://arxiv.org/abs/2407.11632][arXiv]]
+:link: [[file:assets/papers/2025-bapat-pilaud-wiggly.pdf][pdf]], [[https://arxiv.org/abs/2407.11632][arXiv]], [[https://link.springer.com/article/10.1007/s00209-025-03688-9][journal]]
 :end:
 
 ** MatrixNet: Learning over symmetry groups using learned group representations
@@ -323,19 +323,20 @@
 :end:
 
 * Activities                                                       :activity:
+** [[https://sites.google.com/cam.ac.uk/st-meets-rt-april-2026/home][Symplectic topology meets representation theory]] :sphericals:wiggly:
+SCHEDULED: <2026-04-24 Fri>
+:properties:
+:shorttitle: Cambridge
+:location: University of Cambridge
+:type: presentation
+:link: [[file:assets/slides/2026-cambridge-notes.pdf][notes]]
+:end:
+
 ** Women in Maths at Western Sydney
 SCHEDULED: <2026-03-27 Fri>
 :properties:
 :location: Western Sydney University
 :type: outreach
-:end:
-
-** [[https://sites.google.com/cam.ac.uk/st-meets-rt-april-2026/home][Symplectic topology meets representation theory]]
-SCHEDULED: <2026-04-20 Mon>
-:properties:
-:shorttitle: Cambridge
-:location: University of Cambridge
-:type: presentation
 :end:
 
 ** [[https://www.icts.res.in/program/stability][ICTS workshop on Geometric Structures and Stability]]        :sphericals:
