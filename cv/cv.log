@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  24 FEB 2026 04:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.1)  21 APR 2026 07:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,9 +6,9 @@ entering extended mode
 **cv.tex
 (./cv.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
+L3 programming layer <2026-03-20>
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncv.cls
-Document Class: moderncv 2024-07-18 v2.4.1 modern curriculum vitae and letter d
+Document Class: moderncv 2026-01-31 v2.5.1 modern curriculum vitae and letter d
 ocument class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -47,9 +47,9 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen148
+\col@sep=\dimen150
 \ar@mcellbox=\box53
-\extrarowheight=\dimen149
+\extrarowheight=\dimen151
 \NC@list=\toks17
 \extratabsurround=\skip49
 \backup@length=\skip50
@@ -87,8 +87,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -114,8 +114,8 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count277
 \calc@Bcount=\count278
-\calc@Adimen=\dimen152
-\calc@Bdimen=\dimen153
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
 \calc@Askip=\skip66
 \calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 86.
@@ -125,31 +125,31 @@ LaTeX Info: Redefining \addtolength on input line 87.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-12-29 L3 programming layer (loader) 
+Package: expl3 2026-03-20 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 ))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 \MT@toks=\toks21
 \MT@tempbox=\box55
 \MT@count=\count281
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
-LaTeX Info: Redefining \leftprotrusion on input line 1088.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
 \MT@prot@toks=\toks22
-LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen154
+\MT@outer@kern=\dimen156
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count282
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
@@ -158,16 +158,16 @@ LaTeX Info: Redefining \lslig on input line 944.
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcollection.sty
-Package: moderncvcollection 2024-07-18 v2.4.1 moderncv collections
+Package: moderncvcollection 2026-01-31 v2.5.1 moderncv collections
 \c@collection@iterator=\count283
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
-Package: moderncvcompatibility 2024-07-18 v2.4.1 modern curriculum vitae and le
+Package: moderncvcompatibility 2026-01-31 v2.5.1 modern curriculum vitae and le
 tter compatibility patches
 )
 \c@collection@phones@count=\count284
@@ -192,11 +192,11 @@ Package: amstext 2024/11/17 v2.01 AMS text
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
-\ex@=\dimen155
+\ex@=\dimen157
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen156
+\pmbraise@=\dimen158
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
@@ -218,7 +218,7 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen157
+\big@size=\dimen159
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
 \macc@depth=\count294
@@ -236,12 +236,12 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \column@=\count299
 \maxfields@=\count300
 \andhelp@=\toks25
-\eqnshift@=\dimen158
-\alignsep@=\dimen159
-\tagshift@=\dimen160
-\tagwidth@=\dimen161
-\totwidth@=\dimen162
-\lineht@=\dimen163
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
 \@envbody=\toks26
 \multlinegap=\skip76
 \multlinetaggap=\skip77
@@ -261,12 +261,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolorblue.sty
-Package: moderncvcolorblue 2024-07-18 v2.4.1 modern curriculum vitae and letter
+Package: moderncvcolorblue 2026-01-31 v2.5.1 modern curriculum vitae and letter
  color scheme: blue
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolors.tex))
+(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolors.sty
+Package: moderncvcolors 2026-01-31 v2.5.1 modern curriculum vitae and letter ba
+se colors
+))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
-Package: moderncvstylebanking 2024-07-18 v2.4.1 modern curriculum vitae and let
+Package: moderncvstylebanking 2026-01-31 v2.5.1 modern curriculum vitae and let
 ter style scheme: banking
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
@@ -282,14 +285,14 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconssymbols.sty
-Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons s
+Package: moderncviconssymbols 2026-01-31 v2.5.1 modern curriculum vitae icons s
 elector
 
 
 moderncv: academicons requires XeTeX/LuaTeX to work. Using alternatives.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
-Package: moderncviconsawesome 2024-07-18 v2.4.1 modern curriculum vitae icons: 
+Package: moderncviconsawesome 2026-01-31 v2.5.1 modern curriculum vitae icons: 
 awesome
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
@@ -304,9 +307,8 @@ Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
 tawesome5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
-))) (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvcolors.tex))
-(/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
-Package: moderncviconstikz 2024-07-18 v2.4.1 modern curriculum vitae and letter
+)))) (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
+Package: moderncviconstikz 2026-01-31 v2.5.1 modern curriculum vitae and letter
  icons: tickz
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -314,8 +316,8 @@ Package: moderncviconstikz 2024-07-18 v2.4.1 modern curriculum vitae and letter
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen164
-\pgfutil@tempdimb=\dimen165
+\pgfutil@tempdima=\dimen166
+\pgfutil@tempdimb=\dimen167
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box58
@@ -339,16 +341,16 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 d.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen166
-\pgf@y=\dimen167
-\pgf@xa=\dimen168
-\pgf@ya=\dimen169
-\pgf@xb=\dimen170
-\pgf@yb=\dimen171
-\pgf@xc=\dimen172
-\pgf@yc=\dimen173
-\pgf@xd=\dimen174
-\pgf@yd=\dimen175
+\pgf@x=\dimen168
+\pgf@y=\dimen169
+\pgf@xa=\dimen170
+\pgf@ya=\dimen171
+\pgf@xb=\dimen172
+\pgf@yb=\dimen173
+\pgf@xc=\dimen174
+\pgf@yc=\dimen175
+\pgf@xd=\dimen176
+\pgf@yd=\dimen177
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count301
@@ -388,7 +390,7 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen176
+\pgfmath@dimen=\dimen178
 \pgfmath@count=\count308
 \pgfmath@box=\box59
 \pgfmath@toks=\toks35
@@ -421,20 +423,20 @@ ithmetics.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
 ex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen177
-\pgf@picmaxx=\dimen178
-\pgf@picminy=\dimen179
-\pgf@picmaxy=\dimen180
-\pgf@pathminx=\dimen181
-\pgf@pathmaxx=\dimen182
-\pgf@pathminy=\dimen183
-\pgf@pathmaxy=\dimen184
-\pgf@xx=\dimen185
-\pgf@xy=\dimen186
-\pgf@yx=\dimen187
-\pgf@yy=\dimen188
-\pgf@zx=\dimen189
-\pgf@zy=\dimen190
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
 LaTeX Font Info:    Trying to load font information for T1+qpl on input line 92
 6.
  (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
@@ -443,14 +445,14 @@ File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
 .code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen191
-\pgf@path@lasty=\dimen192
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
 e.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen193
-\pgf@shorten@start@additional=\dimen194
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
 ex
@@ -463,14 +465,14 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
 code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen195
+\pgflinewidth=\dimen197
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
 ns.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen196
-\pgf@pt@y=\dimen197
-\pgf@pt@temp=\dimen198
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
 x
@@ -487,12 +489,12 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
 ex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen199
+\pgfarrowsep=\dimen257
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
 x
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen256
+\pgf@max=\dimen258
 \pgf@sys@shading@range@num=\count311
 \pgf@shadingcount=\count312
 )
@@ -531,8 +533,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
 5.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen257
-\pgf@nodesepend=\dimen258
+\pgf@nodesepstart=\dimen259
+\pgf@nodesepend=\dimen260
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
 8.sty
@@ -544,8 +546,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen259
-\pgffor@skip=\dimen260
+\pgffor@iter=\dimen261
+\pgffor@skip=\dimen262
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
 ))
@@ -557,16 +559,16 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 s.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count313
-\pgfplotmarksize=\dimen261
+\pgfplotmarksize=\dimen263
 )
-\tikz@lastx=\dimen262
-\tikz@lasty=\dimen263
-\tikz@lastxsaved=\dimen264
-\tikz@lastysaved=\dimen265
-\tikz@lastmovetox=\dimen266
-\tikz@lastmovetoy=\dimen267
-\tikzleveldistance=\dimen268
-\tikzsiblingdistance=\dimen269
+\tikz@lastx=\dimen264
+\tikz@lasty=\dimen265
+\tikz@lastxsaved=\dimen266
+\tikz@lastysaved=\dimen267
+\tikz@lastmovetox=\dimen268
+\tikz@lastmovetoy=\dimen269
+\tikzleveldistance=\dimen270
+\tikzsiblingdistance=\dimen271
 \tikz@figbox=\box65
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
@@ -588,9 +590,13 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 kzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))))
+)))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+kzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvheadiii.sty
-Package: moderncvheadiii 2024-07-18 v2.4.1 modern curriculum vitae and letter h
+Package: moderncvheadiii 2026-01-31 v2.5.1 modern curriculum vitae and letter h
 eader variant: 3
 \makeheaddetailsbox=\box69
 \makeheaddetailstempbox=\box70
@@ -599,11 +605,11 @@ eader variant: 3
 \quotewidth=\skip80
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvbodyiii.sty
-Package: moderncvbodyiii 2024-07-18 v2.4.1 modern curriculum vitae and letter b
+Package: moderncvbodyiii 2026-01-31 v2.5.1 modern curriculum vitae and letter b
 ody variant: 3
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvskillmatrix.sty
-Package: moderncvskillmatrix 2024-07-18 v2.4.1 modern curriculum vitae and lett
+Package: moderncvskillmatrix 2026-01-31 v2.5.1 modern curriculum vitae and lett
 er skill matrix
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/multirow/multirow.sty
@@ -611,18 +617,18 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip81
 \multirow@cntb=\count322
 \multirow@dima=\skip82
-\bigstrutjot=\dimen270
+\bigstrutjot=\dimen272
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen271
-\dashlinegap=\dimen272
+\dashlinedash=\dimen273
+\dashlinegap=\dimen274
 \adl@box=\box71
-\adl@height=\dimen273
-\adl@heightsave=\dimen274
-\adl@depth=\dimen275
-\adl@depthsave=\dimen276
-\adl@finaldepth=\dimen277
+\adl@height=\dimen275
+\adl@heightsave=\dimen276
+\adl@depth=\dimen277
+\adl@depthsave=\dimen278
+\adl@finaldepth=\dimen279
 \adl@columns=\count323
 \adl@ncol=\count324
 \adl@currentcolumn=\count325
@@ -634,7 +640,7 @@ Package: arydshln 2019/02/21 v1.76
 \adl@cla=\count331
 \adl@clb=\count332
 \adl@everyvbox=\toks40
-\adl@LTpagetotal=\dimen278
+\adl@LTpagetotal=\dimen280
 )
 ==> First Aid for arydshln.sty applied!
 \cvSkill@ShapeSize=\skip83
@@ -670,7 +676,7 @@ nput line 89.
 \cvitemwithcommentmainlength=\skip107
 \cvitemwithcommentcommentlength=\skip108
 )) (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+Package: geometry 2026/03/07 v6.0 Page Geometry
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -678,14 +684,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count334
 \Gm@cntv=\count335
 \c@Gm@tempcnt=\count336
-\Gm@bindingoffset=\dimen279
-\Gm@wd@mp=\dimen280
-\Gm@odd@mp=\dimen281
-\Gm@even@mp=\dimen282
-\Gm@layoutwidth=\dimen283
-\Gm@layoutheight=\dimen284
-\Gm@layouthoffset=\dimen285
-\Gm@layoutvoffset=\dimen286
+\Gm@bindingoffset=\dimen281
+\Gm@wd@mp=\dimen282
+\Gm@odd@mp=\dimen283
+\Gm@even@mp=\dimen284
+\Gm@layoutwidth=\dimen285
+\Gm@layoutheight=\dimen286
+\Gm@layouthoffset=\dimen287
+\Gm@layoutvoffset=\dimen288
 \Gm@dimlist=\toks41
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/mathdesign/mathdesign.sty
@@ -888,7 +894,7 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -911,7 +917,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -924,12 +930,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen287
+\@linkdim=\dimen289
 \Hy@linkcounter=\count339
 \Hy@pagecounter=\count340
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -939,21 +945,21 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 \Hy@SavedSpaceFactor=\count341
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count342
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen288
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen290
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -963,15 +969,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count343
-\Field@Width=\dimen289
-\Fld@charsize=\dimen290
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Field@Width=\dimen291
+\Fld@charsize=\dimen292
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count344
 \c@Item=\count345
 \c@Hfootnote=\count346
@@ -979,7 +985,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count347
 \c@bookmark@seq@number=\count348
 
@@ -1037,13 +1043,13 @@ LaTeX Font Info:    ... okay on input line 13.
 (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count349
-\scratchdimen=\dimen291
+\scratchdimen=\dimen293
 \scratchbox=\box73
 \nofMPsegments=\count350
 \nofMParguments=\count351
 \everyMPshowfont=\toks45
 \MPscratchCnt=\count352
-\MPscratchDim=\dimen292
+\MPscratchDim=\dimen294
 \MPnumerator=\count353
 \makeMPintoPDFobject=\count354
 \everyMPtoPDFconversion=\toks46
@@ -1346,16 +1352,16 @@ Underfull \hbox (badness 10000) detected at line 129
 [3] [4] (./cv.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
+L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 8D96BEB3581C59731D50DB6048B496D8;1534.
  ) 
 Here is how much of TeX's memory you used:
- 29047 strings out of 467538
- 542016 string characters out of 5421637
- 947241 words of memory out of 5000000
- 57208 multiletter control sequences out of 15000+600000
+ 29088 strings out of 467349
+ 542980 string characters out of 5417750
+ 952781 words of memory out of 5000000
+ 57430 multiletter control sequences out of 15000+600000
  688085 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,136p,999b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1368,7 +1374,7 @@ i8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/m
 d-chr8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chri8t.pfb>
-Output written on cv.pdf (4 pages, 138940 bytes).
+Output written on cv.pdf (4 pages, 138937 bytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
