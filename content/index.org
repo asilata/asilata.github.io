@@ -69,7 +69,7 @@ Archives are available under [[file:activities.org][activities]].
       '("data.org")))
      "\n")))
       (if (string= "" current-events) ""
-        (concat "*** Presentations and research travel\n" current-events)))
+        (concat "*** Conferences and research travel\n" current-events)))
 #+end_src
 
 
