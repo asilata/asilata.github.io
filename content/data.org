@@ -73,6 +73,7 @@
 :date: 2026--2030
 :description: ANR
 :amount: EUR 404,305
+:location: ANU (IRL-FAMSI)
 :comment: Partner investigator on grant led by Hoel Queffelec. Other members are Agnes Gadbled, Thomas Gobet, Thomas Haettel, Anthony Licata, Luis Paris, Anne-Laure Thiel,   Emmanuel Wagner, Bert Wiest.
 :end:
 ** The geometry of braids and triangulated categories
@@ -1333,8 +1334,17 @@ SCHEDULED: <2011-09-01 Thu>
 :comment: co-supervised with Anand Deopurkar.
 :end:
 * Current :current:
+** Semester 2, 2026
+- Supervising [[https://tanishatalekar.github.io][Tanisha Talekar]]'s PhD project.
+- Supervising Akihiro Katsuta's Honours project.
+- Participating in a working seminar on Bridgeland stability and K3 surfaces.
+- Coordinating the Simon Marais Mathematics Competition at ANU with [[https://comp-math-econ.academy/index_.html][Yun Kuen (Marco) Cheung]].
+  
 ** Semester 1, 2026
-- Supervising Tanisha Talekar's PhD project.
+:properties:
+:status: past
+:end:
+- Supervising [[https://tanishatalekar.github.io][Tanisha Talekar]]'s PhD project.
 - Supervising Akihiro Katsuta's Honours project.
 - Teaching a reading course on Coxeter groups.
 - Participating in a working seminar on mapping class groups and Artin--Tits groups.
