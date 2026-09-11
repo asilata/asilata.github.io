@@ -343,7 +343,7 @@
 :end:
 
 * Activities                                                       :activity:
-** FACETS conference
+** [[https://sites.google.com/view/facets-2027][FACETS conference]]
 SCHEDULED: <2027-02-01 Mon>
 :properties:
 :location: Sydney Mathematical Research Institute
@@ -1334,6 +1334,13 @@ SCHEDULED: <2011-09-01 Thu>
 :comment: co-supervised with Anand Deopurkar.
 :end:
 * Current :current:
+** Semester 1, 2027
+:properties:
+:status: future
+:end:
+- Supervising [[https://tanishatalekar.github.io][Tanisha Talekar]]'s PhD project.
+- Co-organising the [[https://sites.google.com/view/facets-2027][FACETS 2027 conference]] with Edmund Heng, Anne Thomas, and Oded Yacobi.
+  
 ** Semester 2, 2026
 - Supervising [[https://tanishatalekar.github.io][Tanisha Talekar]]'s PhD project.
 - Supervising Akihiro Katsuta's Honours project.
