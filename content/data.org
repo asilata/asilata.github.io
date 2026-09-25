@@ -201,7 +201,6 @@
 :properties:
 :comment: Preprint.
 :link: [[file:assets/papers/2026-palindromic.pdf][pdf]], [[https://arxiv.org/abs/2609.29022][arXiv]]
-:slug: palindromic
 :end:
 
 ** A sphere of spherical objects
@@ -1350,6 +1349,7 @@ SCHEDULED: <2011-09-01 Thu>
 - Co-organising the [[https://sites.google.com/view/facets-2027][FACETS 2027 conference]] with Edmund Heng, Anne Thomas, and Oded Yacobi.
   
 ** Semester 2, 2026
+- Posted a preprint titled "On the language of palindromic reduced words in a Coxeter group", available as a [[file:assets/papers/2026-palindromic.pdf][pdf]] and also on the [[https://arxiv.org/abs/2609.29022][arXiv]].
 - Supervising [[https://tanishatalekar.github.io][Tanisha Talekar]]'s PhD project.
 - Supervising Akihiro Katsuta's Honours project.
 - Participating in a working seminar on Bridgeland stability and K3 surfaces.
