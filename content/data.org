@@ -157,10 +157,11 @@
 :end:
   
 * Work in progress                                               :inprogress:
-** On the language of palindromic reduced expressions in a Coxeter group
+
+** A Khovanov homology approach to Khovanov--Seidel categories
 :properties:
+:with: [[https://hqueffel.pages.math.cnrs.fr/][Hoel Queffelec]]
 :comment: In progress.
-:link: [[file:assets/papers/2026-palindromic.pdf][pdf]]
 :end:
 
 ** Geometric models of stability conditions via braid pictures
@@ -171,13 +172,13 @@
 
 ** A cubic construction of the wiggly lattice
 :properties:
-:with: Daria Poliakova
+:with: [[https://sites.google.com/view/daria-poliakova][Daria Poliakova]]
 :comment: In progress.
 :end:
 
 ** Wigglyhedra for planar point sets
 :properties:
-:with: David Alcántara, Marguerite Bin, Natasha Crepeau, Hoi Luk, Vincent Pilaud, Francisco Santos
+:with: David Alcántara, Marguerite Bin, Natasha Crepeau, Hoi Luk, [[https://www.ub.edu/comb/vincentpilaud/][Vincent Pilaud]], [[https://personales.unican.es/santosf/][Francisco Santos]]
 :comment: In progress.
 :end:
 
@@ -195,6 +196,13 @@
 :end:
 
 * Papers                                                              :paper:
+** On the language of palindromic reduced expressions in a Coxeter group
+:properties:
+:comment: Preprint.
+:link: [[file:assets/papers/2026-palindromic.pdf][pdf]], [[https://arxiv.org/abs/2609.29022][arXiv]]
+:slug: palindromic
+:end:
+
 ** A sphere of spherical objects
 :properties:
 :with: [[https://deopurkar.github.io][Anand Deopurkar]], [[https://maths-people.anu.edu.au/~licatat/Home.html][Anthony Licata]]
