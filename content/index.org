@@ -36,7 +36,7 @@ Selected current and upcoming activities are listed below.
 Archives are available under [[file:activities.org][activities]].
 
 #+begin_src emacs-lisp :results value raw :exports results
-(string-join (org-map-entries (lambda () (concat "*** " (org-get-heading) "\n" (org-get-entry))) "current+LEVEL=2-status=\"past\"" '("data.org")) "\n")
+(string-join (org-map-entries (lambda () (concat "*** " (org-get-heading) "\n" (org-get-entry))) "current+LEVEL=2-status=\"past\"-status=\"future\"" '("data.org")) "\n")
 #+end_src
 
 #+begin_src emacs-lisp :results silent :exports results
