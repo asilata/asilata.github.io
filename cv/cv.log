@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.1)  25 SEP 2026 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.1)  28 OCT 2026 02:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **cv.tex
 (./cv.tex
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-06-18>
+L3 programming layer <2026-09-09>
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2026-06-24 v2.6.1 modern curriculum vitae and letter d
 ocument class
@@ -124,10 +124,10 @@ LaTeX Info: Redefining \addtolength on input line 87.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-06-18 L3 programming layer (loader) 
+Package: expl3 2026-09-09 L3 programming layer (loader) 
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count281
 ))
 Package: xparse 2025-10-09 L3 Experimental document command parser
@@ -295,14 +295,14 @@ Package: moderncviconsawesome 2026-06-24 v2.6.1 modern curriculum vitae icons:
 awesome
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome6/fontawesome6.sty
-Package: fontawesome6 2025/09/16 v6.7.2-3 Font Awesome 6
+Package: fontawesome6 2026/08/10 v6.7.2-4 Font Awesome 6
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome6/fontawesome6-generic-hel
 per.sty
-Package: fontawesome6-generic-helper 2025/09/16 v6.7.2-3 non-uTeX helper for fo
+Package: fontawesome6-generic-helper 2026/08/10 v6.7.2-4 non-uTeX helper for fo
 ntawesome6
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome6/fontawesome6-mapping.def
@@ -323,14 +323,14 @@ Package: moderncviconstikz 2026-06-24 v2.6.1 modern curriculum vitae and letter
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgfrcs 2026-08-01 v3.1.12 (3.1.12)
 ))
-Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgf 2026-08-01 v3.1.12 (3.1.12)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgfsys 2026-08-01 v3.1.12 (3.1.12)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks28
@@ -362,29 +362,29 @@ d.code.tex
 \pgf@sys@id@count=\count306
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+File: pgf.cfg 2026-08-01 v3.1.12 (3.1.12)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfsys-pdftex.def 2026-08-01 v3.1.12 (3.1.12)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.d
 ef
-File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfsys-common-pdf.def 2026-08-01 v3.1.12 (3.1.12)
 )))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
 .tex
-File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfsyssoftpath.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgfsyssoftpath@smallbuffer@items=\count307
 \pgfsyssoftpath@bigbuffer@items=\count308
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
 .tex
-File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfsysprotocol.code.tex 2026-08-01 v3.1.12 (3.1.12)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgfcore 2026-08-01 v3.1.12 (3.1.12)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
@@ -421,7 +421,7 @@ ithmetics.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
 ex
-File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorepoints.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgf@picminx=\dimen179
 \pgf@picmaxx=\dimen180
 \pgf@picminy=\dimen181
@@ -443,19 +443,19 @@ File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 ))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
 .code.tex
-File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorepathconstruct.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgf@path@lastx=\dimen193
 \pgf@path@lasty=\dimen194
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
 e.tex
-File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorepathusage.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgf@shorten@end@additional=\dimen195
 \pgf@shorten@start@additional=\dimen196
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
 ex
-File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorescopes.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
@@ -463,88 +463,88 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
 code.tex
-File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoregraphicstate.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgflinewidth=\dimen197
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
 ns.code.tex
-File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoretransformations.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgf@pt@x=\dimen198
 \pgf@pt@y=\dimen199
 \pgf@pt@temp=\dimen256
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
 x
-File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorequick.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.
 tex
-File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoreobjects.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessin
 g.code.tex
-File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorepathprocessing.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
 ex
-File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorearrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgfarrowsep=\dimen257
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
 x
-File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoreshade.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgf@max=\dimen258
 \pgf@sys@shading@range@num=\count312
 \pgf@shadingcount=\count313
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
 x
-File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoreimage.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
 .tex
-File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoreexternal.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgfexternal@startupbox=\box63
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
 ex
-File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorelayers.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.
 code.tex
-File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcoretransparency.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code
 .tex
-File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorepatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfcorerdf.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
 x
-File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfmoduleshapes.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgfnodeparttextbox=\box64
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfmoduleplot.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
 5.sty
-Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgfcomp-version-0-65 2026-08-01 v3.1.12 (3.1.12)
 \pgf@nodesepstart=\dimen259
 \pgf@nodesepend=\dimen260
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
 8.sty
-Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgfcomp-version-1-18 2026-08-01 v3.1.12 (3.1.12)
 )) (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgffor 2026-08-01 v3.1.12 (3.1.12)
 \pgffor@iter=\dimen261
 \pgffor@skip=\dimen262
 \pgffor@stack=\toks37
@@ -552,11 +552,11 @@ Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.te
 x
-Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+Package: tikz 2026-08-01 v3.1.12 (3.1.12)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 s.code.tex
-File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgflibraryplothandlers.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgf@plot@mark@count=\count314
 \pgfplotmarksize=\dimen263
 )
@@ -579,7 +579,7 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
 x
-File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: pgfmodulematrix.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \pgfmatrixcurrentrow=\count319
 \pgfmatrixcurrentcolumn=\count320
 \pgf@matrix@numberofcolumns=\count321
@@ -588,11 +588,11 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 kzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: tikzlibrarytopaths.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 kzlibrarybabel.code.tex
-File: tikzlibrarybabel.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+File: tikzlibrarybabel.code.tex 2026-08-01 v3.1.12 (3.1.12)
 )))
 (/opt/texlive/texdir/texmf-dist/tex/latex/moderncv/moderncvheadiii.sty
 Package: moderncvheadiii 2026-06-24 v2.6.1 modern curriculum vitae and letter h
@@ -1258,8 +1258,9 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive
 /texdir/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/opt/texlive/texdir/texmf-
-dist/fonts/enc/dvips/fontawesome6/fa6free3.enc}{/opt/texlive/texdir/texmf-dist/
-fonts/enc/dvips/fontawesome6/fa6free1.enc}]
+dist/fonts/enc/dvips/fontawesome6/fa6free3_solid.enc}{/opt/texlive/texdir/texmf
+-dist/fonts/enc/dvips/fontawesome6/fa6free1_regular.enc}{/opt/texlive/texdir/te
+xmf-dist/fonts/enc/dvips/fontawesome6/fa6free1_solid.enc}]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 11.52008pt on input line 91.
 
@@ -1323,19 +1324,19 @@ Underfull \hbox (badness 10000) detected at line 131
 [3] [4] (./cv.aux)
  ***********
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-06-18>
+L3 programming layer <2026-09-09>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 8D96BEB3581C59731D50DB6048B496D8;1534.
  ) 
 Here is how much of TeX's memory you used:
- 29738 strings out of 467168
- 564045 string characters out of 5411585
- 963132 words of memory out of 5000000
- 58266 multiletter control sequences out of 15000+600000
- 688095 words of font info for 227 fonts, out of 8000000 for 9000
+ 29922 strings out of 467050
+ 569762 string characters out of 5408429
+ 966591 words of memory out of 5000000
+ 58568 multiletter control sequences out of 15000+600000
+ 688861 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,136p,999b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 137i,12n,136p,999b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6F
 ree-Regular.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/fontawesome6
 /FontAwesome6Free-Solid.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/bitstre
@@ -1345,10 +1346,10 @@ i8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch/m
 d-chr8t.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chri8t.pfb>
-Output written on cv.pdf (4 pages, 111012 bytes).
+Output written on cv.pdf (4 pages, 111022 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 181 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 500000)
  73829 words of extra memory for PDF output out of 74296 (max. 10000000)
 
